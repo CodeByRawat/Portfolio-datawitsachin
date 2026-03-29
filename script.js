@@ -262,7 +262,7 @@ document.addEventListener('mousemove', e => {
   const ctx = canvas.getContext('2d');
   let W, H, particles = [];
   const mouse = { x: -1000, y: -1000, active: false };
-  const particleCount = 350; // Increased density for a richer background
+  const particleCount = window.innerWidth <= 768 ? 70 : 150; // Decreased particle density for a cleaner look
 
   function resize() {
     const oldW = W || window.innerWidth;
