@@ -193,10 +193,58 @@ document.addEventListener('mousemove', e => {
     .then(({ Application }) => {
       const app = new Application(canvas);
       // Loading the self-hosted clean splinecode file
-      app.load('https://raw.githubusercontent.com/CodeByRawat/codebyrawat/main/scene-clean.splinecode');
+      app.load('https://raw.githubusercontent.com/CodeByRawat/codebyrawat/main/scene-clean.splinecode').then(() => {
+        // Automatic reaction for mobile (no hover)
+        let autoMoveInterval;
+        let angle = 0;
+        
+        function manageMobileAutoReact() {
+          const isMobile = window.innerWidth <= 768;
+          if (isMobile && !autoMoveInterval) {
+            autoMoveInterval = setInterval(() => {
+              angle += 0.05;
+              const rect = canvas.getBoundingClientRect();
+              const cx = rect.width / 2;
+              const cy = rect.height / 2;
+              const r = Math.min(cx, cy) * 0.8; // Circle radius inside canvas
+              const x = cx + Math.cos(angle) * r;
+              const y = cy + Math.sin(angle) * r;
+              
+              // Simulate mouse moving around the center to keep it active
+              canvas.dispatchEvent(new PointerEvent('pointermove', {
+                clientX: rect.left + x,
+                clientY: rect.top + y,
+                bubbles: true,
+                cancelable: true,
+                pointerType: 'mouse'
+              }));
+            }, 40);
+          } else if (!isMobile && autoMoveInterval) {
+            clearInterval(autoMoveInterval);
+            autoMoveInterval = null;
+          }
+        }
+        
+        // Setup initial and resize listeners
+        manageMobileAutoReact();
+        window.addEventListener('resize', manageMobileAutoReact);
+
+        // Allow react on click (synthesize pointerdown/up)
+        canvas.addEventListener('click', (e) => {
+          canvas.dispatchEvent(new PointerEvent('pointerdown', {
+            clientX: e.clientX, clientY: e.clientY, bubbles: true, cancelable: true, pointerType: 'mouse'
+          }));
+          setTimeout(() => {
+            canvas.dispatchEvent(new PointerEvent('pointerup', {
+              clientX: e.clientX, clientY: e.clientY, bubbles: true, cancelable: true, pointerType: 'mouse'
+            }));
+          }, 150);
+        });
+      });
     })
     .catch(err => console.warn('Hero Spline failed:', err));
 })();
+
 
 // ---- Particle Canvas (Interactive) ----
 (function() {
