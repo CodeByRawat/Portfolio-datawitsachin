@@ -203,23 +203,30 @@ document.addEventListener('mousemove', e => {
           if (isMobile && !autoMoveInterval) {
             autoMoveInterval = setInterval(() => {
               angle += 0.05;
-              // Make the fake pointer hover around the center of the VIEWPORT 
-              // instead of the canvas, so that as the user scrolls, the pointer
-              // is always right in front of them. This stops the robot from looking up!
               const cx = window.innerWidth / 2;
               const cy = window.innerHeight / 2;
               const r = 40; // small radius
               const px = cx + Math.cos(angle) * r;
               const py = cy + Math.sin(angle) * r;
               
-              // Dispatch to window so both the blob and the robot get it
-              window.dispatchEvent(new PointerEvent('pointermove', {
+              // Create the pointer event
+              const ptrEvent = new PointerEvent('pointermove', {
                 clientX: px,
                 clientY: py,
+                screenX: px,
+                screenY: py,
                 bubbles: true,
                 cancelable: true,
                 pointerType: 'mouse'
-              }));
+              });
+              
+              // In many browsers, synthetic PointerEvents do not reliably populate pageX/pageY.
+              // Spline heavily relies on these coordinates for 'Look At' triggers.
+              // Without this, pageY often defaults to zero (causing the robot to permanently look straight up at the very top of the document).
+              Object.defineProperty(ptrEvent, 'pageX', { get: () => px + window.scrollX });
+              Object.defineProperty(ptrEvent, 'pageY', { get: () => py + window.scrollY });
+              
+              window.dispatchEvent(ptrEvent);
             }, 50);
           } else if (!isMobile && autoMoveInterval) {
             clearInterval(autoMoveInterval);
