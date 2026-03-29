@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DataWithSachin — AI Solutions & Web Development</title>
+  <meta name="description" content="DataWithSachin delivers cutting-edge AI solutions, web development, custom software, and app development to forward-thinking businesses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <!-- Cursor Glow -->
+  <div id="cursor-glow"></div>
+
+  <!-- Invert Circle (mix-blend-mode: difference) -->
+  <div id="invert-circle"></div>
+
+  <!-- Particle Canvas -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" id="nav-logo-link">
+        <span class="logo-dot"></span>
+        DATAWITHSACHIN
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active" id="nav-home" data-page="home">Home</a></li>
+        <li><a href="#blog"  class="nav-link"        id="nav-blog" data-page="blog">Blog</a></li>
+        <li><a href="#contact" class="nav-link"      id="nav-contact" data-page="contact">Contact Me</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta" id="nav-cta-btn">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ====== HOME PAGE ====== -->
+  <div id="page-home" class="page active">
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-badge" id="hero-badge">
+          <span class="badge-dot"></span>
+          Available for Projects
+        </div>
+        <div class="hero-title-wrap" id="hero-title-wrap">
+          <h1 class="hero-title" id="hero-title">
+            <span class="title-line line-1">
+              <div class="hero-spline-wrap">
+                <canvas id="canvas3d"></canvas>
+              </div>DATA
+            </span>
+            <span class="title-line line-2">WITH<em>SACHIN</em></span>
+          </h1>
+        </div>
+        <p class="hero-sub" id="hero-sub">
+          Building intelligent systems and <strong>next-generation digital experiences</strong>
+          that turn raw data into real-world impact.
+        </p>
+        <div class="hero-actions" id="hero-actions">
+          <a href="#services" class="btn-primary" id="explore-btn">Explore Services</a>
+          <a href="#contact"  class="btn-ghost"   id="contact-hero-btn">Let's Talk →</a>
+        </div>
+        <div class="hero-stats" id="hero-stats">
+          <div class="stat">
+            <span class="stat-num">150+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">4+</span>
+            <span class="stat-label">Core Services</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" id="scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-wrap" id="marquee-section">
+      <div class="marquee-track">
+        <span>AI SOLUTIONS</span><span class="sep">✦</span>
+        <span>WEB DEVELOPMENT</span><span class="sep">✦</span>
+        <span>CUSTOM SOFTWARE</span><span class="sep">✦</span>
+        <span>APP DEVELOPMENT</span><span class="sep">✦</span>
+        <span>DATA ANALYTICS</span><span class="sep">✦</span>
+        <span>MACHINE LEARNING</span><span class="sep">✦</span>
+        <span>AI SOLUTIONS</span><span class="sep">✦</span>
+        <span>WEB DEVELOPMENT</span><span class="sep">✦</span>
+        <span>CUSTOM SOFTWARE</span><span class="sep">✦</span>
+        <span>APP DEVELOPMENT</span><span class="sep">✦</span>
+        <span>DATA ANALYTICS</span><span class="sep">✦</span>
+        <span>MACHINE LEARNING</span><span class="sep">✦</span>
+      </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <!-- SERVICES SECTION -->
+    <section class="section services-section" id="services">
+
+      <!-- Content on top -->
+      <div class="section-container services-content-layer">
+        <div class="section-header services-vertical-header">
+          <!-- Spline Robot — inline background (canvas runtime, lazy-loaded) -->
+          <div class="services-spline-bg" id="spline-robot-col">
+            <canvas id="services-spline-canvas"></canvas>
+            <!-- Loading indicator -->
+            <div class="services-spline-loader" id="services-spline-loader">
+              <div class="spline-spinner"></div>
+            </div>
+            <!-- Dark vignette so cards remain legible -->
+            <div class="services-spline-vignette"></div>
+          </div>
+          
+          <h2 class="section-title">
+            <span>core</span> <em class="services-em">services</em>
+          </h2>
+          <p class="section-desc">From idea to production — I build the full stack of<br/>your digital transformation.</p>
+        </div>
+        <div class="services-grid" id="services-grid">
+
+          <div class="service-card" id="service-ai" tabindex="0">
+            <div class="card-glow"></div>
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="10" stroke="#00ff8c" stroke-width="2"/>
+                <path d="M24 4v6M24 38v6M4 24h6M38 24h6" stroke="#00ff8c" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10.1 10.1l4.24 4.24M33.66 33.66l4.24 4.24M10.1 37.9l4.24-4.24M33.66 14.34l4.24-4.24" stroke="#00ff8c" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="24" cy="24" r="4" fill="#00ff8c"/>
+              </svg>
+            </div>
+            <span class="service-num">01</span>
+            <h3 class="service-title">AI Solutions</h3>
+            <p class="service-desc">Custom AI pipelines, NLP models, computer vision, and intelligent automation built specifically for your business workflow.</p>
+            <div class="service-tags">
+              <span>Machine Learning</span>
+              <span>NLP</span>
+              <span>Automation</span>
+            </div>
+            <div class="service-arrow">→</div>
+          </div>
+
+          <div class="service-card" id="service-web" tabindex="0">
+            <div class="card-glow"></div>
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="8" width="40" height="32" rx="4" stroke="#00ff8c" stroke-width="2"/>
+                <path d="M4 16h40" stroke="#00ff8c" stroke-width="1.5"/>
+                <circle cx="10" cy="12" r="1.5" fill="#00ff8c"/>
+                <circle cx="16" cy="12" r="1.5" fill="#00ff8c"/>
+                <circle cx="22" cy="12" r="1.5" fill="#00ff8c"/>
+                <path d="M14 26l4-4 4 4 6-8" stroke="#00ff8c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="service-num">02</span>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-desc">High-performance, visually stunning websites and web apps. From landing pages to complex SaaS platforms with seamless UX.</p>
+            <div class="service-tags">
+              <span>React</span>
+              <span>Next.js</span>
+              <span>Full Stack</span>
+            </div>
+            <div class="service-arrow">→</div>
+          </div>
+
+          <div class="service-card" id="service-software" tabindex="0">
+            <div class="card-glow"></div>
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 36l8-8-8-8" stroke="#00ff8c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 36h18" stroke="#00ff8c" stroke-width="2" stroke-linecap="round"/>
+                <rect x="6" y="6" width="36" height="36" rx="6" stroke="#00ff8c" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <span class="service-num">03</span>
+            <h3 class="service-title">Custom Software</h3>
+            <p class="service-desc">Bespoke software solutions engineered to your exact specifications — scalable, maintainable, and built for long-term growth.</p>
+            <div class="service-tags">
+              <span>Python</span>
+              <span>Node.js</span>
+              <span>Cloud</span>
+            </div>
+            <div class="service-arrow">→</div>
+          </div>
+
+          <div class="service-card" id="service-app" tabindex="0">
+            <div class="card-glow"></div>
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="2" width="20" height="44" rx="5" stroke="#00ff8c" stroke-width="2"/>
+                <path d="M20 6h8" stroke="#00ff8c" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="24" cy="40" r="2" fill="#00ff8c"/>
+                <path d="M18 16h12M18 22h8" stroke="#00ff8c" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="service-num">04</span>
+            <h3 class="service-title">App Development</h3>
+            <p class="service-desc">Native and cross-platform mobile apps for iOS and Android. Beautiful interfaces with robust back-end integrations.</p>
+            <div class="service-tags">
+              <span>React Native</span>
+              <span>Flutter</span>
+              <span>iOS/Android</span>
+            </div>
+            <div class="service-arrow">→</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS SECTION -->
+    <section class="section process-section" id="process">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">How I Work</span>
+          <h2 class="section-title">My <em>Process</em></h2>
+        </div>
+        <div class="process-steps" id="process-steps">
+          <div class="step" id="step-1">
+            <div class="step-num">01</div>
+            <h4>Discover</h4>
+            <p>Deep dive into your goals, challenges, and vision to craft the right strategy.</p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step" id="step-2">
+            <div class="step-num">02</div>
+            <h4>Design</h4>
+            <p>Architecture, UX wireframes, and technical blueprint designed for scale.</p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step" id="step-3">
+            <div class="step-num">03</div>
+            <h4>Build</h4>
+            <p>Agile development with continuous feedback loops and transparent progress.</p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step" id="step-4">
+            <div class="step-num">04</div>
+            <h4>Launch</h4>
+            <p>Rigorous testing, deployment, and post-launch support to ensure success.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="section-container">
+
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Build <em>Something Great</em></h2>
+          <p class="section-desc">Have a project in mind? Let's make it happen.</p>
+        </div>
+
+        <div class="contact-new-wrap">
+
+          <!-- LEFT: contact info + socials -->
+          <div class="contact-left" id="contact-left">
+            <p class="contact-sub">From AI pipelines to full-stack apps, I turn bold ideas into polished digital products. Let's build together.</p>
+            <div class="contact-info" id="contact-info">
+              <div class="info-item" id="info-email">
+                <div class="info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#00ff8c" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Email</span>
+                  <a href="mailto:hello@datawithsachin.com" class="info-value">hello@datawithsachin.com</a>
+                </div>
+              </div>
+              <div class="info-item" id="info-location">
+                <div class="info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#00ff8c" stroke-width="2"><path d="M12 21s-8-6.94-8-12a8 8 0 0 1 16 0c0 5.06-8 12-8 12z"/><circle cx="12" cy="9" r="3"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Location</span>
+                  <span class="info-value">India (Remote Worldwide)</span>
+                </div>
+              </div>
+              <div class="info-item" id="info-response">
+                <div class="info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#00ff8c" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Response Time</span>
+                  <span class="info-value">Within 24 hours</span>
+                </div>
+              </div>
+            </div>
+            <div class="social-links" id="social-links">
+              <a href="#" class="social-link" id="social-github" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+              <a href="#" class="social-link" id="social-linkedin" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="#" class="social-link" id="social-twitter" aria-label="Twitter/X">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.91-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-col" id="contact-right">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group" id="form-name-group">
+                  <label for="form-name">Full Name</label>
+                  <input type="text" id="form-name" placeholder="John Doe" required />
+                </div>
+                <div class="form-group" id="form-email-group">
+                  <label for="form-email">Email Address</label>
+                  <input type="email" id="form-email" placeholder="john@example.com" required />
+                </div>
+              </div>
+              <div class="form-group" id="form-service-group">
+                <label for="form-service">Service Needed</label>
+                <select id="form-service">
+                  <option value="" disabled selected>Select a service…</option>
+                  <option value="ai">AI Solutions</option>
+                  <option value="web">Web Development</option>
+                  <option value="software">Custom Software</option>
+                  <option value="app">App Development</option>
+                </select>
+              </div>
+              <div class="form-group" id="form-budget-group">
+                <label for="form-budget">Budget Range</label>
+                <select id="form-budget">
+                  <option value="" disabled selected>Select budget…</option>
+                  <option>$500 – $2,000</option>
+                  <option>$2,000 – $5,000</option>
+                  <option>$5,000 – $15,000</option>
+                  <option>$15,000+</option>
+                </select>
+              </div>
+              <div class="form-group" id="form-message-group">
+                <label for="form-message">Project Details</label>
+                <textarea id="form-message" rows="5" placeholder="Tell me about your project…" required></textarea>
+              </div>
+              <button type="submit" class="btn-submit" id="submit-btn">
+                <span id="btn-text">Send Message</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+              </button>
+              <div class="form-success" id="form-success">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#00ff8c" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Message sent! I'll get back to you within 24 hours.
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <a href="#home" class="nav-logo">
+            <span class="logo-dot"></span>
+            DATAWITHSACHIN
+          </a>
+          <p>Transforming data into intelligent products.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <a href="#blog" onclick="showPage('blog')">Blog</a>
+        </div>
+        <div class="footer-right">
+          <span>© 2025 DataWithSachin. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- /page-home -->
+
+  <!-- ====== BLOG PAGE ====== -->
+  <div id="page-blog" class="page">
+    <section class="inner-page-hero">
+      <div class="section-container">
+        <span class="section-tag">Knowledge Hub</span>
+        <h1 class="inner-hero-title">The <em>Blog</em></h1>
+        <p class="inner-hero-sub">Insights on AI, web development, and building intelligent digital products.</p>
+      </div>
+    </section>
+
+    <section class="section blog-grid-section">
+      <div class="section-container">
+        <div class="blog-filters" id="blog-filters">
+          <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+          <button class="filter-btn" data-filter="ai" id="filter-ai">AI & ML</button>
+          <button class="filter-btn" data-filter="web" id="filter-web">Web Dev</button>
+          <button class="filter-btn" data-filter="software" id="filter-soft">Software</button>
+        </div>
+        <div class="blog-grid" id="blog-grid">
+
+          <article class="blog-card featured" id="blog-post-1" data-category="ai">
+            <div class="blog-img">
+              <div class="blog-img-placeholder ai-grad">
+                <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="14" stroke="#00ff8c" stroke-width="2"/><path d="M32 8v8M32 48v8M8 32h8M48 32h8" stroke="#00ff8c" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="32" r="5" fill="#00ff8c"/></svg>
+              </div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-cat">AI & ML</span>
+              <h3 class="blog-title">How AI Automation Is Reshaping Small Businesses in 2025</h3>
+              <p class="blog-excerpt">Discover how small and medium businesses are leveraging affordable AI tools to automate operations, reduce costs, and deliver better customer experiences.</p>
+              <div class="blog-meta">
+                <span>March 20, 2025</span>
+                <span>·</span>
+                <span>6 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card" id="blog-post-2" data-category="web">
+            <div class="blog-img">
+              <div class="blog-img-placeholder web-grad">
+                <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="12" width="48" height="40" rx="4" stroke="#00ff8c" stroke-width="2"/><path d="M8 22h48" stroke="#00ff8c" stroke-width="1.5"/><path d="M20 34l6-6 6 6 8-10" stroke="#00ff8c" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-cat">Web Dev</span>
+              <h3 class="blog-title">Building Ultra-Fast Websites: Performance Optimization Secrets</h3>
+              <p class="blog-excerpt">Practical techniques for achieving sub-second load times, from Core Web Vitals optimization to advanced caching strategies.</p>
+              <div class="blog-meta">
+                <span>March 14, 2025</span>
+                <span>·</span>
+                <span>5 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card" id="blog-post-3" data-category="software">
+            <div class="blog-img">
+              <div class="blog-img-placeholder soft-grad">
+                <svg viewBox="0 0 64 64" fill="none"><path d="M14 44l10-10-10-10" stroke="#00ff8c" stroke-width="2" stroke-linecap="round"/><path d="M30 44h20" stroke="#00ff8c" stroke-width="2" stroke-linecap="round"/><rect x="8" y="8" width="48" height="48" rx="6" stroke="#00ff8c" stroke-width="1.5"/></svg>
+              </div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-cat">Software</span>
+              <h3 class="blog-title">Why Custom Software Beats Off-the-Shelf Tools for Growing Startups</h3>
+              <p class="blog-excerpt">A deep dive into the true ROI of building bespoke software versus licensing SaaS tools — and when each makes sense.</p>
+              <div class="blog-meta">
+                <span>March 8, 2025</span>
+                <span>·</span>
+                <span>7 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card" id="blog-post-4" data-category="ai">
+            <div class="blog-img">
+              <div class="blog-img-placeholder ai-grad">
+                <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="10" stroke="#00ff8c" stroke-width="2"/><path d="M32 12v8M32 44v8M12 32h8M44 32h8" stroke="#00ff8c" stroke-width="1.5" stroke-linecap="round"/><path d="M20 20l5 5M39 39l5 5M20 44l5-5M39 25l5-5" stroke="#00ff8c" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-cat">AI & ML</span>
+              <h3 class="blog-title">LLM Integration Guide: Adding AI Chat to Your App in 2025</h3>
+              <p class="blog-excerpt">Step-by-step walkthrough for integrating large language models into your product using modern APIs and best practices.</p>
+              <div class="blog-meta">
+                <span>Feb 28, 2025</span>
+                <span>·</span>
+                <span>9 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card" id="blog-post-5" data-category="web">
+            <div class="blog-img">
+              <div class="blog-img-placeholder web-grad">
+                <svg viewBox="0 0 64 64" fill="none"><rect x="18" y="4" width="28" height="56" rx="6" stroke="#00ff8c" stroke-width="2"/><path d="M26 10h12" stroke="#00ff8c" stroke-width="1.5" stroke-linecap="round"/><circle cx="32" cy="52" r="3" fill="#00ff8c"/></svg>
+              </div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-cat">Web Dev</span>
+              <h3 class="blog-title">Next.js 15 vs React — Which Should You Choose for Your Next Project?</h3>
+              <p class="blog-excerpt">A detailed comparison of frameworks, server components, routing paradigms, and when to use each for maximum development velocity.</p>
+              <div class="blog-meta">
+                <span>Feb 20, 2025</span>
+                <span>·</span>
+                <span>8 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card" id="blog-post-6" data-category="software">
+            <div class="blog-img">
+              <div class="blog-img-placeholder soft-grad">
+                <svg viewBox="0 0 64 64" fill="none"><path d="M8 48l16-16 8 8 12-20 12 12" stroke="#00ff8c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="4" y="4" width="56" height="56" rx="4" stroke="#00ff8c" stroke-width="1.5"/></svg>
+              </div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-cat">Software</span>
+              <h3 class="blog-title">Microservices vs Monolith: Making the Right Architecture Decision</h3>
+              <p class="blog-excerpt">Understanding when to adopt microservices architecture and when a well-structured monolith is actually the smarter choice.</p>
+              <div class="blog-meta">
+                <span>Feb 10, 2025</span>
+                <span>·</span>
+                <span>6 min read</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Footer -->
+    <footer class="footer" id="blog-footer">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <a href="#home" class="nav-logo" onclick="showPage('home')">
+            <span class="logo-dot"></span>
+            DATAWITHSACHIN
+          </a>
+          <p>Transforming data into intelligent products.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#" onclick="showPage('home')">Home</a>
+          <a href="#" onclick="showPage('blog')">Blog</a>
+          <a href="#" onclick="showPage('contact')">Contact</a>
+        </div>
+        <div class="footer-right">
+          <span>© 2025 DataWithSachin. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div><!-- /page-blog -->
+
+  <!-- ====== CONTACT PAGE ====== -->
+  <div id="page-contact" class="page">
+    <section class="inner-page-hero">
+      <div class="section-container">
+        <span class="section-tag">Let's Connect</span>
+        <h1 class="inner-hero-title">Contact <em>Me</em></h1>
+        <p class="inner-hero-sub">Ready to start your project? Reach out and let's make it happen.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-container">
+        <div class="contact-wrap">
+          <div class="contact-left" id="contact-page-left">
+            <span class="section-tag">Direct Contact</span>
+            <h2 class="section-title">Reach Out<br/><em>Anytime</em></h2>
+            <p class="contact-sub">Whether you have a detailed brief or just a rough idea, I'm here to help turn it into something exceptional.</p>
+            <div class="contact-info">
+              <div class="info-item" id="contact-page-email">
+                <div class="info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#00ff8c" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Email</span>
+                  <a href="mailto:hello@datawithsachin.com" class="info-value">hello@datawithsachin.com</a>
+                </div>
+              </div>
+              <div class="info-item" id="contact-page-response">
+                <div class="info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#00ff8c" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Response Time</span>
+                  <span class="info-value">Within 24 hours</span>
+                </div>
+              </div>
+              <div class="info-item" id="contact-page-avail">
+                <div class="info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#00ff8c" stroke-width="2"><path d="M22 16.92V19a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 10.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3 2h2.08a2 2 0 0 1 2 1.72c.128.96.36 1.903.69 2.81a2 2 0 0 1-.45 2.11L6.91 9.9a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c.907.33 1.85.563 2.81.69A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Availability</span>
+                  <span class="info-value">Mon–Sat, 9AM–9PM IST</span>
+                </div>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link" id="contact-github" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+              <a href="#" class="social-link" id="contact-linkedin" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="#" class="social-link" id="contact-twitter" aria-label="Twitter/X">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.91-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="contact-right" id="contact-page-right">
+            <form class="contact-form" id="contact-page-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cp-name">Full Name</label>
+                  <input type="text" id="cp-name" placeholder="John Doe" required />
+                </div>
+                <div class="form-group">
+                  <label for="cp-email">Email Address</label>
+                  <input type="email" id="cp-email" placeholder="john@example.com" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="cp-service">Service Needed</label>
+                <select id="cp-service">
+                  <option value="" disabled selected>Select a service…</option>
+                  <option>AI Solutions</option>
+                  <option>Web Development</option>
+                  <option>Custom Software</option>
+                  <option>App Development</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="cp-message">Your Message</label>
+                <textarea id="cp-message" rows="6" placeholder="Tell me about your project…" required></textarea>
+              </div>
+              <button type="submit" class="btn-submit" id="cp-submit-btn">
+                <span>Send Message</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+              </button>
+              <div class="form-success" id="cp-form-success">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#00ff8c" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Message sent! I'll get back to you within 24 hours.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer class="footer" id="contact-footer">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <a href="#home" class="nav-logo" onclick="showPage('home')">
+            <span class="logo-dot"></span>
+            DATAWITHSACHIN
+          </a>
+          <p>Transforming data into intelligent products.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#" onclick="showPage('home')">Home</a>
+          <a href="#" onclick="showPage('blog')">Blog</a>
+          <a href="#" onclick="showPage('contact')">Contact</a>
+        </div>
+        <div class="footer-right">
+          <span>© 2025 DataWithSachin. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div><!-- /page-contact -->
+
+  <script src="script.js"></script>
+</body>
+</html>
