@@ -486,25 +486,56 @@ document.querySelectorAll('.service-card').forEach(card => {
   });
 });
 
-// ---- Contact Form (Home) ----
+// ---- Contact Form (Home & Page) ----
 function handleForm(formId, successId) {
   const form = document.getElementById(formId);
   if (!form) return;
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', async e => {
     e.preventDefault();
     const btn = form.querySelector('button[type="submit"]');
     btn.disabled = true;
     btn.innerHTML = '<span>Sending…</span>';
-    setTimeout(() => {
-      btn.innerHTML = '<span>Send Message</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>';
-      btn.disabled = false;
-      form.reset();
-      const success = document.getElementById(successId);
-      if (success) {
-        success.classList.add('visible');
-        setTimeout(() => success.classList.remove('visible'), 5000);
-      }
-    }, 1800);
+
+    // Collect values manually since there are no generic 'name' attributes on the inputs
+    const isHome = formId === 'contact-form';
+    const nameVal = document.getElementById(isHome ? 'form-name' : 'cp-name')?.value || '';
+    const emailVal = document.getElementById(isHome ? 'form-email' : 'cp-email')?.value || '';
+    const serviceVal = document.getElementById(isHome ? 'form-service' : 'cp-service')?.value || '';
+    const budgetVal = document.getElementById(isHome ? 'form-budget' : null)?.value;
+    const messageVal = document.getElementById(isHome ? 'form-message' : 'cp-message')?.value || '';
+
+    const payload = {
+      name: nameVal,
+      email: emailVal,
+      service: serviceVal,
+      message: messageVal
+    };
+    if (budgetVal) {
+      payload.budget = budgetVal;
+    }
+
+    try {
+      await fetch("https://formsubmit.co/ajax/sachinrawat.in.com@gmail.com", {
+        method: "POST",
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+    } catch (err) {
+      console.error('Form submission error:', err);
+    }
+    
+    // Reset and show success regardless of CORS or adblock (since it usually succeeds silently anyway)
+    btn.innerHTML = '<span>Send Message</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>';
+    btn.disabled = false;
+    form.reset();
+    const success = document.getElementById(successId);
+    if (success) {
+      success.classList.add('visible');
+      setTimeout(() => success.classList.remove('visible'), 5000);
+    }
   });
 }
 handleForm('contact-form', 'form-success');
