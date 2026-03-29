@@ -203,22 +203,24 @@ document.addEventListener('mousemove', e => {
           if (isMobile && !autoMoveInterval) {
             autoMoveInterval = setInterval(() => {
               angle += 0.05;
-              const rect = canvas.getBoundingClientRect();
-              const cx = rect.width / 2;
-              const cy = rect.height / 2;
-              const r = Math.min(cx, cy) * 0.8; // Circle radius inside canvas
-              const x = cx + Math.cos(angle) * r;
-              const y = cy + Math.sin(angle) * r;
+              // Make the fake pointer hover around the center of the VIEWPORT 
+              // instead of the canvas, so that as the user scrolls, the pointer
+              // is always right in front of them. This stops the robot from looking up!
+              const cx = window.innerWidth / 2;
+              const cy = window.innerHeight / 2;
+              const r = 40; // small radius
+              const px = cx + Math.cos(angle) * r;
+              const py = cy + Math.sin(angle) * r;
               
-              // Simulate mouse moving around the center to keep it active
-              canvas.dispatchEvent(new PointerEvent('pointermove', {
-                clientX: rect.left + x,
-                clientY: rect.top + y,
+              // Dispatch to window so both the blob and the robot get it
+              window.dispatchEvent(new PointerEvent('pointermove', {
+                clientX: px,
+                clientY: py,
                 bubbles: true,
                 cancelable: true,
                 pointerType: 'mouse'
               }));
-            }, 40);
+            }, 50);
           } else if (!isMobile && autoMoveInterval) {
             clearInterval(autoMoveInterval);
             autoMoveInterval = null;
