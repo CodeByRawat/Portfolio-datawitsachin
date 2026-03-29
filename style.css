@@ -596,7 +596,7 @@ input, textarea, select {
    SERVICES
    ============================================= */
 .services-section {
-  background: var(--bg-secondary);
+  background: transparent;
   position: relative;
   /* overflow: visible so the robot isn't clipped at the edges */
   overflow: visible;
@@ -688,7 +688,7 @@ input, textarea, select {
 /* =============================================
    PROCESS
    ============================================= */
-.process-section { background: var(--bg-primary); }
+.process-section { background: transparent; }
 .process-steps {
   display: flex;
   align-items: flex-start;
@@ -742,7 +742,7 @@ input, textarea, select {
 /* =============================================
    CONTACT FORM
    ============================================= */
-.contact-section { background: var(--bg-secondary); }
+.contact-section { background: transparent; }
 
 /* Simple 2-column: info | form */
 .contact-new-wrap {
@@ -940,7 +940,7 @@ a.info-value:hover { color: var(--accent); }
   padding: 120px 2rem 60px;
   background:
     radial-gradient(ellipse 60% 50% at 50% 0%, rgba(0,255,140,0.07) 0%, transparent 60%),
-    var(--bg-primary);
+    transparent;
   border-bottom: 1px solid var(--border);
 }
 .section {
@@ -1054,7 +1054,7 @@ div[style*="cursor: pointer"] > a[href*="spline"] {
   max-width: 480px;
   line-height: 1.7;
 }
-.blog-grid-section { background: var(--bg-secondary); }
+.blog-grid-section { background: transparent; }
 .blog-filters {
   display: flex;
   gap: 0.5rem;
@@ -1159,7 +1159,7 @@ div[style*="cursor: pointer"] > a[href*="spline"] {
    FOOTER
    ============================================= */
 .footer {
-  background: var(--bg-primary);
+  background: transparent;
   border-top: 1px solid var(--border);
   padding: 2.5rem 2rem;
 }
