@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  font-family: var(--font-display), system-ui, sans-serif;
+  background: #0f1b3d;
+}
+/* Corduroy fabric wale texture (hard-stop stripes, not a gradient fill) */
+.corduroy {
+  background-color: #e8622a;
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0 30px,
+    rgba(110, 35, 5, 0.32) 30px 35px,
+    rgba(255, 170, 120, 0.12) 35px 37px,
+    transparent 37px 40px
+  );
+}
+.corduroy-red {
+  background-color: #e5352b;
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0 20px,
+    rgba(90, 0, 0, 0.32) 20px 24px,
+    transparent 24px 27px
+  );
+}
+/* Zipper teeth */
+.zip-side {
+  background-color: #141414;
+  background-image: repeating-linear-gradient(180deg, #e8622a 0 2px, #2b2b2b 2px 6px, #141414 6px 10px);
+}
+.zip-side-offset {
+  background-position: 0 5px;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
+}
