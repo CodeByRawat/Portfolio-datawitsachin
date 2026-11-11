@@ -53,3 +53,41 @@
 | what is hyper automation | 90 | 29 |
 | which among these business processes are convenient for automation | 90 | 5 |
 | how does generative ai differ from other types of ai | 70 | 1 |
+
+# Batch 3 seeds (pulled 2026-11-11): "ai agents", "workflow automation", "chatbot" — Questions, US, KD 0–29, by volume
+| Question | Volume | KD | Seed |
+|---|---|---|---|
+| is this ai | 49.5K | 29 | chatbot |
+| who owns chatgpt | 27.1K | 21 | chatbot |
+| what is a crm | 22.2K | 22 | workflow automation |
+| what would be an appropriate task for using generative ai | 6.6K | 20 | ai agents |
+| what does chatgpt stand for | 6.6K | 27 | chatbot |
+| what is crm mean | 5.4K | 7 | workflow automation |
+| what does crm mean / what is crm stand for | 3.6K each | 8–11 | workflow automation |
+| what is customer relationship management crm | 2.9K | 5 | workflow automation |
+| what is process management | 2.9K | 10 | workflow automation |
+| what is customer relationship management software | 2.4K | 25 | workflow automation |
+| what is business process management | 1.9K | 22 | workflow automation |
+| is this text ai generated | 1.6K | 25 | chatbot |
+| how long has chatgpt been around | 1.6K | 25 | chatbot |
+| how to build relationships with clients | 1.3K | 25 | workflow automation |
+| how to detect ai | 720 | 24 | chatbot |
+| what is chatgpt and how does it work | 720 | 27 | chatbot |
+| what is crm integration | 590 | 18 | workflow automation |
+| what is a bpm / what is digital process / what is field service management software | 480 each | 13–28 | workflow automation |
+| how to use a crm | 390 | 5 | workflow automation |
+| what is bpms | 390 | 10 | workflow automation |
+| is chatgpt agent mode safe | 390 | 26 | ai agents |
+| what is ai orchestration | 390 | 29 | ai agents |
+| how to create an ai chatbot | 390 | 12 | chatbot |
+| how ai can improve customer experience | 320 | 26 | ai agents |
+| what is the purpose of an orchestrator agent | 320 | 16 | ai agents |
+| how to create a bot / how to make bots | 320 each | 13–24 | chatbot |
+| how to check ai generated content | 320 | 23 | chatbot |
+| what is workflow orchestration | 260 | 26 | workflow automation |
+| what is one tool that visualizes features representing a workflow | 260 | 13 | workflow automation |
+| who owns artificial intelligence | 210 | 12 | ai agents |
+| what is agentic marketing | 170 | 22 | ai agents |
+| how to turn on agent mode in chatgpt | 140 | 21 | ai agents |
+| what is a chat agent | 110 | 21 | ai agents |
+| what is the responsibility of developers using generative ai | 110 | 19 | ai agents |
