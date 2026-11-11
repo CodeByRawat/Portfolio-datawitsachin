@@ -56,8 +56,8 @@ export default function Home(props: Props) {
             <span>Code by {firstName}</span>
           </a>
           <nav className="flex items-center gap-5 sm:gap-8">
-            {['Work', 'About', 'Contact'].map((item) => (
-              <a key={item} href={`#${item.toLowerCase()}`} className="group relative flex flex-col items-center whitespace-nowrap">
+            {['Work', 'About', 'Blog', 'Contact'].map((item) => (
+              <a key={item} href={item === 'Blog' ? '/blog/' : `#${item.toLowerCase()}`} className="group relative flex flex-col items-center whitespace-nowrap">
                 {item}
                 <span className="absolute -bottom-2.5 h-[5px] w-[5px] scale-0 rounded-full bg-paper transition-transform duration-200 ease-out-strong group-hover:scale-100" />
               </a>
