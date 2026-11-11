@@ -8,7 +8,7 @@ import {
   useSpring,
   useTransform,
 } from 'framer-motion'
-import { ArrowDownRight, ArrowUpRight, Laptop, MountainSnow, Wifi, X } from 'lucide-react'
+import { ArrowUpRight, Laptop, MountainSnow, Wifi, X } from 'lucide-react'
 
 import { Preloader } from './components/Preloader'
 
@@ -67,13 +67,6 @@ export default function Home(props: Props) {
 
         {/* Location tab */}
         <LocationTab location={location} />
-
-        {/* Role */}
-        <div className="absolute right-6 top-[40%] z-10 sm:right-[8%]">
-          <ArrowDownRight className="mb-6 h-6 w-6 sm:mb-10" strokeWidth={1.5} />
-          <p className="text-2xl leading-tight sm:text-[2.6rem]">Freelance</p>
-          <p className="text-2xl leading-tight sm:text-[2.6rem]">{role}</p>
-        </div>
 
         {/* Marquee */}
         <div className="absolute bottom-6 left-0 z-10 w-full overflow-hidden sm:bottom-10">
@@ -150,7 +143,7 @@ function LocationTab({ location }: { location: string }) {
   }, [open, reduce])
 
   return (
-    <div ref={wrapRef} className="absolute left-0 top-[26%] z-20 md:top-[44%]">
+    <div ref={wrapRef} className="absolute left-0 top-[64%] z-20 md:top-[44%]">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
