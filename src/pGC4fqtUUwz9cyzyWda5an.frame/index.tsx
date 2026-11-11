@@ -69,10 +69,10 @@ export default function Home(props: Props) {
         <LocationTab location={location} role={role} />
 
         {/* Role on wide screens (smaller screens show it under the location pill) */}
-        <div className="absolute right-[4%] top-[40%] z-10 hidden xl:block 2xl:right-[8%]">
-          <ArrowDownRight className="mb-6 h-6 w-6 sm:mb-10" strokeWidth={1.5} />
-          <p className="text-2xl leading-tight sm:text-[2.6rem]">Freelance</p>
-          <p className="text-2xl leading-tight sm:text-[2.6rem]">{role}</p>
+        <div className="absolute right-[4%] top-[40%] z-10 hidden lg:block 2xl:right-[8%]">
+          <ArrowDownRight className="mb-6 h-6 w-6 xl:mb-10" strokeWidth={1.5} />
+          <p className="leading-tight lg:text-[2rem] xl:text-[2.6rem]">Freelance</p>
+          <p className="leading-tight lg:text-[2rem] xl:text-[2.6rem]">{role}</p>
         </div>
 
         {/* Marquee */}
@@ -226,7 +226,7 @@ function LocationTab({ location, role }: { location: string; role: string }) {
     </div>
 
       {/* Role, shown under the pill on smaller screens so it stays off the face */}
-      <div className="mt-4 pl-6 md:mt-5 md:pl-8 xl:hidden">
+      <div className="mt-4 pl-6 md:mt-5 md:pl-8 lg:hidden">
         <ArrowDownRight className="mb-2 h-5 w-5 md:mb-3 md:h-6 md:w-6" strokeWidth={1.5} />
         <p className="text-lg leading-tight md:text-[1.5rem]">Freelance</p>
         <p className="text-lg leading-tight md:text-[1.5rem]">{role}</p>
