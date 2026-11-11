@@ -14,7 +14,7 @@ import { Preloader } from './components/Preloader'
 
 export const args = {
   name: 'Your Name',
-  photo: 'https://cdn.magicpatterns.com/patterns/generated-images/266da54a-07dd-484b-972d-9dc4a651a23f.jpg',
+  photo: '/portrait.jpg',
   location: 'Located in the Netherlands',
   role: 'Designer & Developer',
   email: 'hello@yourname.com',
