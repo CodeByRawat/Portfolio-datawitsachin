@@ -8,14 +8,14 @@ import {
   useSpring,
   useTransform,
 } from 'framer-motion'
-import { ArrowDownRight, ArrowUpRight, Globe } from 'lucide-react'
+import { ArrowDownRight, ArrowUpRight, Laptop, MountainSnow, Wifi, X } from 'lucide-react'
 
 import { Preloader } from './components/Preloader'
 
 export const args = {
   name: 'Sachin',
   photo: '/portrait-hero.jpg',
-  location: 'Located in the Netherlands',
+  location: 'Somewhere in the mountains',
   role: 'Designer & Developer',
   email: 'hello@yourname.com',
   phone: '+31 6 12 34 56 78',
@@ -43,19 +43,19 @@ export default function Home(props: Props) {
       <Preloader key={String(intro)} enabled={intro} />
 
       {/* ── Hero ─────────────────────────────────────────── */}
-      <section className="relative h-[720px] overflow-hidden bg-hero text-paper md:h-[900px]">
+      <section className="relative h-[720px] overflow-x-clip bg-hero text-paper md:h-[900px]">
         <img
           src={photo}
           alt={name}
           className="absolute inset-0 h-full w-full object-cover object-[50%_25%]"
         />
 
-        <header className="relative z-10 flex items-center justify-between px-6 pt-6 text-[15px] font-medium sm:px-10 sm:pt-8">
+        <header className="relative z-30 flex items-center justify-between gap-4 px-6 pt-6 text-[15px] font-medium sm:px-10 sm:pt-8">
           <a href="#top" className="group flex items-center gap-1 whitespace-nowrap">
             <span className="inline-block transition-transform duration-300 ease-out-strong group-hover:rotate-[360deg]">©</span>
-            <span>Code by {firstName}</span>
+            <span><span className="hidden sm:inline">Code by </span>{firstName}</span>
           </a>
-          <nav className="flex items-center gap-5 sm:gap-8">
+          <nav className="flex items-center gap-4 text-[14px] sm:gap-8 sm:text-[15px]">
             {['Work', 'About', 'Blog', 'Contact'].map((item) => (
               <a key={item} href={item === 'Blog' ? '/blog/' : `#${item.toLowerCase()}`} className="group relative flex flex-col items-center whitespace-nowrap">
                 {item}
@@ -66,12 +66,7 @@ export default function Home(props: Props) {
         </header>
 
         {/* Location tab */}
-        <div className="absolute left-0 top-[44%] z-10 hidden items-center gap-8 rounded-r-full bg-ink py-3 pl-8 pr-3 md:flex">
-          <p className="max-w-[7.5rem] text-[17px] leading-snug">{location}</p>
-          <span className="flex h-[84px] w-[84px] items-center justify-center rounded-full bg-hero">
-            <Globe className="h-9 w-9" strokeWidth={1.25} />
-          </span>
-        </div>
+        <LocationTab location={location} />
 
         {/* Role */}
         <div className="absolute right-6 top-[40%] z-10 sm:right-[8%]">
@@ -120,6 +115,113 @@ export default function Home(props: Props) {
 
       {/* ── Footer ───────────────────────────────────────── */}
       <Footer name={name} photo={photo} email={email} phone={phone} />
+    </div>
+  )
+}
+
+/* Clickable location pill that opens a "working remotely" card */
+const OFFICES = [
+  'a cabin above the clouds',
+  'a café at the end of a hill road',
+  'a village with surprisingly good Wi-Fi',
+  'a balcony facing the snow peaks',
+]
+
+function LocationTab({ location }: { location: string }) {
+  const [open, setOpen] = useState(false)
+  const [office, setOffice] = useState(0)
+  const wrapRef = useRef<HTMLDivElement>(null)
+  const reduce = useReducedMotion()
+
+  useEffect(() => {
+    if (!open) return
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false)
+    const onDown = (e: MouseEvent) => {
+      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) setOpen(false)
+    }
+    const id = reduce ? undefined : setInterval(() => setOffice((o) => (o + 1) % OFFICES.length), 2200)
+    document.addEventListener('keydown', onKey)
+    document.addEventListener('mousedown', onDown)
+    return () => {
+      document.removeEventListener('keydown', onKey)
+      document.removeEventListener('mousedown', onDown)
+      if (id) clearInterval(id)
+    }
+  }, [open, reduce])
+
+  return (
+    <div ref={wrapRef} className="absolute left-0 top-[26%] z-20 md:top-[44%]">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        aria-controls="remote-card"
+        className="group flex items-center gap-4 rounded-r-full bg-ink py-2 pl-6 pr-2 text-left md:gap-8 md:py-3 md:pl-8 md:pr-3"
+      >
+        <p className="max-w-[7rem] text-[14px] leading-snug md:max-w-[7.5rem] md:text-[17px]">{location}</p>
+        <span className="flex h-12 w-12 items-center justify-center rounded-full bg-hero transition-colors duration-200 ease-out-strong group-hover:bg-accent md:h-[84px] md:w-[84px]">
+          {open ? (
+            <X className="h-5 w-5 md:h-8 md:w-8" strokeWidth={1.25} />
+          ) : (
+            <MountainSnow className="h-5 w-5 transition-transform duration-300 ease-out-strong group-hover:-translate-y-0.5 md:h-9 md:w-9" strokeWidth={1.25} />
+          )}
+        </span>
+      </button>
+
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            id="remote-card"
+            role="dialog"
+            aria-label="Working remotely"
+            className="absolute left-4 top-full mt-3 w-[calc(100vw-2rem)] max-w-[360px] rounded-3xl bg-paper p-6 text-ink shadow-2xl md:left-6 md:p-7"
+            initial={{ opacity: 0, y: -8, scale: 0.97 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: -8, scale: 0.97 }}
+            transition={{ duration: 0.25, ease: [0.23, 1, 0.32, 1] }}
+          >
+            <p className="text-xs uppercase tracking-[0.14em] text-muted">Remote, by choice</p>
+            <h3 className="mt-3 text-[1.6rem] leading-tight tracking-[-0.01em]">
+              I don’t have an office. I have a view.
+            </h3>
+            <p className="mt-3 text-[15px] leading-relaxed text-ink/75">
+              I work fully remote from small towns and hill stations, wherever the mountains are close and the Wi-Fi holds up.
+            </p>
+
+            <div className="mt-5 rounded-2xl bg-ink/[0.05] px-4 py-3">
+              <p className="text-xs text-muted">Today’s office</p>
+              <div className="relative h-6 overflow-hidden">
+                <AnimatePresence mode="wait" initial={false}>
+                  <motion.p
+                    key={office}
+                    className="text-[15px]"
+                    initial={{ y: 14, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    exit={{ y: -14, opacity: 0 }}
+                    transition={{ duration: 0.3, ease: [0.23, 1, 0.32, 1] }}
+                  >
+                    {OFFICES[office]}
+                  </motion.p>
+                </AnimatePresence>
+              </div>
+            </div>
+
+            <ul className="mt-5 space-y-2.5 text-[15px]">
+              <li className="flex items-center gap-3"><Laptop className="h-4 w-4 text-accent" strokeWidth={1.5} /> Fully remote, async-friendly</li>
+              <li className="flex items-center gap-3"><Wifi className="h-4 w-4 text-accent" strokeWidth={1.5} /> Calls across time zones</li>
+              <li className="flex items-center gap-3"><MountainSnow className="h-4 w-4 text-accent" strokeWidth={1.5} /> Clear head, focused work</li>
+            </ul>
+
+            <a
+              href="#contact"
+              onClick={() => setOpen(false)}
+              className="mt-6 inline-flex rounded-full bg-ink px-6 py-3 text-[14px] text-paper transition-colors duration-200 ease-out-strong hover:bg-accent"
+            >
+              Work with me from anywhere
+            </a>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   )
 }
