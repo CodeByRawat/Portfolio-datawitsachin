@@ -1,5 +1,18 @@
 {
   "framework": "vite",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "redirects": [
+    { "source": "/blog/what-is-rpa", "destination": "/blog/what-is-robotic-process-automation/", "permanent": true },
+    { "source": "/blog/types-of-ai-and-generative-ai-tasks", "destination": "/blog/which-task-is-a-generative-ai-task/", "permanent": true },
+    { "source": "/blog/what-is-agentic-automation", "destination": "/blog/what-are-agentic-workflows/", "permanent": true },
+    { "source": "/blog/ai-business-process-automation", "destination": "/blog/how-to-automate-business-processes/", "permanent": true },
+    { "source": "/blog/no-code-low-code-automation-platforms", "destination": "/blog/no-code-vs-low-code-automation/", "permanent": true },
+    { "source": "/blog/supply-chain-automation", "destination": "/blog/what-is-supply-chain-automation/", "permanent": true },
+    { "source": "/contact", "destination": "/#contact", "permanent": true },
+    { "source": "/automation", "destination": "/blog/", "permanent": true },
+    { "source": "/legal", "destination": "/blog/", "permanent": true },
+    { "source": "/tools", "destination": "/blog/", "permanent": true },
+    { "source": "/tools/:path*", "destination": "/blog/", "permanent": true }
+  ]
 }
