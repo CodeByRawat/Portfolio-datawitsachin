@@ -91,3 +91,42 @@
 | how to turn on agent mode in chatgpt | 140 | 21 | ai agents |
 | what is a chat agent | 110 | 21 | ai agents |
 | what is the responsibility of developers using generative ai | 110 | 19 | ai agents |
+
+# Batch 4 seeds (pulled 2026-11-11): "n8n", "machine learning", "zapier", "rpa" — Questions, US, KD 0–29, by volume
+| Question | Volume | KD | Seed |
+|---|---|---|---|
+| what is a webhook | 49.5K | 22 | zapier |
+| what is learning machine | 2.9K | 26 | machine learning |
+| what are webhooks | 2.4K | 13 | zapier |
+| what is zoho | 2.4K | 20 | zapier |
+| how to manage multiple social media accounts | 1.9K | 27 | zapier |
+| what is the project manager | 1.6K | 9 | zapier |
+| what is rpa robotic process automation ppt | 1.6K | 11 | rpa |
+| how to be a project manager | 880 | 8 | zapier |
+| what is a ml | 880 | 26 | machine learning |
+| what is zendesk used for | 720 | 26 | zapier |
+| what is classifying | 480 | 25 | machine learning |
+| how to track tasks at work | 480 | 13 | zapier |
+| how to manage client expectations | 480 | 23 | zapier |
+| what does ml | 390 | 19 | machine learning |
+| what is an rl | 390 | 19 | machine learning |
+| what is lstm | 390 | 12 | machine learning |
+| what is machine learning vs ai | 390 | 15 | machine learning |
+| what is a webhook endpoint | 390 | 28 | zapier |
+| what are raid logs | 390 | 27 | zapier |
+| how to manage a project | 320 | 25 | zapier |
+| what does soa mean / stand for | 320 / 260 | 16–18 | rpa |
+| how to pronounce n8n | 260 | 17 | n8n |
+| how to run n8n locally | 210 | 19 | n8n |
+| what is classification in machine learning | 210 | 5 | machine learning |
+| does n8n have a free plan | 170 | 29 | n8n |
+| how to add openai api key to n8n node | 170 | 17 | n8n |
+| how to connect claude to n8n | 170 | 22 | n8n |
+| how to update n8n version (community edition / oracle cloud) | 170 | 17 | n8n |
+| what is naive bayes | 170 | 7 | machine learning |
+| what is r2r / what is record to report | 170 each | 4–8 | rpa |
+| what is automation in healthcare | 140 | 26 | rpa |
+| what is a psa msp | 140 | 20 | rpa |
+| what is svm machine learning | 110 | 12 | machine learning |
+| what is rpa in healthcare | 90 | 27 | rpa |
+| is n8n hipaa compliant | 70 | 8 | n8n |
