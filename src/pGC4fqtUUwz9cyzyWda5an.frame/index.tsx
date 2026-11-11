@@ -13,7 +13,7 @@ import { ArrowDownRight, ArrowUpRight, Globe } from 'lucide-react'
 import { Preloader } from './components/Preloader'
 
 export const args = {
-  name: 'Your Name',
+  name: 'Sachin',
   photo: '/portrait.jpg',
   location: 'Located in the Netherlands',
   role: 'Designer & Developer',
