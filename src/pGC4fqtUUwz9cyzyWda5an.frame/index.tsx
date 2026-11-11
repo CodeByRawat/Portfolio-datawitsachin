@@ -14,7 +14,7 @@ import { Preloader } from './components/Preloader'
 
 export const args = {
   name: 'Sachin',
-  photo: '/portrait.jpg',
+  photo: '/portrait-hero.jpg',
   location: 'Located in the Netherlands',
   role: 'Designer & Developer',
   email: 'hello@yourname.com',
