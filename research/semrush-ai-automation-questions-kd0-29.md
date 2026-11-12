@@ -167,3 +167,32 @@
 - can chat gpt make a powerpoint | 260 | KD 18
 - what makes generative ai unique | 480 | KD 28
 - why is ai mode not showing up on google | 320 | KD 8
+
+## Batch 8 seeds (2026-11-12): Questions, US, KD 0–29, volume desc
+
+### Seed: chatbot
+- what does chatgpt stand for | 6,600 | KD 27
+- how long has chatgpt been around | 1,600 | KD 25
+- what is chatgpt and how does it work | 720 | KD 27
+- what is a chatbots | 480 | KD 18
+- does chatgpt use my computer resources | 390 | KD 23
+- how do ai chatbots work | 320 | KD 13
+- how to create a bot | 320 | KD 13
+- how to make bots | 320 | KD 24
+- what is conversational commerce | 320 | KD 28
+- how do i make a bot | 260 | KD 19
+- how to create bots | 260 | KD 23
+- can google docs detect ai | 210 | KD 26
+- what is conversational marketing | 210 | KD 29
+- how do you make a bot | 170 | KD 17
+- does google docs have ai detection | 140 | KD 28
+
+### Seed: workflow automation
+- what is digital process | 480 | KD 13
+- how to use a crm | 390 | KD 5
+- what is sfa | 390 | KD 23
+- what is workflow orchestration | 260 | KD 26
+- what does workflow mean | 210 | KD 11
+- what is a workflow system | 170 | KD 2
+- how to create an efficient workflow | 140 | KD 19
+- how to improve workflow efficiency | 140 | KD 26
