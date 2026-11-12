@@ -397,3 +397,20 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to design a app from scratch with least costs | 320 | 10 | how-to-design-an-app-from-scratch |
 | what do mobile app developers do / how much does an app developer earn | 140 / 140 | 28 / 22 | what-do-mobile-app-developers-do |
 | how to get an app developed / how do you get an app developed / how do you create an app for your business | 110 / 90 / 140 | 6 / 13 / 21 | how-to-get-an-app-developed |
+
+## Batch 18 (2026-11-12): seeds — online booking, invoice
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume). Flight/hotel deal queries skipped.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to send an invoice / how can i send an invoice through email | 2,900 / 170 | 28 / 22 | how-to-send-an-invoice |
+| how to schedule a doctor's appointment / how to make a doctors appointment | 1,900 / 320 | 23 / 16 | how-to-schedule-a-doctors-appointment |
+| do i need an appointment | 720 | 23 | how-to-schedule-a-doctors-appointment (section) |
+| how to make a booking website / how to create a booking website | 1,300 / 320 | 28 / 25 | how-to-make-a-booking-website |
+| what does an invoice look like / what to put on an invoice / what to include on an invoice | 1,000 / 140 / 110 | 24 / 23 / 2 | what-does-an-invoice-look-like |
+| how to get invoice | 880 | 28 | how-to-get-an-invoice |
+| what is an invoice number / what is invoice no / how to number invoices | 880 / 590 / 140 | 21 / 17 / 26 | what-is-an-invoice-number |
+| is invoice the same as receipt / is an invoice a bill / is a receipt an invoice | 390 / 320 / 260 | 23 / 11 / 24 | invoice-vs-receipt |
+| why booking is important / which of the following is an advantage of pre-appointment scheduling | 170+170 / 170 | 13–15 / 14 | benefits-of-online-booking |
+| how do i make an invoice template / how to make invoices for free / how to type up an invoice | 170 / 140 / 140 | 26 / 7 / 29 | how-to-make-an-invoice-template |
+| what is an invoice used for / what is a invoice in accounting | 140 / 110 | 29 / 22 | what-is-an-invoice |
