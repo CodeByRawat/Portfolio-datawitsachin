@@ -604,3 +604,19 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29. "clothing brand" s
 | how to get into photography / what are the basics of photography (batch 25 data) | 720 / 320 | 29 / 29 | how-to-get-into-photography |
 | how to value a cpa firm / how to value an accounting practice / how to buy an accounting firm (batch 23 data) | 170 / 140 / 140 | 6 / 15 / 13 | how-to-value-an-accounting-practice |
 | how to open a preschool (batch 27 data) | 170 | 23 | how-to-open-a-preschool |
+
+## Batch 30 (2026-11-13): seeds — consulting business, start a marketing agency
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume). "marketing agency" seed returned low-volume/unfiltered results; replaced with "start a marketing agency".
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to build a sellable agency business | 2,400 | 13 | how-to-build-a-sellable-agency-business |
+| what does a consulting firm do / what is a consulting firm / what do consulting companies do / what is a consulting agency | 1,600 / 1,000 / 880 / 480 | 13 / 29 / 28 / 26 | what-does-a-consulting-firm-do |
+| what does a business consultant do / what a consultant does / what is business consulting services | 1,600 / 320 / 390 | 29 / 11 / 29 | what-does-a-business-consultant-do |
+| how do you get into consulting / how to start a marketing consulting business / how to start a management consulting business | 390 / 260 / 210 | 18 / 16 / 3 | how-to-start-a-consulting-business |
+| how to start a marketing agency / how to start a marketing business / how to start a marketing company / how to start an advertising agency | 720 / 720 / 260 / 170 | 28 / 22 / 19 / 12 | how-to-start-a-marketing-agency |
+| how to start a digital marketing agency / how to start a digital marketing company / how to start digital marketing business | 590 / 390 / 260 | 28 / 26 / 26 | how-to-start-a-digital-marketing-agency |
+| what is a marketing agency / what do marketing agencies do / what is marketing agency | 590 / 390 / 210 | 18 / 10 / 24 | what-is-a-marketing-agency |
+| how to start a social media marketing agency | 480 | 23 | how-to-start-a-social-media-marketing-agency |
+| how to get seo clients / how to start a seo consulting business / how to start an seo company | 480 / 170 / 140 | 21 / 24 / 29 | how-to-get-seo-clients |
+| how to grow a digital marketing agency | 140 | 17 | how-to-grow-a-digital-marketing-agency |
