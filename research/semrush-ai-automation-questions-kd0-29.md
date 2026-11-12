@@ -244,3 +244,30 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc.
 | what is the main goal of generative ai | 210 | 6 | what-is-the-main-goal-of-generative-ai |
 | how to make a promotional video | 110 | 16 | how-to-make-a-promotional-video |
 | how to insert logo in video / how to add logo into video | 110 / 110 | 19 / 28 | how-to-add-a-logo-to-a-video |
+
+## Batch 11 (2026-11-12): website seeds — website design, web development
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc. New "web" cluster and website hire popup.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how much does a website cost | 2,900 | 20 | how-much-does-a-website-cost |
+| does it cost money to make a website / how much do web designers charge | 260 / 260 | 23 / 18 | how-much-does-a-website-cost |
+| how to create a website for business for free | 2,400 | 12 | how-to-create-a-website-for-your-business |
+| how do i create website for my business | 1,300 | 5 | how-to-create-a-website-for-your-business |
+| how to create a website for your business free | 480 | 16 | how-to-create-a-website-for-your-business |
+| which attributes describe a good landing page experience | 2,400 | 8 | good-landing-page-experience |
+| do it yourself site builder | 2,900 | 17 | what-is-the-best-website-builder |
+| what is the best web builder | 390 | 7 | what-is-the-best-website-builder |
+| how do i start a website | 1,600 | 18 | how-do-i-start-a-website |
+| how do i create a website for free | 590 | 6 | how-do-i-start-a-website |
+| how to create a website link | 390 | 20 | how-do-i-start-a-website (section) |
+| what does a web designer do / what do web designers do | 590 / 590 | 13 / 28 | what-does-a-web-designer-do |
+| what does a website designer do / what is a web page designer | 390 / 320 | 13 / 7 | what-does-a-web-designer-do |
+| what is a landing page on a website | 590 | 14 | what-is-a-landing-page |
+| how much does it cost to build a landing page | 480 | 13 | what-is-a-landing-page |
+| how to build a web app / how to make web application | 590 / 590 | 23 / 28 | how-to-build-a-web-app |
+| what is this site built with | 390 | 15 | what-is-this-website-built-with |
+| how to tell what ecommerce platform a site is using | 260 | 12 | what-is-this-website-built-with |
+| what was this website built with | 260 | 13 | what-is-this-website-built-with |
+| how to detect under construction websites | 260 | 13 | what-is-this-website-built-with (section) |
+| how to hire a web designer | 260 | 21 | how-to-hire-a-web-designer |
