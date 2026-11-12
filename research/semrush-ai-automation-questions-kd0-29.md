@@ -293,3 +293,26 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc. (Rest
 | how to start a web design business | 720 | 24 | how-to-start-a-web-design-business |
 | how to get web design clients | 210 | 11 | how-to-start-a-web-design-business |
 | how to market a dentist office | 390 | 12 | how-to-market-a-dentist-office |
+
+## Batch 13 (2026-11-12): seeds — local seo, google business profile, get more customers
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| what is seo mean / what is a seo | 4,400 / 3,600 | 21 / 17 | what-is-seo |
+| what is sales prospecting | 4,400 | 24 | what-is-sales-prospecting |
+| how to build backlinks / how to create backlinks | 2,900 / 1,900 | 17 / 25 | how-to-build-backlinks |
+| how does link building help seo / what is a backlink profile | 1,000 / 1,000 | 16 / 28 | how-to-build-backlinks |
+| how to create a google business page | 1,900 | 15 | how-to-create-a-google-business-page |
+| how to make seo report for client / what is an seo report | 1,900 / 1,000 | 7 / 24 | how-to-make-an-seo-report-for-a-client |
+| what is meta description | 1,900 | 13 | what-is-a-meta-description |
+| what are meta keywords seo | 880 | 9 | what-is-a-meta-description (section) |
+| how to promote your business locally / how to advertise small local business | 1,300 / 1,300 | 28 / 27 | how-to-promote-your-business-locally |
+| how to build a customer base / how to expand customer base | 1,300 / 880 | 27 / 7 | how-to-promote-your-business-locally |
+| what keywords should i use | 1,300 | 23 | how-to-choose-keywords-for-seo |
+| how to choose best keywords for seo / ...right keywords for your website | 1,000 / 1,000 | 4 / 29 | how-to-choose-keywords-for-seo |
+| do keywords matter in seo / do keywords have to be in order | 1,000 / 1,000 | 18 / 21 | how-to-choose-keywords-for-seo |
+| how to get on the first page of google | 1,000 | 23 | how-to-get-on-the-first-page-of-google |
+| what is a serp / what does serp stand for | 1,000 / 1,000 | 7 / 22 | how-to-get-on-the-first-page-of-google |
+| where does my site rank | 880 | 25 | how-to-get-on-the-first-page-of-google (section) |
+| what are local citations | 880 | 4 | what-are-local-citations |
