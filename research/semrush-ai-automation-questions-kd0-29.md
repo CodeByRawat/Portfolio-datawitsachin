@@ -467,3 +467,20 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to market your hvac business / how to market my hvac business / how to advertise your hvac business | 210 / 170 / 140 | 24 / 25 / 26 | how-to-market-your-hvac-business |
 | how to market a plumbing business / how to get plumbing leads / how to get plumbing customers | 170 / 140 / 140 | 17 / 6 / 12 | how-to-get-plumbing-leads |
 | how to market your construction business / how to market a restoration company / how to market to general contractors | 210 / 170 / 110 | 18 / 14 / 4 | how-to-market-your-construction-business |
+
+## Batch 22 (2026-11-12): seeds — medical practice marketing, ecommerce marketing
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume). Ecommerce "taxonomy/category" job queries skipped.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a medical practice / how to run a medical practice / how to buy a medical practice | 480 / 110 / 110 | 10 / 23 / 22 | how-to-start-a-medical-practice |
+| how to increase referrals in private practice | 390 | 13 | how-to-increase-referrals-in-private-practice |
+| how to market private practice / how to market your private practice / how to market a private practice | 210 / 210 / 140 | 20 / 15 / 4 | how-to-market-a-private-practice |
+| how to attract new patients to your dental practice / how to market a dental practice / how to attract new patients | 320 / 260 / 140 | 13 / 0 / 17 | how-to-market-a-private-practice (dental section) |
+| what is healthcare marketing / why is marketing important in healthcare / why is healthcare marketing important | 260 / 170 / 140 | 27 / 25 / 27 | what-is-healthcare-marketing |
+| how to market mental health services | 170 | 10 | how-to-market-mental-health-services |
+| how to market a medical spa | 140 | 10 | how-to-market-a-medical-spa |
+| how to increase ecommerce sales / how to increase sales online | 480 / 260 | 27 / 17 | how-to-increase-ecommerce-sales |
+| what is social shopping | 320 | 22 | what-is-social-shopping |
+| how to improve ecommerce customer experience / what is ecommerce experience | 260 / 170 | 22 / 22 | how-to-improve-ecommerce-customer-experience |
+| what is a ecommerce business / what is ecommerce website / will e commerce die | 260 / 210 / 170 | 15 / 14 / 23 | what-is-an-ecommerce-business |
