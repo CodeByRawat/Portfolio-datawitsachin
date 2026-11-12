@@ -17,8 +17,8 @@ export const args = {
   photo: '/portrait-hero.jpg',
   location: 'Somewhere in the mountains',
   role: 'Designer & Developer',
-  email: 'hello@yourname.com',
-  phone: '+31 6 12 34 56 78',
+  email: 'hello@datawithsachin.com',
+  phone: '+91 8004466229',
   intro: true,
 }
 
