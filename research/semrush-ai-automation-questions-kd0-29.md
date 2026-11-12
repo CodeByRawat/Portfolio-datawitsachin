@@ -316,3 +316,26 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc.
 | what is a serp / what does serp stand for | 1,000 / 1,000 | 7 / 22 | how-to-get-on-the-first-page-of-google |
 | where does my site rank | 880 | 25 | how-to-get-on-the-first-page-of-google (section) |
 | what are local citations | 880 | 4 | what-are-local-citations |
+
+## Batch 14 (2026-11-12): seeds — lead generation, email marketing
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| what is a landing page conversion | 33,100 | 9 | what-is-a-landing-page-conversion |
+| what is account based marketing | 2,900 | 8 | what-is-account-based-marketing |
+| what is inbound marketing / what is inbound | 2,900 / 260 | 11 / 29 | what-is-inbound-marketing |
+| what is inbound sales | 2,400 | 25 | what-is-inbound-sales |
+| what is lead qualification | 260 | 23 | what-is-inbound-sales (section) |
+| how to generate sales leads | 1,600 | 24 | how-to-generate-sales-leads |
+| how to get sales leads for free / how to get inbound leads / how to increase inbound leads | 260 / 170 / 170 | 24 / 19 / 20 | how-to-generate-sales-leads |
+| how to convert leads to sales / is lead generation sales or marketing | 260 / 210 | 17 / 27 | how-to-generate-sales-leads |
+| why is content marketing important / why is content important | 1,300 / 210 | 4 / 28 | why-is-content-marketing-important |
+| how to make an email template in outlook (+ ~15 variants) | 2,900 | 26 | how-to-create-an-email-template-in-outlook |
+| how to create an email template in outlook / ...email templates in outlook | 2,400 / 1,900 | 23 / 21 | how-to-create-an-email-template-in-outlook |
+| how to save an email as a template in outlook | 880 | 28 | how-to-create-an-email-template-in-outlook |
+| how to make a business email | 1,900 | 8 | how-to-make-a-business-email |
+| how do you make an email account | 480 | 13 | how-to-make-a-business-email (section) |
+| when to suppress inactive email subscribers deliverability | 1,300 | 14 | when-to-suppress-inactive-email-subscribers |
+| how many emails needed for valid a/b test | 720 | 29 | when-to-suppress-inactive-email-subscribers (section) |
+| how to write a newsletter | 880 | 25 | how-to-write-a-newsletter |
