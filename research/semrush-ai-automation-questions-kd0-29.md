@@ -654,3 +654,22 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how much does a barbershop owner make | 140 | 18 | how-much-does-a-barbershop-owner-make |
 | (supporting) car wash marketing | — | — | how-to-market-a-car-wash |
 | (supporting) operations consulting | — | — | what-is-operations-consulting |
+
+## Batch 33 (seeds: lawn care business, cleaning business) — Semrush Questions, US, KD 0–29
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a lawn care business | 1300 | 22 | how-to-start-a-lawn-care-business |
+| how to start a lawn mowing business | 1000 | 26 | how-to-start-a-lawn-mowing-business |
+| how to set up a grass cutting business | 880 | 23 | how-to-start-a-lawn-mowing-business |
+| how much is lawn care | 320 | 27 | how-much-does-lawn-care-cost |
+| how to market lawn care business | 210 | 16 | how-to-get-lawn-care-customers |
+| how to get lawn care customers | 210 | 5 | how-to-get-lawn-care-customers |
+| how much does lawn care cost per hour | 140 | 22 | how-much-does-lawn-care-cost |
+| do i need a license for lawn care business | 140 | 13 | do-you-need-a-license-for-a-lawn-care-business |
+| how to grow a lawn care business | 140 | 14 | how-to-grow-a-lawn-care-business |
+| how to start a home cleaning business | 720 | 26 | how-to-start-a-house-cleaning-business |
+| how to start your own house cleaning service | 390 | 17 | how-to-start-a-house-cleaning-business |
+| how to start a contract cleaning business | 210 | 24 | how-to-start-a-commercial-cleaning-business |
+| how to grow a cleaning business | 170 | 17 | how-to-grow-a-cleaning-business |
+| how to register a cleaning business | 140 | 16 | how-to-register-a-cleaning-business |
