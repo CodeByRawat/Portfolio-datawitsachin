@@ -451,3 +451,19 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how much does it cost to open a salon / ...start a salon / ...start a hair salon | 210 / 140 / 140 | 16 / 17 / 17 | how-much-does-it-cost-to-open-a-salon |
 | how to start a nail business / how to start a nail salon | 210 / 170 | 12 / 11 | how-to-start-a-nail-business |
 | how to grow your salon business / how to increase salon clientele / how do you promote a barber shop | 170 / 140 / 140 | 16 / 2 / 17 | how-to-grow-your-salon-business |
+
+## Batch 21 (2026-11-12): seeds — law firm marketing, contractor marketing
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume). Competitor "does X have a blog" queries skipped.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a law firm / how to start a law office / how much does it cost to start a law firm | 480 / 210 / 140 | 24 / 25 / 13 | how-to-start-a-law-firm |
+| how to get clients as a lawyer / how to get more clients as a lawyer / how to attract clients to law firm | 390 / 140 / 110 | 24 / 19 / 20 | how-to-get-clients-as-a-lawyer |
+| how to market a law firm / what is legal marketing / how much do law firms spend on marketing | 390 / 210 / 90 | 26 / 13 / 15 | how-to-market-a-law-firm |
+| how to grow a law firm / how to improve law firm profitability / how do law firms measure client profitability | 390 / 210 / 90 | 11 / 15 / 8 | how-to-grow-a-law-firm |
+| how to manage a law firm / how to manage a small law firm reviews / how to run a law firm | 390 / 210 / 90 | 21 / 11 / 7 | how-to-manage-a-law-firm |
+| how to market a roofing company | 480 | 18 | how-to-market-a-roofing-company |
+| how to start a contracting business / how to find subcontractors / how to become a subcontractor | 480 / 210 / 170 | 21 / 29 / 23 | how-to-start-a-contracting-business |
+| how to market your hvac business / how to market my hvac business / how to advertise your hvac business | 210 / 170 / 140 | 24 / 25 / 26 | how-to-market-your-hvac-business |
+| how to market a plumbing business / how to get plumbing leads / how to get plumbing customers | 170 / 140 / 140 | 17 / 6 / 12 | how-to-get-plumbing-leads |
+| how to market your construction business / how to market a restoration company / how to market to general contractors | 210 / 170 / 110 | 18 / 14 / 4 | how-to-market-your-construction-business |
