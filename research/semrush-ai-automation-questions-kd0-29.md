@@ -271,3 +271,25 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc. New "
 | what was this website built with | 260 | 13 | what-is-this-website-built-with |
 | how to detect under construction websites | 260 | 13 | what-is-this-website-built-with (section) |
 | how to hire a web designer | 260 | 21 | how-to-hire-a-web-designer |
+
+## Batch 12 (2026-11-12): seeds — small business website, restaurant website, dental website
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc. (Restaurant/dental seeds returned mostly consumer queries; kept "how to market a dentist office".)
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to buy a domain name | 9,900 | 23 | how-to-buy-a-domain-name |
+| how do i buy a domain name / how do you buy a domain name | 2,400 / 1,900 | 9 / 7 | how-to-buy-a-domain-name |
+| how to get a domain / how do i register a web domain name | 1,300 / 480 | 20 / 7 | how-to-buy-a-domain-name |
+| how to check if a website name is available | 590 | 13 | how-to-buy-a-domain-name |
+| how to monetize a website | 3,600 | 11 | how-to-monetize-a-website |
+| how to sell online / where can i sell / where to sell stuff | 2,900 / 1,600 / 1,300 | 24 / 26 / 26 | how-to-sell-online |
+| how to choose the right marketplace for your business | 2,400 | 9 | how-to-choose-the-right-marketplace-for-your-business |
+| how to create an online store | 1,900 | 25 | how-to-create-an-online-store |
+| how to create store website / how to make a website to sell stuff | 720 / 480 | 6 / 20 | how-to-create-an-online-store |
+| how to start an e commerce business | 480 | 11 | how-to-create-an-online-store |
+| how to design minimalist websites | 1,600 | 8 | how-to-design-minimalist-websites |
+| why does a business need a website | 1,000 | 29 | why-does-a-business-need-a-website |
+| what is a microsite | 720 | 25 | what-is-a-microsite |
+| how to start a web design business | 720 | 24 | how-to-start-a-web-design-business |
+| how to get web design clients | 210 | 11 | how-to-start-a-web-design-business |
+| how to market a dentist office | 390 | 12 | how-to-market-a-dentist-office |
