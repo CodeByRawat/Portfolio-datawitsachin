@@ -537,3 +537,21 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | what is a coaching business / what is business coaching / what does a business coach do / what defines a good coach / what is a mindset coach | 590 / 210 / 170 / 260 / 140 | 19 / 21 / 12 / 10 / 5 | what-is-a-coaching-business |
 | how to get coaching clients / how to get life coaching clients | 260 / 170 | 20 / 8 | how-to-get-coaching-clients |
 | how to make money as a coach / how much do professional coaches charge | 140 / 110 | 8 / 19 | how-much-do-coaches-charge |
+
+## Batch 26 (2026-11-13): seeds — food truck business, event planning business
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume).
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how much does a food truck cost / how much do food trucks cost / how much are food trucks (+ ~8 variants) | 2,400 / 480 / 320 | 29 / 21 / 21 | how-much-does-a-food-truck-cost |
+| how to start a food truck business / how to start a food truck / how to start a lunch truck / how can i start a food truck | 1,300 / 1,000 / 590 / 480 | 22 / 8 / 19 / 13 | how-to-start-a-food-truck-business |
+| how to start a food van business / how to open a food truck / how to start up a food truck | 320 / 320 / 320 | 18 / 22 / 26 | how-to-start-a-food-truck-business |
+| how much is a food truck permit / how to get a food truck license | 320 / 210 | 16 / 28 | food-truck-permits-and-licenses |
+| how to operate a food truck business / how to operate a food truck / how to start a taco truck | 260 / 260 / 260 | 16 / 13 / 12 | how-to-operate-a-food-truck-business |
+| how to become an event planner / how to become an event organiser / how do i become an event coordinator | 1,600 / 1,300 / 1,300 | 22 / 27 / 22 | how-to-become-an-event-planner |
+| how to get into event planning / how to get into the event planning industry | 480 / 260 | 9 / 5 | how-to-become-an-event-planner |
+| how to start an event planning business / how to start event management business | 1,000 / 260 | 21 / 27 | how-to-start-an-event-planning-business |
+| how to improve event planning skills | 1,000 | 19 | how-to-improve-event-planning-skills |
+| what does an event planner do / what is event planning / what do event planners do | 720 / 590 / 480 | 21 / 24 / 26 | what-does-an-event-planner-do |
+| how to get started as a party planner / how to start a party planning business / how do i become a party planner | 390 / 320 / 320 | 23 / 23 / 23 | how-to-start-a-party-planning-business |
+| how much do event planners charge | 260 | 16 | how-much-do-event-planners-charge |
