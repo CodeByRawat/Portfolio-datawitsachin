@@ -588,3 +588,19 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how much should i charge for tutoring / how much does a tutor cost / how much do tutors charge / how much does a math tutor cost | 480 / 590 / 320 / 260 | 13 / 26 / 15 / 12 | how-much-should-i-charge-for-tutoring |
 | how to sell tutoring services | 480 | 13 | how-to-sell-tutoring-services |
 | how to be a good tutor / how to tutor / what is a tutor / what does a tutor do / how to become a math tutor | 880 / 390 / 480 / 210 / 260 | 25 / 27 / 24 / 9 / 16 | how-to-be-a-good-tutor |
+
+## Batch 29 (2026-11-13): seed — start a clothing business (+ unused keywords from earlier batches)
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29. "clothing brand" seed returned shopper queries; "jewelry business" returned no results before the session expired.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a clothing line / how to make a clothing line / how do you start your own fashion line / how to begin your own clothing line | 2,400 / 590 / 210 / 210 | 25 / 20 / 12 / 11 | how-to-start-a-clothing-line |
+| how to start a t shirt business / how to start a shirt business / how to start a tshirt business from home | 1,900 / 320 / 260 | 25 / 26 / 23 | how-to-start-a-t-shirt-business |
+| how to start a small clothing business from home / how to start a small fashion business at home | 1,300 / 260 | 13 / 16 | how-to-start-a-small-clothing-business-from-home |
+| how to start your own clothing brand / how to make a clothing brand / how to start clothing brand / how to create your own clothing brand / how to make a successful clothing brand / how to launch a clothing brand | 880 / 880 / 720 / 590 / 480 / 260 | 20 / 24 / 29 / 29 / 23 / 23 | how-to-start-your-own-clothing-brand |
+| how to start an online clothing business | 320 | 26 | how-to-start-an-online-clothing-business |
+| how to start a kids clothing line | 260 | 12 | how-to-start-a-kids-clothing-line |
+| how to start a hat business / how to start a hat company (batch 25 data) | 210 / 210 | 10 / 12 | how-to-start-a-hat-business |
+| how to get into photography / what are the basics of photography (batch 25 data) | 720 / 320 | 29 / 29 | how-to-get-into-photography |
+| how to value a cpa firm / how to value an accounting practice / how to buy an accounting firm (batch 23 data) | 170 / 140 / 140 | 6 / 15 / 13 | how-to-value-an-accounting-practice |
+| how to open a preschool (batch 27 data) | 170 | 23 | how-to-open-a-preschool |
