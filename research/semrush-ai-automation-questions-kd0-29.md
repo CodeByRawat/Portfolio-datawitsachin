@@ -222,3 +222,25 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc.
 | how to animate text in after effects | 170 | 23 | how-to-make-motion-graphics |
 | how to get an animated background | 170 | 29 | how-to-make-motion-graphics |
 | how to make small animation loop for longer | 210 | 18 | how-to-make-motion-graphics |
+
+## Batch 10 (2026-11-12): seeds — video ads, logo animation, whatsapp automation, ai agent
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to create instagram stories ads | 2,400 | 27 | how-to-create-instagram-stories-ads |
+| can you schedule send on whatsapp | 590 | 22 | how-to-schedule-a-whatsapp-message |
+| can i schedule a message on whatsapp / how to schedule a whatsapp message | 390 / 390 | 16 / 16 | how-to-schedule-a-whatsapp-message |
+| can you schedule message on whatsapp / can you schedule whatsapp messages | 390 / 320 | 9 / 9 | how-to-schedule-a-whatsapp-message |
+| how to message in whatsapp without saving number | 1,000 | 27 | how-to-schedule-a-whatsapp-message (section) |
+| how to send a formal message on whatsapp | 320 | 9 | how-to-schedule-a-whatsapp-message (section) |
+| what is the most effective type of advertising | 590 | 7 | what-is-the-most-effective-type-of-advertising |
+| how to automate facebook page posts for agency | 390 | 26 | how-to-automate-facebook-page-posts |
+| what is an explainer video / what is explainer | 320 / 210 | 25 / 25 | what-is-an-explainer-video |
+| what is the purpose of an orchestrator agent | 320 | 16 | what-is-the-purpose-of-an-orchestrator-agent |
+| how to make great videos for youtube | 210 | 12 | how-to-make-great-youtube-videos |
+| how to make a decent youtube video | 210 | 26 | how-to-make-great-youtube-videos |
+| how does video help seo | 170 | 28 | how-to-make-great-youtube-videos (section) |
+| what is the main goal of generative ai | 210 | 6 | what-is-the-main-goal-of-generative-ai |
+| how to make a promotional video | 110 | 16 | how-to-make-a-promotional-video |
+| how to insert logo in video / how to add logo into video | 110 / 110 | 19 / 28 | how-to-add-a-logo-to-a-video |
