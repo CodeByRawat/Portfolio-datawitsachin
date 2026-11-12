@@ -358,3 +358,24 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc. ("cus
 | are google ads worth it | 390 | 25 | are-google-ads-worth-it |
 | how to advertise your business on facebook | 390 | 23 | how-to-advertise-your-business-on-facebook |
 | how to buy advertising | 390 | 24 | how-to-buy-advertising |
+
+## Batch 16 (2026-11-12): seeds — ai tools, customer service
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc. (Homework/consumer queries skipped; many AI seeds already covered.)
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to handle customer complaints | 2,900 | 20 | how-to-handle-customer-complaints |
+| how to make an ai / how to build ai / how to create ai models | 2,400 / 210 / 170 | 24 / 22 / 26 | how-to-make-an-ai |
+| what is the difference between customer service and customer experience | 1,300 | 18 | customer-service-vs-customer-experience |
+| what does great customer service mean to you / what does customer service mean to you | 1,600 / 2,400 | 22 / 24 | customer-service-vs-customer-experience |
+| what is good guest service | 1,000 | 17 | customer-service-vs-customer-experience (section) |
+| is gemini google | 480 | 20 | is-gemini-google |
+| why am i not eligble for free trial gemini / can gemini access google scholar | 260 / 170 | 26 / 17 | is-gemini-google |
+| is there a way to check for ai on powerpoints | 390 | 14 | how-to-check-for-ai-in-powerpoint |
+| why is ai mode not showing up on google | 320 | 8 | why-is-ai-mode-not-showing-up-on-google |
+| why is my ai overview not working / what is the search ai called on google | 260 / 170 | 23 / 16 | why-is-ai-mode-not-showing-up-on-google |
+| how does seo work on ai mode / how are seo people reacting to ai mode | 210 / 210 | 26 / 15 | how-does-seo-work-on-ai-mode |
+| how long can veo 3 videos be / how to make google gemini make a video | 210 / 210 | 27 / 29 | how-long-can-veo-3-videos-be |
+| longest ai video google gemini can make / how to make ai video for free | 210 / 170 | 29 / 29 | how-long-can-veo-3-videos-be |
+| how to integrate ai into an app | 170 | 14 | how-to-integrate-ai-into-an-app |
+| how to create an ai assistant | 170 | 24 | how-to-create-an-ai-assistant |
