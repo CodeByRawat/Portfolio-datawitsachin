@@ -8,7 +8,7 @@ import {
   useSpring,
   useTransform,
 } from 'framer-motion'
-import { ArrowDownRight, ArrowUpRight, Laptop, MountainSnow, Wifi, X } from 'lucide-react'
+import { ArrowDownRight, Laptop, MountainSnow, Wifi, X } from 'lucide-react'
 
 import { Preloader } from './components/Preloader'
 
@@ -395,17 +395,6 @@ function Footer({ name, photo, email, phone }: { name: string; photo: string; em
             <div>
               <p className="mb-3 text-xs text-paper/50">Local time</p>
               <p>{time} IST (GMT+5:30)</p>
-            </div>
-          </div>
-          <div>
-            <p className="mb-3 text-xs text-paper/50">Socials</p>
-            <div className="flex flex-wrap gap-x-6 gap-y-2">
-              {['Awwwards', 'Instagram', 'Twitter', 'LinkedIn'].map((s) => (
-                <a key={s} href="#contact" className="group inline-flex items-center gap-1 whitespace-nowrap">
-                  {s}
-                  <ArrowUpRight className="h-3.5 w-3.5 opacity-0 transition-opacity duration-150 group-hover:opacity-100" />
-                </a>
-              ))}
             </div>
           </div>
         </div>
