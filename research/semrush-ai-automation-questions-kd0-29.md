@@ -620,3 +620,19 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start a social media marketing agency | 480 | 23 | how-to-start-a-social-media-marketing-agency |
 | how to get seo clients / how to start a seo consulting business / how to start an seo company | 480 / 170 / 140 | 21 / 24 / 29 | how-to-get-seo-clients |
 | how to grow a digital marketing agency | 140 | 17 | how-to-grow-a-digital-marketing-agency |
+
+## Batch 31 (2026-11-13): seeds — trucking business, moving company business
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume).
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a trucking company / how to start a trucking business / how to start trucking business / ...with one truck | 1,300 / 720 / 590 / 320 | 18 / 18 / 17 / 17 | how-to-start-a-trucking-company |
+| how much does it cost to start a trucking company | 210 | 12 | how-much-does-it-cost-to-start-a-trucking-company |
+| how to run a trucking company / how to run a trucking business / how trucking business works | 260 / 210 / 210 | 10 / 10 / 28 | how-to-run-a-trucking-company |
+| how to become an owner operator truck driver / ...trucker / how much does a owner operator truck driver make | 320 / 210 / 260 | 15 / 12 / 23 | how-to-become-an-owner-operator-truck-driver |
+| how much do truck drivers make per mile / how much truck drivers make / how do truckers get paid / how much does a trucker make | 720 / 720 / 390 / 320 | 15 / 27 / 22 / 23 | how-much-do-truck-drivers-make |
+| what is otr in trucking / what's an otr | 480 / 210 | 10 / 11 | what-is-otr-in-trucking |
+| how to become a trucker / how do you become a truck driver / how to become truck driver | 1,000 / 260 / 210 | 21 / 17 / 23 | how-to-become-a-trucker |
+| how much does a moving company cost / how much does it cost to hire movers / how much do moving companies charge (+ ~15 variants) | 3,600 / 1,900 / 1,000 | 28 / 21 / 25 | how-much-does-a-moving-company-cost |
+| how to start a moving company / how to start a moving business / how to open a moving company | 590 / 320 / 260 | 8 / 11 / 22 | how-to-start-a-moving-company |
+| do moving companies pack for you / can movers pack for you / what do movers do | 480 / 170 / 210 | 8 / 5 / 6 | do-moving-companies-pack-for-you |
