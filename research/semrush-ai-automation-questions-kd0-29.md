@@ -519,3 +519,21 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how much does it cost to start a landscaping business / what licenses are needed... / how to get a landscaping license / is a landscaping business profitable | 390 / 210 / 170 / 140 | 27 / 5 / 14 / 13 | landscaping-business-costs-and-licenses |
 | how to bid landscaping jobs / how to price landscaping jobs | 260 / 210 | 16 / 7 | how-to-price-landscaping-jobs |
 | how to get commercial landscaping contracts | 260 | 14 | how-to-get-commercial-landscaping-contracts |
+
+## Batch 25 (2026-11-12/13): seeds — photography business, coaching business
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume). Competitor/blog-check queries skipped.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a photography business | 18,100 | 20 | how-to-start-a-photography-business |
+| how can i start / how do i start / how to start your own / how to open a photography business | 590 / 390 / 260 / 260 | 17 / 18 / 12 / 15 | how-to-start-a-photography-business |
+| how to start a photography company / ...from home | 210 / 170 | 16 / 17 | how-to-start-a-photography-business |
+| how to grow a photography business | 140 | 0 | how-to-grow-a-photography-business |
+| what is a photography portfolio (from batch 11 data) | 1,900 | 27 | what-is-a-photography-portfolio |
+| how to sell stock video footage | 210 | 11 | how-to-sell-stock-video-footage |
+| how to start a car rental business / how to start a rental car business / how to start a car rental company / how to open a car rental business | 720 / 390 / 390 / 320 | 26 / 8 / 19 / 17 | how-to-start-a-car-rental-business |
+| how to start a coaching business / how to start an online coaching business / how to build a coaching business | 720 / 320 / 110 | 18 / 5 / 3 | how-to-start-a-coaching-business |
+| what is leadership coaching / what is an executive coach / what does an executive coach do | 1,300 / 260 / 140 | 29 / 22 / 15 | what-is-leadership-coaching |
+| what is a coaching business / what is business coaching / what does a business coach do / what defines a good coach / what is a mindset coach | 590 / 210 / 170 / 260 / 140 | 19 / 21 / 12 / 10 / 5 | what-is-a-coaching-business |
+| how to get coaching clients / how to get life coaching clients | 260 / 170 | 20 / 8 | how-to-get-coaching-clients |
+| how to make money as a coach / how much do professional coaches charge | 140 / 110 | 8 / 19 | how-much-do-coaches-charge |
