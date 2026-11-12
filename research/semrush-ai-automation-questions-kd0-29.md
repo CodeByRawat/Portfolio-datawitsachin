@@ -555,3 +555,19 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | what does an event planner do / what is event planning / what do event planners do | 720 / 590 / 480 | 21 / 24 / 26 | what-does-an-event-planner-do |
 | how to get started as a party planner / how to start a party planning business / how do i become a party planner | 390 / 320 / 320 | 23 / 23 / 23 | how-to-start-a-party-planning-business |
 | how much do event planners charge | 260 | 16 | how-much-do-event-planners-charge |
+
+## Batch 27 (2026-11-13): seeds — daycare business, bakery business
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume).
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a daycare / how to open a daycare / how to start a daycare business (+ ~12 variants) | 1,300 / 590 / 390 | 22 / 26 / 25 | how-to-start-a-daycare |
+| how to manage daycare communication | 480 | 6 | how-to-manage-daycare-communication |
+| how to get daycare license | 480 | 12 | how-to-get-a-daycare-license |
+| how much does it cost to open a daycare | 260 | 4 | how-much-does-it-cost-to-open-a-daycare |
+| how to operate a daycare business / how to operate a daycare / how to run a daycare business | 260 / 210 / 170 | 22 / 29 / 24 | how-to-run-a-daycare-business |
+| how to open your own daycare at home / how to start a home daycare / how to open up your own daycare | 170 / 170 / 140 | 7 / 20 / 5 | how-to-start-a-home-daycare |
+| how to start a catering business / ...from home / how can i start a catering business from home | 1,000 / 320 / 260 | 11 / 13 / 8 | how-to-start-a-catering-business |
+| how to start a bakery / how to establish a bakery / how to open a bakery / how to start a cake shop business | 590 / 480 / 480 / 210 | 26 / 29 / 26 / 20 | how-to-start-a-bakery |
+| how to start at home baking business / how do i start a baking business from home / how to start a baking business | 590 / 480 / 390 | 24 / 17 / 18 | how-to-start-a-home-baking-business |
+| what does a baker do | 480 | 24 | what-does-a-baker-do |
