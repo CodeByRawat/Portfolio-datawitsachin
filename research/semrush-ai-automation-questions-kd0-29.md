@@ -196,3 +196,29 @@
 - what is a workflow system | 170 | KD 2
 - how to create an efficient workflow | 140 | KD 19
 - how to improve workflow efficiency | 140 | KD 26
+
+## Batch 9 (2026-11-12): creative seeds — motion design, ad creative, promo video, explainer video
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| what is a digital creator | 9,900 | 12 | what-is-a-digital-creator |
+| which tool is capable of generating videos from textual prompts | 590 | 14 | which-ai-tools-generate-videos-from-text |
+| why can i only create 3 videos on gemini | 590 | 27 | which-ai-tools-generate-videos-from-text |
+| how to write a video brief for a product demo | 1,000 | 3 | how-to-write-a-video-brief-for-a-product-demo |
+| how to make advertisement | 480 | 17 | how-to-make-an-advertisement |
+| how to start an advertisement | 210 | 10 | how-to-make-an-advertisement |
+| how to create an advertising campaign | 170 | 28 | how-to-make-an-advertisement |
+| what are motion graphics | 390 | 7 | what-are-motion-graphics |
+| what is creative strategy | 260 | 24 | what-is-creative-strategy |
+| what is dco / what is a dco | 260 / 210 | 27 / 16 | what-is-dynamic-creative-optimization |
+| what are dynamic ads | 170 | 28 | what-is-dynamic-creative-optimization |
+| what is adobe after effects used for | 170 | 25 | what-is-adobe-after-effects-used-for |
+| is after effects hard to learn | 110 | 14 | what-is-adobe-after-effects-used-for |
+| how much does adobe after effects cost | 110 | 16 | what-is-adobe-after-effects-used-for |
+| what is a static ad | 170 | 8 | what-is-a-static-ad |
+| what is a static post | 170 | 20 | what-is-a-static-ad |
+| how to make motion graphics | 140 | 26 | how-to-make-motion-graphics |
+| how to animate text in after effects | 170 | 23 | how-to-make-motion-graphics |
+| how to get an animated background | 170 | 29 | how-to-make-motion-graphics |
+| how to make small animation loop for longer | 210 | 18 | how-to-make-motion-graphics |

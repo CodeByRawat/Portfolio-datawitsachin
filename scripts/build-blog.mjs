@@ -126,17 +126,21 @@ body.has-bar{padding-bottom:76px}
 `
 
 // Hire-intent pages (frontmatter `hire: <thing>`) get a premium popup and a sticky bottom bar.
-const hireBlock = (thing) => `
+const HIRE_COPY = {
+  build: { verb: 'built', bar: "I'll build it for your business.", lead: 'Skip the trial and error. I design, build and launch it for you, connected to the tools your team already uses.', points: ['Built around your real process', 'Production-ready: tested, monitored, documented', 'Clear scope and price before we start'] },
+  creative: { verb: 'made', bar: "I'll make it for your brand.", lead: 'Scroll-stopping motion, ads and promo videos for your brand, from storyboard to final export, ready for every platform.', points: ['Storyboard approved before production starts', 'Sized for Reels, Shorts, TikTok, YouTube and ads', 'Clear scope and price before we start'] },
+}
+const hireBlock = (thing, kind = 'build') => { const c = HIRE_COPY[kind] || HIRE_COPY.build; return `
 <div class="hpop" id="hpop" role="dialog" aria-modal="true" aria-labelledby="hpop-t" aria-hidden="true"><div class="hpop-card">
 <button class="hpop-x" type="button" aria-label="Close">×</button>
 <span class="hpop-tag">Done for you</span>
-<h2 id="hpop-t">Want ${esc(thing)} built for your business?</h2>
-<p>Skip the trial and error. I design, build and launch it for you, connected to the tools your team already uses.</p>
-<ul><li>Built around your real process</li><li>Production-ready: tested, monitored, documented</li><li>Clear scope and price before we start</li></ul>
+<h2 id="hpop-t">Want ${esc(thing)} ${c.verb} for your business?</h2>
+<p>${esc(c.lead)}</p>
+<ul>${c.points.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
 <a class="go" href="/#contact" data-hire="popup">Contact me now</a>
 <small>Tell me what you need. I reply personally.</small>
 </div></div>
-<div class="hbar off" id="hbar"><div class="hbar-in"><span class="hbar-dot"></span><p><b>Want ${esc(thing)} for you?</b><span class="long"> I'll build it for your business.</span></p><a class="go" href="/#contact" data-hire="bar">Contact now</a><button type="button" aria-label="Hide">×</button></div></div>
+<div class="hbar off" id="hbar"><div class="hbar-in"><span class="hbar-dot"></span><p><b>Want ${esc(thing)} for you?</b><span class="long"> ${esc(c.bar)}</span></p><a class="go" href="/#contact" data-hire="bar">Contact now</a><button type="button" aria-label="Hide">×</button></div></div>
 <script>(function(){var s={get:function(k){try{return sessionStorage.getItem(k)}catch(e){return null}},set:function(k){try{sessionStorage.setItem(k,'1')}catch(e){}}};
 var pop=document.getElementById('hpop'),bar=document.getElementById('hbar'),shown=false;
 if(!s.get('hbar-x')){bar.classList.remove('off');document.body.classList.add('has-bar')}
@@ -147,7 +151,7 @@ pop.querySelector('.hpop-x').onclick=close;pop.onclick=function(e){if(e.target==
 document.addEventListener('keydown',function(e){if(e.key==='Escape')close()});
 setTimeout(open,25000);
 addEventListener('scroll',function(){var h=document.documentElement;if(h.scrollTop/(h.scrollHeight-h.clientHeight)>0.45)open()},{passive:true});
-})();</script>`
+})();</script>` }
 
 const head = ({ title, description, url, type = 'website', jsonLd = [] }) => `<!doctype html>
 <html lang="en"><head>
@@ -185,11 +189,11 @@ for (const p of posts) {
 <h1>${esc(p.title)}</h1>
 <p class="meta">By ${AUTHOR} · ${p.minutes} min read · Updated ${p.updated || p.date}</p>
 ${p.html}
-<div class="cta"><h2>${p.hire ? `Want ${esc(p.hire)} built for your business?` : 'Want this built for your business?'}</h2><p>I design and build AI agents and automations that run in production, not just in demos. Tell me which process is eating your team's week.</p><a href="/#contact">Start a conversation</a></div>
+<div class="cta"><h2>${p.hire ? `Want ${esc(p.hire)} ${p.hirekind === 'creative' ? 'made' : 'built'} for your business?` : 'Want this built for your business?'}</h2><p>${p.hirekind === 'creative' ? 'I create motion design, ad creatives and promo videos that make people stop scrolling. Tell me what you are launching.' : "I design and build AI agents and automations that run in production, not just in demos. Tell me which process is eating your team's week."}</p><a href="/#contact">Start a conversation</a></div>
 </article>
 <aside class="toc"><p>On this page</p><ol>${p.toc.map((t) => `<li><a href="#${t.id}">${esc(t.text)}</a></li>`).join('')}</ol></aside></div>
 <section class="related"><h2>Keep reading</h2><div class="grid">${related.map((r) => card(r, 'h3')).join('')}</div></section></div>
-${p.hire ? hireBlock(p.hire) : ''}
+${p.hire ? hireBlock(p.hire, p.hirekind) : ''}
 ${foot}`
   fs.mkdirSync(path.join(OUT, 'blog', p.slug), { recursive: true })
   fs.writeFileSync(path.join(OUT, 'blog', p.slug, 'index.html'), page)
