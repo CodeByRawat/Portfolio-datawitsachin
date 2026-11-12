@@ -432,3 +432,22 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | what is a real estate marketing plan | 320 | 24 | real-estate-marketing-plan |
 | how to stand out as a real estate agent / how to succeed as a realtor / how to be a successful realtor | 210 / 210 / 210 | 13 / 18 / 25 | how-to-stand-out-as-a-real-estate-agent |
 | how to use social media for restaurant marketing / how to promote restaurant on social media | 170 / 140 | 26 / 21 | how-to-promote-a-restaurant-on-social-media |
+
+## Batch 20 (2026-11-12): seeds — gym marketing, salon marketing
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume). Consumer gym-statistics queries skipped.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to open a gym / how to start a gym business / how to start a gym | 590 / 480 / 480 | 12 / 11 / 17 | how-to-start-a-gym |
+| how to start a fitness business / how to open your own gym / what is a commercial gym | 260 / 140 / 140 | 5 / 10 / 0 | how-to-start-a-gym |
+| how much does it cost to open a gym / how much will it cost to open a gym / ...start a gym | 590 / 480 / 260 | 18 / 16 / 17 | how-much-does-it-cost-to-open-a-gym |
+| how much does it cost to start a gym business / how much to open a gym | 170 / 170 | 3 / 16 | how-much-does-it-cost-to-open-a-gym |
+| are gyms profitable / is owning a gym profitable | 260 / 170 | 12 / 12 | are-gyms-profitable |
+| how to grow gym account | 320 | 8 | how-to-grow-a-gym |
+| how to become a fitness influencer / how much do fitness influencers make | 210 / 170 | 14 / 12 | how-to-become-a-fitness-influencer |
+| how much do salon owners make / how much does hair salon owner make / ...a year | 320 / 260 / 110 | 15 / 9 / 8 | how-much-do-salon-owners-make |
+| how to start a hair salon / how to open a salon / how to start a salon | 260 / 210 / 210 | 21 / 24 / 5 | how-to-start-a-hair-salon |
+| how to open a salon with no money / how to start a salon suite business | 140 / 110 | 6 / 3 | how-to-start-a-hair-salon |
+| how much does it cost to open a salon / ...start a salon / ...start a hair salon | 210 / 140 / 140 | 16 / 17 / 17 | how-much-does-it-cost-to-open-a-salon |
+| how to start a nail business / how to start a nail salon | 210 / 170 | 12 / 11 | how-to-start-a-nail-business |
+| how to grow your salon business / how to increase salon clientele / how do you promote a barber shop | 170 / 140 / 140 | 16 / 2 / 17 | how-to-grow-your-salon-business |
