@@ -571,3 +571,20 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start a bakery / how to establish a bakery / how to open a bakery / how to start a cake shop business | 590 / 480 / 480 / 210 | 26 / 29 / 26 / 20 | how-to-start-a-bakery |
 | how to start at home baking business / how do i start a baking business from home / how to start a baking business | 590 / 480 / 390 | 24 / 17 / 18 | how-to-start-a-home-baking-business |
 | what does a baker do | 480 | 24 | what-does-a-baker-do |
+
+## Batch 28 (2026-11-13): seeds — dog grooming business, tutoring business
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume).
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to become a dog groomer / how do you become a dog groomer / how to learn dog grooming / how do i become a dog groomer | 2,900 / 720 / 720 / 390 | 24 / 23 / 18 / 21 | how-to-become-a-dog-groomer |
+| how much is dog grooming school / how do you become a pet groomer | 170 / 170 | 8 / 15 | how-to-become-a-dog-groomer |
+| how much do dog groomers make / how much does a dog groomer earn / how much do pet groomers make / how much does dog grooming cost | 1,300 / 1,300 / 480 / 880 | 25 / 19 / 21 / 20 | how-much-do-dog-groomers-make |
+| how to start a dog walking business / how do i start... / how do you start... / ...at 13 uk | 720 / 260 / 210 / 210 | 11 / 10 / 6 / 5 | how-to-start-a-dog-walking-business |
+| how to start a dog grooming business / do you need a license to groom dogs / do you need a license for dog grooming | 260 / 260 / 170 | 26 / 15 / 6 | how-to-start-a-dog-grooming-business |
+| how to start a dog boarding business / how to start a dog daycare business | 260 / 210 | 15 / 8 | how-to-start-a-dog-boarding-business |
+| how can i monitize my pets | 260 | 3 | how-to-monetize-your-pet |
+| how to start a tutoring business / how do you start a tutoring business / how to start tutoring company / how to start an online tutoring business | 590 / 390 / 390 / 170 | 12 / 10 / 28 / 9 | how-to-start-a-tutoring-business |
+| how much should i charge for tutoring / how much does a tutor cost / how much do tutors charge / how much does a math tutor cost | 480 / 590 / 320 / 260 | 13 / 26 / 15 / 12 | how-much-should-i-charge-for-tutoring |
+| how to sell tutoring services | 480 | 13 | how-to-sell-tutoring-services |
+| how to be a good tutor / how to tutor / what is a tutor / what does a tutor do / how to become a math tutor | 880 / 390 / 480 / 210 / 260 | 25 / 27 / 24 / 9 / 16 | how-to-be-a-good-tutor |
