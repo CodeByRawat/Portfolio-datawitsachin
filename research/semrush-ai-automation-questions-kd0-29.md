@@ -339,3 +339,22 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc.
 | when to suppress inactive email subscribers deliverability | 1,300 | 14 | when-to-suppress-inactive-email-subscribers |
 | how many emails needed for valid a/b test | 720 | 29 | when-to-suppress-inactive-email-subscribers (section) |
 | how to write a newsletter | 880 | 25 | how-to-write-a-newsletter |
+
+## Batch 15 (2026-11-12): seeds — conversion rate, google ads
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc. ("customer retention" seed did not load; skipped. Currency-conversion and YouTube ad-blocking queries ignored as off-topic.)
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| what is ltv | 3,600 | 15 | what-is-ltv |
+| how to cpm | 1,600 | 27 | what-is-cpm |
+| what does cro mean / what does cro stand for | 1,300 / 1,300 | 28 / 24 | what-does-cro-mean |
+| what is remarketing | 720 | 29 | what-is-remarketing |
+| how to find trending topics online | 480 | 14 | how-to-find-trending-topics |
+| what are the top google searches | 880 | 18 | how-to-find-trending-topics (section) |
+| what is gmb | 480 | 6 | how-to-edit-my-google-business-listing |
+| how to edit my google business listing | 390 | 23 | how-to-edit-my-google-business-listing |
+| how to make your website show up on google | 480 | 29 | how-to-increase-website-traffic |
+| how to improve site traffic / how to increase website traffic organically / how to get organic traffic to your website | 390 / 390 / 390 | 9 / 18 / 26 | how-to-increase-website-traffic |
+| are google ads worth it | 390 | 25 | are-google-ads-worth-it |
+| how to advertise your business on facebook | 390 | 23 | how-to-advertise-your-business-on-facebook |
+| how to buy advertising | 390 | 24 | how-to-buy-advertising |
