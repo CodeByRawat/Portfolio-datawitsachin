@@ -636,3 +636,21 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how much does a moving company cost / how much does it cost to hire movers / how much do moving companies charge (+ ~15 variants) | 3,600 / 1,900 / 1,000 | 28 / 21 / 25 | how-much-does-a-moving-company-cost |
 | how to start a moving company / how to start a moving business / how to open a moving company | 590 / 320 / 260 | 8 / 11 / 22 | how-to-start-a-moving-company |
 | do moving companies pack for you / can movers pack for you / what do movers do | 480 / 170 / 210 | 8 / 5 / 6 | do-moving-companies-pack-for-you |
+
+## Batch 32 (seeds: car wash business, barbershop) — Semrush Questions, US, KD 0–29
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a car wash business | 720 | 11 | how-to-start-a-car-wash-business |
+| how much does it cost to open a car wash | 480 | 8 | how-much-does-it-cost-to-open-a-car-wash |
+| how much do car washes make | 390 | 16 | are-car-washes-profitable |
+| are car washes profitable | 390 | 20 | are-car-washes-profitable |
+| how much does it cost to buy a car wash | 320 | 19 | how-much-does-it-cost-to-buy-a-car-wash |
+| is a car wash a good investment | 210 | 17 | are-car-washes-profitable |
+| how much do barbers make a year | 2400 | 24 | how-much-do-barbers-make |
+| do barbers make good money | 320 | 16 | how-much-do-barbers-make |
+| how do barbers get paid | 170 | 28 | how-do-barbers-get-paid |
+| how to start a barbershop | 140 | 19 | how-to-start-a-barbershop |
+| how much does a barbershop owner make | 140 | 18 | how-much-does-a-barbershop-owner-make |
+| (supporting) car wash marketing | — | — | how-to-market-a-car-wash |
+| (supporting) operations consulting | — | — | what-is-operations-consulting |
