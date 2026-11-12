@@ -4,6 +4,7 @@ description: What agentic workflows and agentic process automation are, how they
 date: 2026-11-11
 cluster: agents
 order: 8
+hire: an agentic workflow
 ---
 
 <p class="lede">An <strong>agentic workflow</strong> is a business process in which one or more AI agents make decisions, choose actions and use tools at certain steps, inside a structure that defines the goal, the boundaries, the handoffs and where humans approve. It sits between a traditional workflow (every step pre-defined) and a fully autonomous agent (the AI decides everything). <strong>Agentic process automation (APA)</strong> is the practice of automating whole business processes this way.</p>

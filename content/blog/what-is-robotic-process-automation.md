@@ -4,6 +4,7 @@ description: What RPA stands for, how software robots work, real examples by dep
 date: 2026-11-11
 cluster: automation
 order: 3
+hire: an RPA bot
 ---
 
 <p class="lede"><strong>Robotic process automation (RPA)</strong> is software that mimics the clicks and keystrokes a person makes in computer applications, so that repetitive, rule-based tasks (copying data between systems, filling forms, downloading reports, processing invoices) run automatically. The "robots" are not physical; they are software bots that operate your existing applications through the user interface, just like an employee would.</p>

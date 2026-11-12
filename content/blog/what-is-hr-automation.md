@@ -4,6 +4,7 @@ description: What HR automation is, which HR processes to automate first (recrui
 date: 2026-11-11
 cluster: business
 order: 18
+hire: an HR automation
 ---
 
 <p class="lede"><strong>HR automation</strong> is the use of software (workflow tools, HR systems, integrations, RPA and AI) to carry out repetitive human resources tasks and processes automatically, such as posting jobs, scheduling interviews, onboarding new hires, managing leave requests, processing payroll inputs, answering policy questions and offboarding leavers. It frees HR teams from administration so they can focus on people, culture and strategy.</p>

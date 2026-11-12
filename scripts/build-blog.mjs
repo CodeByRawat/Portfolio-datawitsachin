@@ -100,7 +100,54 @@ th{background:var(--tint);font-weight:600}tr:last-child td{border-bottom:0}
 .related{border-top:1px solid var(--line);padding:40px 0 80px}.related h2{font-size:22px;margin:0 0 6px}.related .grid{padding:16px 0 0}
 footer{background:var(--ink);color:#c9cbd0;padding:40px clamp(16px,4vw,40px);font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 footer a{color:#fff;text-decoration:none}
+body.has-bar{padding-bottom:76px}
+.hbar{position:fixed;left:0;right:0;bottom:0;z-index:40;background:rgba(28,29,32,.96);backdrop-filter:blur(8px);color:#fff;border-top:1px solid rgba(255,255,255,.08);transform:translateY(0);transition:transform .3s ease}
+.hbar.off{transform:translateY(110%)}
+.hbar-in{max-width:1120px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:center;gap:14px}
+.hbar-dot{width:9px;height:9px;border-radius:50%;background:#3ddc84;box-shadow:0 0 0 4px rgba(61,220,132,.18);flex:none}
+.hbar p{margin:0;flex:1;font-size:15px;line-height:1.4;color:#e8e9ec}.hbar p b{color:#fff;font-weight:600}
+.hbar a.go{flex:none;background:var(--accent);color:#fff;text-decoration:none;padding:10px 20px;border-radius:999px;font-weight:500;font-size:15px;white-space:nowrap}.hbar a.go:hover{background:var(--accent-strong);color:#fff}
+.hbar button,.hpop-x{background:none;border:0;color:#9a9da3;font-size:22px;line-height:1;cursor:pointer;padding:6px}.hbar button:hover,.hpop-x:hover{color:#fff}
+@media(max-width:560px){.hbar p .long{display:none}.hbar-dot{display:none}.hbar a.go{padding:9px 16px}}
+.hpop{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(10,11,13,.55);opacity:0;pointer-events:none;transition:opacity .25s}
+.hpop.on{opacity:1;pointer-events:auto}
+.hpop-card{position:relative;width:100%;max-width:480px;background:var(--ink);color:#fff;border-radius:24px;padding:36px 32px 30px;box-shadow:0 30px 80px rgba(0,0,0,.35);transform:translateY(16px) scale(.98);transition:transform .3s ease;overflow:hidden}
+.hpop.on .hpop-card{transform:none}
+.hpop-card:before{content:"";position:absolute;inset:-40% -20% auto auto;width:320px;height:320px;background:radial-gradient(circle,rgba(69,92,233,.55),transparent 65%);pointer-events:none}
+.hpop-x{position:absolute;top:12px;right:14px}
+.hpop-tag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#aab6ff;background:rgba(69,92,233,.18);border:1px solid rgba(69,92,233,.4);padding:5px 10px;border-radius:999px;margin-bottom:16px}
+.hpop h2{position:relative;font-size:clamp(24px,4vw,30px);line-height:1.2;letter-spacing:-.02em;font-weight:600;margin:0 0 10px;color:#fff}
+.hpop p{position:relative;margin:0 0 18px;color:#c9cbd0;font-size:16px;line-height:1.6}
+.hpop ul{position:relative;list-style:none;padding:0;margin:0 0 24px}.hpop li{padding:6px 0 6px 28px;position:relative;color:#e8e9ec;font-size:15px}
+.hpop li:before{content:"✓";position:absolute;left:0;top:6px;width:20px;height:20px;border-radius:50%;background:rgba(61,220,132,.16);color:#3ddc84;font-size:12px;display:flex;align-items:center;justify-content:center}
+.hpop a.go{position:relative;display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;padding:15px 24px;border-radius:999px;font-weight:600;font-size:16px}.hpop a.go:hover{background:var(--accent-strong);color:#fff}
+.hpop small{position:relative;display:block;text-align:center;color:#8d9096;font-size:13px;margin-top:12px}
+@media(max-width:560px){.hpop{align-items:flex-end;padding:0}.hpop-card{border-radius:24px 24px 0 0;padding:30px 22px 24px}}
 `
+
+// Hire-intent pages (frontmatter `hire: <thing>`) get a premium popup and a sticky bottom bar.
+const hireBlock = (thing) => `
+<div class="hpop" id="hpop" role="dialog" aria-modal="true" aria-labelledby="hpop-t" aria-hidden="true"><div class="hpop-card">
+<button class="hpop-x" type="button" aria-label="Close">×</button>
+<span class="hpop-tag">Done for you</span>
+<h2 id="hpop-t">Want ${esc(thing)} built for your business?</h2>
+<p>Skip the trial and error. I design, build and launch it for you, connected to the tools your team already uses.</p>
+<ul><li>Built around your real process</li><li>Production-ready: tested, monitored, documented</li><li>Clear scope and price before we start</li></ul>
+<a class="go" href="/#contact" data-hire="popup">Contact me now</a>
+<small>Tell me what you need. I reply personally.</small>
+</div></div>
+<div class="hbar off" id="hbar"><div class="hbar-in"><span class="hbar-dot"></span><p><b>Want ${esc(thing)} for you?</b><span class="long"> I'll build it for your business.</span></p><a class="go" href="/#contact" data-hire="bar">Contact now</a><button type="button" aria-label="Hide">×</button></div></div>
+<script>(function(){var s={get:function(k){try{return sessionStorage.getItem(k)}catch(e){return null}},set:function(k){try{sessionStorage.setItem(k,'1')}catch(e){}}};
+var pop=document.getElementById('hpop'),bar=document.getElementById('hbar'),shown=false;
+if(!s.get('hbar-x')){bar.classList.remove('off');document.body.classList.add('has-bar')}
+bar.querySelector('button').onclick=function(){bar.classList.add('off');document.body.classList.remove('has-bar');s.set('hbar-x')};
+function open(){if(shown||s.get('hpop-x'))return;shown=true;s.set('hpop-x');pop.classList.add('on');pop.setAttribute('aria-hidden','false');pop.querySelector('a.go').focus({preventScroll:true})}
+function close(){pop.classList.remove('on');pop.setAttribute('aria-hidden','true')}
+pop.querySelector('.hpop-x').onclick=close;pop.onclick=function(e){if(e.target===pop)close()};
+document.addEventListener('keydown',function(e){if(e.key==='Escape')close()});
+setTimeout(open,25000);
+addEventListener('scroll',function(){var h=document.documentElement;if(h.scrollTop/(h.scrollHeight-h.clientHeight)>0.45)open()},{passive:true});
+})();</script>`
 
 const head = ({ title, description, url, type = 'website', jsonLd = [] }) => `<!doctype html>
 <html lang="en"><head>
@@ -138,10 +185,11 @@ for (const p of posts) {
 <h1>${esc(p.title)}</h1>
 <p class="meta">By ${AUTHOR} · ${p.minutes} min read · Updated ${p.updated || p.date}</p>
 ${p.html}
-<div class="cta"><h2>Want this built for your business?</h2><p>I design and build AI agents and automations that run in production, not just in demos. Tell me which process is eating your team's week.</p><a href="/#contact">Start a conversation</a></div>
+<div class="cta"><h2>${p.hire ? `Want ${esc(p.hire)} built for your business?` : 'Want this built for your business?'}</h2><p>I design and build AI agents and automations that run in production, not just in demos. Tell me which process is eating your team's week.</p><a href="/#contact">Start a conversation</a></div>
 </article>
 <aside class="toc"><p>On this page</p><ol>${p.toc.map((t) => `<li><a href="#${t.id}">${esc(t.text)}</a></li>`).join('')}</ol></aside></div>
 <section class="related"><h2>Keep reading</h2><div class="grid">${related.map((r) => card(r, 'h3')).join('')}</div></section></div>
+${p.hire ? hireBlock(p.hire) : ''}
 ${foot}`
   fs.mkdirSync(path.join(OUT, 'blog', p.slug), { recursive: true })
   fs.writeFileSync(path.join(OUT, 'blog', p.slug, 'index.html'), page)

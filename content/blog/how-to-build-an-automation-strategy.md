@@ -4,6 +4,7 @@ description: A practical playbook for building an AI and automation strategy, co
 date: 2026-11-11
 cluster: automation
 order: 7
+hire: an automation roadmap
 ---
 
 <p class="lede">An automation strategy is a plan that connects business goals to a prioritised pipeline of automation opportunities, the technology stack to deliver them, the team and governance to run them, and the metrics that prove value. To build one: anchor it to 2–4 business outcomes, discover and score opportunities, choose a fit-for-purpose stack, decide on an operating model, set guardrails for AI, and commit to a 12-month roadmap with clear measures.</p>

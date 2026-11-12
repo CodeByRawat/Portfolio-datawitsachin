@@ -4,6 +4,7 @@ description: What software automation is, the main types (business process, IT, 
 date: 2026-11-11
 cluster: automation
 order: 16
+hire: a software automation
 ---
 
 <p class="lede"><strong>Software automation</strong> is the use of software to perform tasks, processes or workflows with little or no human involvement. It covers everything from a script that backs up files every night, to workflows that move data between business applications, to tests that check code automatically, to AI agents that read emails and resolve customer requests. The goal is the same in every case: do repeatable work faster, more consistently and at lower cost.</p>

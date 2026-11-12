@@ -5,6 +5,7 @@ date: 2026-10-26
 updated: 2026-11-12
 cluster: automation
 order: 109
+hire: an intelligent automation
 ---
 
 <p class="lede"><strong>Intelligent automation (IA)</strong>, also called intelligent process automation (IPA), is the combination of <strong>workflow orchestration</strong> (the process backbone), <strong>RPA or API integrations</strong> (the hands), and <strong>AI</strong> (the eyes and judgement), with <strong>humans in the loop</strong> for exceptions. Together they automate processes that rules-only automation couldn't touch, because real business data is messy: emails, PDFs, scanned forms, photos and free text.</p>

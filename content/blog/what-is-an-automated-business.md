@@ -4,6 +4,7 @@ description: "What an automated business really is (and isn't), automated busine
 date: 2026-11-12
 cluster: business
 order: 63
+hire: an automated business system
 ---
 
 <p class="lede">An <strong>automated business</strong> is one where most repeatable operations (attracting leads, selling, onboarding, delivering, supporting customers, invoicing, reporting) run through connected software, workflows and AI with minimal manual effort, so the owner and team spend their time on strategy, product, relationships and exceptions. No real business runs entirely by itself, but a well-automated business can grow revenue without growing headcount at the same rate.</p>

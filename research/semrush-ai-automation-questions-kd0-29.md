@@ -130,3 +130,40 @@
 | what is svm machine learning | 110 | 12 | machine learning |
 | what is rpa in healthcare | 90 | 27 | rpa |
 | is n8n hipaa compliant | 70 | 8 | n8n |
+
+## Batch 7 seeds (2026-11-12): Questions, US, KD 0–29, volume desc
+
+### Seed: data analytics
+- what is a data warehouse | 74,000 | KD 22
+- what does a data analyst do | 6,600 | KD 14
+- what is bi | 3,600 | KD 24
+- what are analytics | 1,300 | KD 17
+- what is the analysis of data | 1,000 | KD 7
+- how to analyze data | 720 | KD 29
+- how to become data analyst | 480 | KD 24
+- is data analytics hard | 480 | KD 15
+- what is a data architect | 480 | KD 28
+- is data analyst a good career | 390 | KD 29
+- are data analysts in demand | 320 | KD 22
+- how to integrate data from different sources | 260 | KD 17
+- what is operational analytics | 260 | KD 24
+- how to integrate data from multiple sources | 210 | KD 28
+
+### Seed: power automate
+- what is rpa robotic process automation | 2,400 | KD 17 (covered)
+- what is software automation | 1,300 | KD 29 (covered)
+- what features to look for in accounts payable automation tools | 170 | KD 9
+- what can power automate do | 140 | KD 24
+- what is process orchestration | 140 | KD 19
+- what is workload automation | 110 | KD 8
+- how do i choose the best accounts payable automation solution | 90 | KD 14
+- who benefits from ap automation | 90 | KD 26
+- what can i do with power automate | 70 | KD 27
+- what is power automation | 70 | KD 29
+- what's the top rated accounts payable automation software | 70 | KD 18
+
+### Seed: ai tools
+- can chatgpt make powerpoints | 590 | KD 25
+- can chat gpt make a powerpoint | 260 | KD 18
+- what makes generative ai unique | 480 | KD 28
+- why is ai mode not showing up on google | 320 | KD 8

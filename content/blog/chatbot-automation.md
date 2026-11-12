@@ -5,6 +5,7 @@ date: 2026-10-16
 updated: 2026-11-12
 cluster: agents
 order: 105
+hire: an AI chatbot
 ---
 
 <p class="lede"><strong>Chatbot automation</strong> means using an AI chat box on your website, WhatsApp, Instagram or app to answer customer questions, qualify leads, book appointments and complete simple tasks automatically, handing over to a human when needed. Your business needs one when you get <strong>repetitive questions in volume</strong>, <strong>enquiries outside office hours</strong>, or <strong>leads that go cold</strong> waiting for a reply. If you get a handful of complex enquiries a week, you probably don't.</p>

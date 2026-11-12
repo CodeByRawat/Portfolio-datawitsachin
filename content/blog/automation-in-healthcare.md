@@ -4,6 +4,7 @@ description: What healthcare automation is, the highest-value use cases (schedul
 date: 2026-11-11
 cluster: business
 order: 37
+hire: a healthcare automation
 ---
 
 <p class="lede"><strong>Automation in healthcare</strong> is the use of software, including workflow automation, robotic process automation (RPA), integrations and AI, to perform repetitive administrative and clinical-support tasks with minimal manual effort: scheduling, patient intake, eligibility checks, prior authorizations, coding, billing, claims follow-up, clinical documentation and patient communication. Its aim is to reduce the administrative burden on staff and clinicians so they can spend more time on patient care.</p>

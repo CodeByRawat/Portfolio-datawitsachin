@@ -4,6 +4,7 @@ description: A complete framework for automating business processes, covering ho
 date: 2026-11-11
 cluster: automation
 order: 6
+hire: a business process automation
 ---
 
 <p class="lede">To automate a business process: (1) identify processes that are frequent, rule-heavy and painful, (2) map how the process really works today, (3) simplify and standardise it before automating, (4) choose the right technology for each step (API integration, workflow automation, RPA, AI or an AI agent), (5) build it with exception handling and human checkpoints, (6) pilot, measure and roll out, and (7) monitor and improve it continuously.</p>

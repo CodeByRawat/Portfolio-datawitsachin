@@ -4,6 +4,7 @@ description: What agentic marketing means, how it differs from marketing automat
 date: 2026-11-11
 cluster: business
 order: 33
+hire: an AI marketing agent
 ---
 
 <p class="lede"><strong>Agentic marketing</strong> is marketing in which AI agents (software that can plan, decide and act toward a goal using tools) carry out multi-step marketing work with limited human prompting: researching audiences, building and launching campaigns, personalising content, optimising budgets and engaging customers one to one, while humans set strategy, guardrails and approve what matters. It's the step beyond marketing automation (which follows fixed rules) and generative AI (which creates content on request).</p>

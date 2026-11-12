@@ -4,6 +4,7 @@ description: How to create an AI chatbot for your website, business or WhatsApp,
 date: 2026-11-11
 cluster: agents
 order: 30
+hire: an AI chatbot
 ---
 
 <p class="lede">To create an AI chatbot: (1) define what it should do and for whom, (2) gather the knowledge it needs (FAQs, policies, product docs), (3) choose a platform: a no-code chatbot builder, an automation tool like n8n, or code with a model API, (4) connect a language model to your knowledge using retrieval (RAG), (5) write clear instructions and guardrails, (6) add actions and human handoff, (7) test with real questions, and (8) deploy it on your website, WhatsApp or app, then monitor and improve it every week.</p>

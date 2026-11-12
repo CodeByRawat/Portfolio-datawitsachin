@@ -4,6 +4,7 @@ description: What AI orchestration is, what an orchestrator agent does, how it d
 date: 2026-11-11
 cluster: agents
 order: 26
+hire: a multi-agent system
 ---
 
 <p class="lede"><strong>AI orchestration</strong> is the coordination of multiple AI models, agents, tools, data sources, automations and people so they work together to complete a larger task or business process reliably. It decides <em>what runs, in what order, with what context, under what rules</em>, and handles handoffs, errors, approvals and monitoring. An <strong>orchestrator agent</strong> is an AI agent whose job is to plan a task, delegate pieces to specialised worker agents or tools, and combine their results.</p>

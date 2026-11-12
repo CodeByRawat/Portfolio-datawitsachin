@@ -4,6 +4,7 @@ description: What CRM integration is, the most valuable CRM integrations, integr
 date: 2026-11-11
 cluster: business
 order: 24
+hire: a CRM integration
 ---
 
 <p class="lede"><strong>CRM integration</strong> is connecting your customer relationship management system with the other tools your business uses (email, calendar, website forms, marketing, phone, support desk, accounting, e-commerce, ERP and AI tools) so that data flows between them automatically and everyone sees the complete customer picture without manual data entry. <strong>CRM automation</strong> then uses that connected data to run workflows automatically: routing leads, creating tasks, sending follow-ups and updating records.</p>

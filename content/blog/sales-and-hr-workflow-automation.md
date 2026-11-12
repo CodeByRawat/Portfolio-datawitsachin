@@ -5,6 +5,7 @@ date: 2026-10-18
 updated: 2026-11-12
 cluster: business
 order: 120
+hire: a sales or HR workflow
 ---
 
 <p class="lede">If you can only automate a few things, start with these: in <strong>sales</strong>, automate <strong>lead capture into the CRM, instant routing and response, follow-up reminders, meeting scheduling and call notes</strong>; in <strong>HR</strong>, automate <strong>onboarding checklists, leave and expense approvals, interview scheduling and answers to routine policy questions</strong>. Keep discovery, negotiation, performance conversations, sensitive cases and hiring decisions human.</p>

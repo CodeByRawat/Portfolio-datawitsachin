@@ -5,6 +5,7 @@ date: 2026-10-21
 updated: 2026-11-12
 cluster: legal
 order: 116
+hire: a legal intake automation
 ---
 
 <p class="lede">Prospective clients often contact several firms and instruct the first one that responds well. <strong>Legal intake software</strong> captures every enquiry from every channel, responds instantly, qualifies the matter, runs conflict checks, books consultations, sends engagement letters for e-signature, and hands the new client into your matter system, so fewer good enquiries slip away and lawyers spend less time on admin.</p>

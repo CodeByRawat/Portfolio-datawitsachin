@@ -4,6 +4,7 @@ description: "What content automation is, which parts of the content lifecycle t
 date: 2026-11-12
 cluster: business
 order: 62
+hire: a content automation
 ---
 
 <p class="lede"><strong>Content automation</strong> is using software and AI to handle the repetitive parts of the content lifecycle (topic research, briefs, first drafts, formatting, repurposing into other formats, publishing, distribution, personalisation and performance reporting) so content teams produce more, faster and more consistently, while people focus on strategy, original insight, editing and quality.</p>

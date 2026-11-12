@@ -4,6 +4,7 @@ description: How to run n8n locally for free with Docker or npm, whether n8n has
 date: 2026-11-11
 cluster: automation
 order: 35
+hire: an n8n workflow
 ---
 
 <p class="lede">To run n8n locally for free, install <strong>Docker</strong> and run the official <code>n8nio/n8n</code> image with a data volume, then open <strong>http://localhost:5678</strong> in your browser. Alternatively, with Node.js installed, run <code>npx n8n</code>. The self-hosted <strong>Community Edition</strong> is free to use; n8n Cloud plans start at €20/month (billed annually) if you'd rather not manage hosting yourself.</p>

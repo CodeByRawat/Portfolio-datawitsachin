@@ -5,6 +5,7 @@ date: 2026-10-25
 updated: 2026-11-12
 cluster: business
 order: 108
+hire: a claims automation
 ---
 
 <p class="lede"><strong>Insurance claims automation</strong> uses workflow software, integrations, document and image AI, rules engines and increasingly AI agents to handle the repetitive parts of claims (intake, data extraction, coverage checks, triage, fraud flags, customer updates and payments) so adjusters spend their time on judgement, not data entry. Simple claims can be settled in minutes; complex claims reach the right adjuster faster with everything they need on one screen.</p>

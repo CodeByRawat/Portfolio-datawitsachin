@@ -4,6 +4,7 @@ description: Hyperautomation explained. Gartner's definition, the technologies i
 date: 2026-11-11
 cluster: automation
 order: 17
+hire: an end-to-end automation
 ---
 
 <p class="lede"><strong>Hyperautomation</strong> is a business-driven, disciplined approach to rapidly identifying, vetting and automating as many business and IT processes as possible, using a combination of technologies such as robotic process automation (RPA), AI, process mining, low-code platforms, integration tools and, increasingly, AI agents. The term was coined by Gartner, which named it a top strategic technology trend for three years running (2020–2022).</p>

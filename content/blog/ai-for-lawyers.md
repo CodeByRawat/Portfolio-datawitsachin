@@ -5,6 +5,7 @@ date: 2026-10-19
 updated: 2026-11-12
 cluster: legal
 order: 102
+hire: an AI tool for your firm
 ---
 
 <p class="lede">AI is already useful in legal work and already risky if misused. Lawyers can safely use AI to <strong>draft, summarise, extract, research and organise</strong>, as long as they <strong>protect client confidentiality</strong>, <strong>verify every citation and statement of law</strong>, <strong>supervise the output</strong> like a junior's work, and follow their regulator's guidance. AI will replace many legal <em>tasks</em>, but not the judgement, advocacy and accountability clients pay lawyers for.</p>

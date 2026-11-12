@@ -4,6 +4,7 @@ description: A plain-English explanation of webhooks, covering what they are, ho
 date: 2026-11-11
 cluster: automation
 order: 34
+hire: a webhook integration
 ---
 
 <p class="lede">A <strong>webhook</strong> is an automated message one application sends to another the moment something happens. When an event occurs (a payment succeeds, a form is submitted, an order is placed, code is pushed), the source app sends an HTTP request, usually a <code>POST</code> with JSON data, to a URL you've provided, called the <strong>webhook endpoint</strong>. Your system receives it and reacts instantly. Webhooks are often described as "reverse APIs" or "push notifications for apps".</p>

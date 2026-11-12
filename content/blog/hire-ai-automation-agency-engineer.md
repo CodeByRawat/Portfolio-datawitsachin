@@ -5,6 +5,7 @@ date: 2026-10-14
 updated: 2026-11-12
 cluster: business
 order: 107
+hire: an AI automation
 ---
 
 <p class="lede">To hire the right AI automation partner: look for people who <strong>ask about your process before pitching tools</strong>, can show <strong>workflows running in production</strong>, are <strong>honest about what not to automate</strong>, build in <strong>error handling, monitoring and human review</strong>, and leave you <strong>owning the code, workflows, credentials and documentation</strong>. Start with a small, fixed-scope pilot with a clear success metric before committing to anything bigger.</p>

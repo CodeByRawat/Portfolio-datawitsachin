@@ -4,6 +4,7 @@ description: How to automate your sales process from prospecting to close and ha
 date: 2026-11-11
 cluster: business
 order: 20
+hire: a sales automation
 ---
 
 <p class="lede">To automate your sales process: map each stage of your pipeline (lead capture, research, outreach, qualification, meetings, follow-up, proposals, CRM updates, handoff), automate the repetitive admin first (data entry, routing, scheduling, reminders, call notes), then add AI for research, personalisation and qualification, while keeping humans in charge of relationships, discovery conversations, negotiation and closing.</p>

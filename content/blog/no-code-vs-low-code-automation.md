@@ -4,6 +4,7 @@ description: What no-code and low-code automation are, how they differ, what you
 date: 2026-11-11
 cluster: automation
 order: 11
+hire: a Zapier, Make or n8n workflow
 ---
 
 <p class="lede"><strong>No-code automation</strong> lets you build automated workflows (connecting apps, moving data, sending notifications, adding AI steps) through a visual interface, without writing code. <strong>Low-code automation</strong> uses the same visual approach but lets you add code where needed for complex logic, custom integrations or data transformations. No-code is built for business users; low-code is built for technical users and developers who want speed without giving up control.</p>

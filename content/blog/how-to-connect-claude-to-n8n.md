@@ -4,6 +4,7 @@ description: Three ways to connect Claude to n8n. Use Claude as the model in n8n
 date: 2026-11-11
 cluster: agents
 order: 36
+hire: an n8n + Claude workflow
 ---
 
 <p class="lede">There are three ways to connect Claude and n8n: (1) <strong>use Claude inside n8n</strong> by adding an Anthropic credential with your API key and selecting the <strong>Anthropic Chat Model</strong> in an AI Agent or LLM node; (2) <strong>let Claude call your n8n workflows</strong> by exposing them through n8n's <strong>MCP Server Trigger</strong> and adding that server to Claude Desktop or another MCP client; or (3) call the Anthropic API directly with the <strong>HTTP Request</strong> node for full control. Adding an OpenAI key works the same way as option 1, using the OpenAI credential.</p>

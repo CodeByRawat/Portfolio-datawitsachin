@@ -4,6 +4,7 @@ description: How AI can improve customer experience across the journey, from per
 date: 2026-11-11
 cluster: business
 order: 32
+hire: an AI support agent
 ---
 
 <p class="lede">AI improves customer experience by making service <strong>faster</strong> (instant answers 24/7), <strong>more personal</strong> (recommendations and communication tailored to each customer), <strong>more proactive</strong> (fixing problems before customers notice), and <strong>more consistent</strong> (every customer gets accurate, policy-correct help), while freeing human staff to focus on complex and emotional moments. Done badly, it does the opposite: customers get trapped in bots, receive wrong answers, or feel watched rather than understood.</p>

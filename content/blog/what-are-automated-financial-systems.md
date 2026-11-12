@@ -4,6 +4,7 @@ description: What automated financial systems are, which finance processes to au
 date: 2026-11-11
 cluster: business
 order: 21
+hire: a finance automation
 ---
 
 <p class="lede"><strong>Automated financial systems</strong> are software systems that carry out finance and accounting processes automatically, such as capturing invoices, matching payments, reconciling accounts, processing expenses, posting journal entries, closing the books and producing reports, with minimal manual work and with built-in controls. They combine ERP and accounting software with workflow automation, integrations, RPA, document AI and, increasingly, AI agents.</p>

@@ -4,6 +4,7 @@ description: How to automate tasks with AI at work, step by step. Find the right
 date: 2026-11-11
 cluster: automation
 order: 5
+hire: an AI automation
 ---
 
 <p class="lede">To automate tasks with AI: list the repetitive tasks you do each week, pick the ones that are frequent, follow a recognisable pattern and involve reading, writing or deciding based on text; then connect a trigger (an email, form, file or schedule) to an AI step that does the thinking and to the apps where the result needs to go, using a tool like Zapier, Make, n8n or Power Automate. Keep a human approval step until the automation has proven itself.</p>

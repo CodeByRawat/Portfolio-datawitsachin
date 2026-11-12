@@ -5,6 +5,7 @@ date: 2026-10-21
 updated: 2026-11-12
 cluster: business
 order: 100
+hire: an AI assistant
 ---
 
 <p class="lede">An <strong>AI assistant for business</strong> (sometimes sold as an AI executive assistant or AI secretary) uses large language models to handle the administrative work that eats a professional's day: triaging email, drafting replies, scheduling, taking meeting notes, preparing research briefs, updating systems and chasing follow-ups. The best results come from connecting the assistant to your email, calendar and tools, running it in "draft mode" first, and expanding its autonomy only where it has proven reliable.</p>

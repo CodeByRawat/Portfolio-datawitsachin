@@ -4,6 +4,7 @@ description: CRM stands for customer relationship management. Learn what a CRM i
 date: 2026-11-11
 cluster: business
 order: 23
+hire: a CRM setup
 ---
 
 <p class="lede"><strong>CRM stands for customer relationship management.</strong> A CRM is software that stores every interaction your business has with customers and prospects (contacts, companies, emails, calls, meetings, deals, support tickets and purchases) in one place, so your sales, marketing and service teams can manage relationships, follow up on time, automate routine work and see what's driving revenue.</p>

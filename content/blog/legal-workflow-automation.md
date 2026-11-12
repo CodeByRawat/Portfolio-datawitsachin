@@ -5,6 +5,7 @@ date: 2026-10-20
 updated: 2026-11-12
 cluster: legal
 order: 117
+hire: a legal workflow automation
 ---
 
 <p class="lede">Lawyers rarely lack skill; they lack time. <strong>Legal workflow automation</strong> takes the administrative load (routing, reminders, data entry, standard drafting, chasing signatures and approvals, reporting) off lawyers, paralegals and legal operations teams, so more time goes to judgement and client work. <strong>Legal operations</strong> is the discipline that runs the business side of legal: process, technology, data, budgets and vendors.</p>

@@ -4,6 +4,7 @@ description: A practical guide to using AI in marketing in 2026, covering conten
 date: 2026-11-11
 cluster: business
 order: 4
+hire: an AI marketing automation
 ---
 
 <p class="lede">To use AI in marketing effectively, apply it to specific, repeatable jobs (research, first drafts, repurposing content, personalising emails, analysing campaign data, qualifying leads) and connect those jobs into workflows, while keeping humans responsible for strategy, brand voice and final approval. The teams getting results are not "using ChatGPT more"; they are redesigning how marketing work moves from idea to published asset to measured result.</p>

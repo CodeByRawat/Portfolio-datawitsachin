@@ -4,6 +4,7 @@ description: What live chat is, how website live chat works, live chat vs chatbo
 date: 2026-11-12
 cluster: business
 order: 53
+hire: an AI chatbot
 ---
 
 <p class="lede"><strong>Live chat</strong> is a real-time messaging channel, usually a chat widget on a website or in an app, that lets customers and prospects talk instantly with a business's support or sales team. Today most live chat is <strong>hybrid</strong>: an AI chatbot or agent answers common questions instantly and hands over to a human agent when needed. <strong>Conversational commerce</strong> is the broader practice of selling and serving customers through conversations on websites, WhatsApp, Instagram, Messenger, SMS and voice assistants.</p>

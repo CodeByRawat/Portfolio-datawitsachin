@@ -4,6 +4,7 @@ description: What an artificial intelligence agent actually is, how it works und
 date: 2026-11-11
 cluster: agents
 order: 1
+hire: a custom AI agent
 ---
 
 <p class="lede">An <strong>AI agent</strong> is software that is given a goal, decides for itself which steps to take to reach it, uses tools (APIs, databases, browsers, other software) to take those steps, checks the results, and keeps going until the goal is met or it needs a human. A chatbot answers. An agent <em>acts</em>.</p>

@@ -5,6 +5,7 @@ date: 2026-10-15
 updated: 2026-11-12
 cluster: automation
 order: 106
+hire: a desktop automation
 ---
 
 <p class="lede"><strong>Desktop automation</strong> is making your computer do the repetitive things you currently do by hand on your own machine: renaming and moving files, copying data between apps, filling forms, generating reports, processing downloads, and running routine checks. You can start for free with built-in tools (<strong>Power Automate Desktop</strong> on Windows, <strong>Shortcuts</strong> on Mac), move to <strong>scripts</strong> (Python, PowerShell) for data-heavy tasks, and use <strong>browser automation</strong> or <strong>RPA</strong> for web portals and legacy apps.</p>

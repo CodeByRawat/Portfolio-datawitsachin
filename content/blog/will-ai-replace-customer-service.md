@@ -4,6 +4,7 @@ description: How AI chatbots actually work, what they can and can't handle in cu
 date: 2026-11-11
 cluster: business
 order: 10
+hire: an AI support agent
 ---
 
 <p class="lede">AI will not fully replace customer service, but it is already replacing a large share of routine customer service <em>interactions</em>. Gartner predicts AI agents will autonomously resolve up to 80% of common customer service issues by 2029, yet also predicts that no Fortune 500 company will fully eliminate human service staff by 2028. The future is a smaller, more skilled human team handling complex, emotional and high-value conversations, supported by AI that handles the routine and assists on everything else.</p>

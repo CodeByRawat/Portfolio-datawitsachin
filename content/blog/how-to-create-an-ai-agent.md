@@ -4,6 +4,7 @@ description: A practical, step-by-step guide to building your first AI agent, wi
 date: 2026-11-11
 cluster: agents
 order: 2
+hire: a custom AI agent
 ---
 
 <p class="lede">To create an AI agent, you (1) pick one narrow job with a clear definition of done, (2) choose a model and a platform, (3) give the agent tools that let it act in your systems, (4) write instructions that define its role, limits and escalation rules, (5) add guardrails and human approval for risky actions, (6) test it against real examples, and (7) deploy it in "draft mode" before giving it more autonomy.</p>

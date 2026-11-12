@@ -4,6 +4,7 @@ description: What supply chain automation is, how it works across planning, proc
 date: 2026-11-11
 cluster: business
 order: 19
+hire: a supply chain automation
 ---
 
 <p class="lede"><strong>Supply chain automation</strong> is the use of software, AI and physical technology (such as warehouse robotics) to perform supply chain tasks with minimal human intervention, from forecasting demand and placing purchase orders to processing orders, managing inventory, picking and packing goods, booking shipments, tracking deliveries and handling exceptions. Its goal is a supply chain that is faster, cheaper, more accurate and more resilient.</p>

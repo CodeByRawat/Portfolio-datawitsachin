@@ -5,6 +5,7 @@ date: 2026-10-23
 updated: 2026-11-12
 cluster: legal
 order: 113
+hire: a legal document automation
 ---
 
 <p class="lede"><strong>Legal document automation</strong> generates legal documents from templates and structured answers: a questionnaire, intake form or matter record supplies the facts, rules decide which clauses and wording apply, and the system produces a correctly formatted, near-final draft in seconds. If your lawyers keep opening an old document, searching and replacing names, and fixing what they forgot, that's a job for document automation.</p>

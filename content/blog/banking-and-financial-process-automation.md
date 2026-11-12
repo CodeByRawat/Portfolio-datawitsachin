@@ -5,6 +5,7 @@ date: 2026-10-19
 updated: 2026-11-12
 cluster: business
 order: 103
+hire: a finance automation
 ---
 
 <p class="lede"><strong>Banking and financial process automation</strong> uses workflow tools, integrations, RPA, document AI and increasingly AI agents to handle high-volume, rules-heavy operations (customer onboarding and KYC, loan processing, payments exceptions, reconciliation, AML alert triage, regulatory reporting and customer service) faster and more consistently, while keeping the audit trails, approvals and controls that regulators require.</p>
