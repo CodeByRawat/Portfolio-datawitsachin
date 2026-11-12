@@ -414,3 +414,21 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | why booking is important / which of the following is an advantage of pre-appointment scheduling | 170+170 / 170 | 13–15 / 14 | benefits-of-online-booking |
 | how do i make an invoice template / how to make invoices for free / how to type up an invoice | 170 / 140 / 140 | 26 / 7 / 29 | how-to-make-an-invoice-template |
 | what is an invoice used for / what is a invoice in accounting | 140 / 110 | 29 / 22 | what-is-an-invoice |
+
+## Batch 19 (2026-11-12): seeds — restaurant marketing, real estate marketing
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume). Competitor "does X have a blog" queries skipped.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to get real estate leads / how to get leads for real estate agents / how to generate real estate leads | 1,900 / 1,300 / 480 | 23 / 28 / 25 | how-to-get-real-estate-leads |
+| how to advertise for realtors / where to advertise real estate / how to advertise real estate | 1,300 / 1,000 / 320 | 26 / 27 / 19 | how-to-advertise-real-estate |
+| how to find restaurant owner email addresses for outreach | 1,300 | 6 | how-to-find-business-owner-emails-for-outreach |
+| how to get more real estate listings / how to get real estate listings fast | 1,000 / 170 | 18 / 16 | how-to-get-more-real-estate-listings |
+| how to run a successful restaurant / what percentage of restaurants fail / why restaurants fail / are restaurants profitable | 590 / 390 / 110 / 140 | 14 / 27 / 19 / 3 | how-to-run-a-successful-restaurant |
+| how to figure out food cost in a restaurant / what type of business is a restaurant | 110 / 170 | 16 / 15 | how-to-run-a-successful-restaurant |
+| how to increase restaurant sales (+ ~9 variants) | 390 | 12 | how-to-increase-restaurant-sales |
+| how to increase revenue in restaurant / how to get new customers in your restaurant / ...without advertising / ...delivery sales | 320 / 170 / 110 / 140 | 26 / 14 / 13 / 15 | how-to-increase-restaurant-sales |
+| how to convert real estate leads | 390 | 19 | how-to-convert-real-estate-leads |
+| what is a real estate marketing plan | 320 | 24 | real-estate-marketing-plan |
+| how to stand out as a real estate agent / how to succeed as a realtor / how to be a successful realtor | 210 / 210 / 210 | 13 / 18 / 25 | how-to-stand-out-as-a-real-estate-agent |
+| how to use social media for restaurant marketing / how to promote restaurant on social media | 170 / 140 | 26 / 21 | how-to-promote-a-restaurant-on-social-media |
