@@ -502,3 +502,20 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | what is an insurance marketing organization | 170 | 16 | how-to-start-an-insurance-agency (section) |
 | how to get insurance leads / how to generate insurance leads / how to get clients for insurance business | 260 / 210 / 140 | 19 / 22 / 5 | how-to-get-insurance-leads |
 | how to grow an insurance agency / how to grow your insurance agency / how to grow insurance business | 210 / 170 / 170 | 15 / 17 / 15 | how-to-grow-an-insurance-agency |
+
+## Batch 24 (2026-11-12): seeds — cleaning business, landscaping business
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume). "auto repair shop" seed returned only consumer queries; skipped.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a home cleaning business / how to start your own cleaning business / how to open a cleaning service | 720 / 720 / 480 | 26 / 4 / 6 | how-to-start-a-cleaning-business |
+| how to start your own house cleaning service / how do i start my own cleaning business / what do i need to start a cleaning business | 390 / 320 / 210 | 17 / 6 / 3 | how-to-start-a-cleaning-business |
+| what licenses are needed to start a cleaning business / what license is needed... / how to register a cleaning business | 590 / 390 / 140 | 5 / 22 / 16 | what-licenses-are-needed-to-start-a-cleaning-business |
+| how to get clients for a cleaning business / how to get customers for cleaning business / how to grow a cleaning business | 480 / 170 / 170 | 27 / 22 / 17 | how-to-get-clients-for-a-cleaning-business |
+| how to find commercial cleaning contracts / how to start a contract cleaning business | 170 / 210 | 10 / 24 | how-to-find-commercial-cleaning-contracts |
+| how to start a landscaping business / how to start a landscaping company / how to start a landscape business | 1,600 / 590 / 480 | 17 / 16 / 8 | how-to-start-a-landscaping-business |
+| what do landscapers do | 880 | 14 | what-do-landscapers-do |
+| how to grow a landscaping business / how to run a landscaping business / how to market a landscaping business | 480 / 210 / 210 | 10 / 13 / 13 | how-to-grow-a-landscaping-business |
+| how much does it cost to start a landscaping business / what licenses are needed... / how to get a landscaping license / is a landscaping business profitable | 390 / 210 / 170 / 140 | 27 / 5 / 14 / 13 | landscaping-business-costs-and-licenses |
+| how to bid landscaping jobs / how to price landscaping jobs | 260 / 210 | 16 / 7 | how-to-price-landscaping-jobs |
+| how to get commercial landscaping contracts | 260 | 14 | how-to-get-commercial-landscaping-contracts |
