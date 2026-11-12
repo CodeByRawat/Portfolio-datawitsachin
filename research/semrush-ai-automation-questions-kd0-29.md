@@ -379,3 +379,21 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29, volume desc. (Home
 | longest ai video google gemini can make / how to make ai video for free | 210 / 170 | 29 / 29 | how-long-can-veo-3-videos-be |
 | how to integrate ai into an app | 170 | 14 | how-to-integrate-ai-into-an-app |
 | how to create an ai assistant | 170 | 24 | how-to-create-an-ai-assistant |
+
+## Batch 17 (2026-11-12): seed — app development
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume). New "app" hire popup variant.
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to make an application / how to make a app | 4,400 / 3,600 | 28 / 22 | how-to-make-an-app |
+| how to build apps / how to create your own app / how to create a phone app | 1,600 / 1,300 / 1,000 | 11 / 21 / 16 | how-to-make-an-app |
+| how can i make an application / how to build a mobile app | 720 / 590 | 26 / 25 | how-to-make-an-app |
+| how to publish base44 app to the app store / how to publish a app on app store | 880 / 90 | 22 / 28 | how-to-publish-an-app-on-the-app-store |
+| how to invent an app | 590 | 29 | how-to-invent-an-app |
+| how to program android application / how to build an app for android | 590 / 70 | 21 / 11 | how-to-build-an-android-app |
+| how to create an app and make money / how to develop an app and make money / how to make money making an app | 480 / 390 / 390 | 18 / 10 / 23 | how-to-create-an-app-and-make-money |
+| how hard is it to create an app / how difficult is it to make an app / how difficult is it to create an app | 320 / 210 / 210 | 13 / 9 / 11 | how-hard-is-it-to-make-an-app |
+| how to turn code into an app | 320 | 11 | how-to-turn-code-into-an-app |
+| how to design a app from scratch with least costs | 320 | 10 | how-to-design-an-app-from-scratch |
+| what do mobile app developers do / how much does an app developer earn | 140 / 140 | 28 / 22 | what-do-mobile-app-developers-do |
+| how to get an app developed / how do you get an app developed / how do you create an app for your business | 110 / 90 / 140 | 6 / 13 / 21 | how-to-get-an-app-developed |
