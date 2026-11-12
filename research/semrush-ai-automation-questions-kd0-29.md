@@ -484,3 +484,21 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | what is social shopping | 320 | 22 | what-is-social-shopping |
 | how to improve ecommerce customer experience / what is ecommerce experience | 260 / 170 | 22 / 22 | how-to-improve-ecommerce-customer-experience |
 | what is a ecommerce business / what is ecommerce website / will e commerce die | 260 / 210 / 170 | 15 / 14 / 23 | what-is-an-ecommerce-business |
+
+## Batch 23 (2026-11-12): seeds — accounting firm marketing, insurance agency marketing
+Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side by volume).
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a cpa firm / how to start your own cpa firm / how to start an accounting firm | 1,600 / 880 / 320 | 15 / 16 / 15 | how-to-start-a-cpa-firm |
+| how to start an accounting business / how to build a cpa practice / how to buy an accounting firm | 140 / 140 / 140 | 15 / 15 / 13 | how-to-start-a-cpa-firm |
+| how to get accounting clients / how to get more tax returns / how to get tax clients | 1,300 / 260 / 170 | 13 / 23 / 16 | how-to-get-accounting-clients |
+| what tools do accountants use / what is accounting technology | 1,000 / 170 | 12 / 16 | what-tools-do-accountants-use |
+| what would be some add-on services for a cpa firm / how to grow your accounting practice / how to manage an accounting firm | 320 / 170 / 110 | 8 / 19 / 17 | how-to-grow-an-accounting-practice |
+| how to start a bookkeeping company / how to market bookkeeping services | 260 / 140 | 23 / 13 | how-to-start-a-bookkeeping-business |
+| how do insurance agents make money / how to insurance agents make money / how much does life insurance salesman make | 1,000 / 590 / 390 | 15 / 18 / 28 | how-do-insurance-agents-make-money |
+| how to sell insurance / how to sell health insurance / is selling insurance hard | 880 / 260 / 140 | 16 / 17 / 27 | how-to-sell-insurance |
+| how to start an insurance agency / how to open an insurance company / ...from home | 480 / 320 / 210 | 19 / 16 / 4 | how-to-start-an-insurance-agency |
+| what is an insurance marketing organization | 170 | 16 | how-to-start-an-insurance-agency (section) |
+| how to get insurance leads / how to generate insurance leads / how to get clients for insurance business | 260 / 210 / 140 | 19 / 22 / 5 | how-to-get-insurance-leads |
+| how to grow an insurance agency / how to grow your insurance agency / how to grow insurance business | 210 / 170 / 170 | 15 / 17 / 15 | how-to-grow-an-insurance-agency |
