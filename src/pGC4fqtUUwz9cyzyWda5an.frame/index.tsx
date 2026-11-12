@@ -394,7 +394,7 @@ function Footer({ name, photo, email, phone }: { name: string; photo: string; em
             </div>
             <div>
               <p className="mb-3 text-xs text-paper/50">Local time</p>
-              <p>{time} GMT+1</p>
+              <p>{time} IST (GMT+5:30)</p>
             </div>
           </div>
           <div>
@@ -419,7 +419,7 @@ function formatTime() {
     hour: '2-digit',
     minute: '2-digit',
     hour12: true,
-    timeZone: 'Europe/Amsterdam',
+    timeZone: 'Asia/Kolkata',
   }).toUpperCase()
 }
 
