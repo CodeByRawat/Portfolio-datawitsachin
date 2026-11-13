@@ -692,3 +692,23 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to make money as an electrical contractor | 50 | 10 | how-to-run-an-electrical-company |
 | how to estimate a roofing job | 90 | 1 | how-to-estimate-a-roofing-job |
 | how much do you need to start a roofing company | 20 | n/a | how-to-start-a-roofing-company |
+
+## Batch 35 (seeds: pest control business, coffee shop business, detailing business) — Semrush Questions, US, KD 0–29
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a pest control business | 480 | 14 | how-to-start-a-pest-control-business |
+| how to start your own exterminator business | 40 | 3 | how-to-start-a-pest-control-business |
+| is pest control a good business | 30 | n/a | is-pest-control-a-good-business |
+| how to become a exterminator | 20 | n/a | how-to-become-an-exterminator |
+| how to start a coffee shop business | 260 | 11 | how-to-start-a-coffee-shop |
+| how to start a coffee house business | 110 | 14 | how-to-start-a-coffee-shop |
+| how do i start a cafe | 90 | 8 | how-to-start-a-coffee-shop |
+| how much does it cost to open a coffee house | 90 | 11 | how-much-does-it-cost-to-open-a-coffee-shop |
+| how much would it cost to open a cafe | 90 | 21 | how-much-does-it-cost-to-open-a-coffee-shop |
+| is a coffee shop a good investment | 30 | n/a | is-a-coffee-shop-a-good-investment |
+| how to start car detail business | 50 | 24 | how-to-start-a-car-detailing-business |
+| how to start mobile detailing business | 50 | 12 | how-to-start-a-mobile-detailing-business |
+| is mobile detailing a good business to start | 30 | n/a | how-to-start-a-mobile-detailing-business |
+| (supporting) pest control marketing | — | — | how-to-market-a-pest-control-business |
+| (supporting) coffee shop marketing | — | — | how-to-market-a-coffee-shop |
