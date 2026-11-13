@@ -842,3 +842,20 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | is junk removal a good business | 210 | 24 | is-junk-removal-a-good-business |
 | what to look for in a junk removal company | 70 | 11 | what-to-look-for-in-a-junk-removal-company |
 | how to start a cat sitting business | 30 | n/a | how-to-start-a-cat-sitting-business |
+
+## Batch 44 (2026-11-14) — locksmith, concrete, fencing (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a locksmith business | 260 | 13 | how-to-start-a-locksmith-business |
+| is being a locksmith hard | 40 | n/a | is-being-a-locksmith-hard |
+| how to start a car locksmith business | 20 | n/a | how-to-start-a-car-locksmith-business |
+| how to start a concrete business | 210 | 12 | how-to-start-a-concrete-business |
+| how to start a concrete company | 170 | 24 | how-to-start-a-concrete-business |
+| is concrete a good business | 20 | n/a | is-concrete-a-good-business |
+| how do you bid a concrete job | 20 | n/a | how-to-bid-concrete-jobs |
+| how to become concrete contractor | 20 | n/a | how-to-become-a-concrete-contractor |
+| how to start a fencing business | 90 | 7 | how-to-start-a-fencing-business |
+| how to start a fencing company | 90 | 5 | how-to-start-a-fencing-business |
+| how profitable is a fencing business | 20 | n/a | how-profitable-is-a-fencing-business |
+| how to grow a fencing business | 30 | n/a | how-to-grow-a-fencing-business |
