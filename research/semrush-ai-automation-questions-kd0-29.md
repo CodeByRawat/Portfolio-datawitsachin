@@ -898,3 +898,22 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start a drywall company | 30 | 0 | how-to-start-a-drywall-business |
 | how to become a drywall contractor | 20 | n/a | how-to-become-a-drywall-contractor |
 | is drywall a good career | 20 | n/a | is-drywall-a-good-career |
+
+## Batch 47 (2026-11-14) — excavation, welding, epoxy flooring (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to run a successful excavation company best practices | 590 | 2 | how-to-run-a-successful-excavation-company |
+| how to start an excavating business | 30 | n/a | how-to-start-an-excavating-business |
+| how to start an excavating company | 30 | n/a | how-to-start-an-excavating-business |
+| how much do excavation companies make | 20 | n/a | how-much-do-excavation-companies-make |
+| how to bid excavation work | 20 | n/a | how-to-bid-excavation-work |
+| how to get excavation jobs | 20 | n/a | how-to-bid-excavation-work |
+| how to start mobile welding business | 30 | 6 | how-to-start-a-mobile-welding-business |
+| how to make money welding | 20 | n/a | how-to-make-money-welding |
+| how much do welding business owners make | 20 | n/a | how-to-make-money-welding |
+| how to start a welding career | 40 | n/a | how-to-start-a-welding-career |
+| how to start an epoxy flooring business | 50 | 21 | how-to-start-an-epoxy-flooring-business |
+| how to start epoxy floor business | 40 | 7 | how-to-start-an-epoxy-flooring-business |
+| is epoxy flooring a good business | 30 | n/a | is-epoxy-flooring-a-good-business |
+| do you need a license for epoxy flooring | 20 | n/a | do-you-need-a-license-for-epoxy-flooring |
