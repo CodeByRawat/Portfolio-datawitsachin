@@ -745,3 +745,18 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start a tree service company | 30 | n/a | how-to-start-a-tree-service-company |
 | do tree services need to be licensed | 20 | n/a | do-tree-services-need-to-be-licensed |
 | how to become a certified tree trimmer | 20 | n/a | how-to-become-a-certified-tree-trimmer |
+
+## Batch 38 (laundromat, vending machine; Questions, US, KD 0–29)
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a laundromat business | 1,600 | 20 | how-to-start-a-laundromat-business |
+| how much does it cost to open a laundromat | 1,300 | 9 | how-much-does-it-cost-to-open-a-laundromat |
+| is laundromat a good business / is a laundromat a good investment | 880 / 480 | 10 / 13 | is-a-laundromat-a-good-investment |
+| how much can a laundromat make | 590 | 14 | how-much-can-a-laundromat-make |
+| how to buy a laundromat business | 170 | 23 | how-to-buy-a-laundromat-business |
+| how to run a laundromat business | 70 | 14 | how-to-run-a-laundromat-business |
+| how to start a vending machine business | 5,400 | 29 | how-to-start-a-vending-machine-business |
+| is vending machine a good business / is a vending machine business profitable | 210 / 170 | 25 / 21 | is-a-vending-machine-business-profitable |
+| how does vending machine business work | 110 | 25 | how-does-a-vending-machine-business-work |
+| how to sell a vending machine business | 70 | 21 | how-to-sell-a-vending-machine-business |
