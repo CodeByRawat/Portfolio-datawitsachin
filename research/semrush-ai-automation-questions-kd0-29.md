@@ -876,3 +876,25 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how does temp agencies work | 40 | 15 | what-is-a-temp-agency |
 | how to get hired temp agency | 110 | 13 | how-to-get-hired-through-a-temp-agency |
 | do temp agencies cost money | 40 | n/a | do-temp-agencies-cost-money |
+
+## Batch 46 (2026-11-14) — dumpster rental, gutters, drywall (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a dumpster rental business | 210 | 9 | how-to-start-a-dumpster-rental-business |
+| how to start a dumpster business | 110 | 0 | how-to-start-a-dumpster-rental-business |
+| how to start a roll off dumpster business | 90 | 6 | how-to-start-a-dumpster-rental-business |
+| is dumpster rental a good business | 110 | 4 | is-dumpster-rental-a-good-business |
+| is a dumpster rental business profitable | 90 | 3 | is-dumpster-rental-a-good-business |
+| how much do dumpster companies make | 90 | 1 | is-dumpster-rental-a-good-business |
+| how do dumpster companies make money | 90 | 1 | how-do-dumpster-companies-make-money |
+| how do you rent a dumpster | 260 | 29 | how-does-dumpster-rental-work |
+| what is dumpster rental | 170 | 7 | how-does-dumpster-rental-work |
+| how does dumpster rental work | 140 | 3 | how-does-dumpster-rental-work |
+| how to start a gutter business | 40 | 6 | how-to-start-a-gutter-business |
+| is a gutter business profitable | 30 | n/a | is-a-gutter-business-profitable |
+| how to sell gutters | 20 | n/a | how-to-sell-gutters |
+| how to start a drywall business | 30 | 2 | how-to-start-a-drywall-business |
+| how to start a drywall company | 30 | 0 | how-to-start-a-drywall-business |
+| how to become a drywall contractor | 20 | n/a | how-to-become-a-drywall-contractor |
+| is drywall a good career | 20 | n/a | is-drywall-a-good-career |
