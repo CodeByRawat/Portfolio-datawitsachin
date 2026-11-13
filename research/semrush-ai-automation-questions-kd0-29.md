@@ -806,3 +806,21 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start a flooring company | 70 | 5 | how-to-start-a-flooring-company |
 | how profitable is a flooring business | 40 | 17 | how-profitable-is-a-flooring-business |
 | how to get into flooring | 20 | n/a | how-to-get-into-flooring |
+
+## Batch 42 (2026-11-13) — pressure washing, pet sitting, mobile mechanic (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start pressure washing business | 140 | 15 | how-to-start-a-pressure-washing-business |
+| is pressure washing a good business to start | 50 | 8 | is-pressure-washing-a-good-business-to-start |
+| is a pressure washer business profitable | 40 | 6 | is-pressure-washing-a-good-business-to-start |
+| do pressure washing companies use their own water | 40 | 0 | do-pressure-washing-companies-use-their-own-water |
+| how to get pressure washing business | 40 | 13 | how-to-get-pressure-washing-customers |
+| how to start a pet sitting business | 320 | 11 | how-to-start-a-pet-sitting-business |
+| how to start a dog sitting business | 140 | 15 | how-to-start-a-pet-sitting-business |
+| how much can a pet sitter make | 90 | 28 | how-much-can-a-pet-sitter-make |
+| how to be a pet sitter | 140 | 25 | how-to-be-a-pet-sitter |
+| how to get into pet sitting | 50 | 12 | how-to-be-a-pet-sitter |
+| how to start a mobile mechanic business | 260 | 20 | how-to-start-a-mobile-mechanic-business |
+| how to become a mobile mechanic | 110 | 6 | how-to-become-a-mobile-mechanic |
+| do you need a license to be a mobile mechanic | 20 | n/a | do-you-need-a-license-to-be-a-mobile-mechanic |
