@@ -937,3 +937,25 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | do you need a permit for insulation | 20 | n/a | do-you-need-a-license-to-install-insulation |
 | how much do siding contractors make | 20 | n/a | how-much-do-siding-contractors-make |
 | how much do contractors charge to install vinyl siding | 20 | n/a | how-much-do-contractors-charge-to-install-vinyl-siding |
+
+## Batch 49 (2026-11-14) — sealcoating, garage doors, demolition (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a sealcoating business | 30 | 14 | how-to-start-a-sealcoating-business |
+| what do i need to start a sealcoating business | 30 | n/a | how-to-start-a-sealcoating-business |
+| how much can you make sealcoating | 20 | n/a | how-much-can-you-make-sealcoating |
+| how much do seal coaters make | 20 | n/a | how-much-can-you-make-sealcoating |
+| what is the average price for seal coating a driveway | 50 | 23 | how-much-does-sealcoating-cost |
+| how much does sealcoating cost per square foot | 30 | n/a | how-much-does-sealcoating-cost |
+| how to compare quotes for garage door installation | 50 | 18 | how-to-compare-garage-door-installation-quotes |
+| how to compare quotes for new garage door installation | 50 | 13 | how-to-compare-garage-door-installation-quotes |
+| when to install garage door new construction | 50 | 5 | how-to-compare-garage-door-installation-quotes |
+| can you install a garage door yourself | 30 | n/a | can-you-install-a-garage-door-yourself |
+| what homeowners misunderstand about garage door opener installation | 40 | n/a | can-you-install-a-garage-door-yourself |
+| how much are garage door openers installed | 50 | 28 | how-much-does-garage-door-opener-installation-cost |
+| what do demolition contractors do | 20 | n/a | what-is-a-demolition-company |
+| what is a demolition company | 20 | n/a | what-is-a-demolition-company |
+| how to choose a demolition company | 20 | n/a | how-to-choose-a-demolition-company |
+| how to become a demolition operator | 20 | n/a | how-to-become-a-demolition-worker |
+| how to find demolition work | 20 | n/a | how-to-find-demolition-work |
