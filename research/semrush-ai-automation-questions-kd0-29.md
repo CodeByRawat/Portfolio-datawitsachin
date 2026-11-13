@@ -730,3 +730,18 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | are handyman businesses profitable | 20 | n/a | are-handyman-businesses-profitable |
 | how much does a pool cleaning business make | 20 | n/a | how-much-does-a-pool-cleaning-business-make |
 | how much does it cost for pool service | 20 | n/a | how-much-does-pool-service-cost |
+
+## Batch 37 (window cleaning, dog grooming, tree service; Questions, US, KD 0–29)
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how do i start a window washing business / how to start a window cleaning company | 20 | n/a | how-to-start-a-window-cleaning-business |
+| is a window cleaning business profitable | 50 | 3 | is-a-window-cleaning-business-profitable |
+| how do i bid on cleaning windows / how to charge window cleaning | 20 | n/a | how-to-bid-window-cleaning-jobs |
+| do you need a license to wash windows | 20 | n/a | do-you-need-a-license-to-wash-windows |
+| do pet groomers need a license | 30 | n/a | do-pet-groomers-need-a-license |
+| how to start a dog grooming business from home | 30 | n/a | how-to-start-a-dog-grooming-business-from-home |
+| how much does a dog grooming business make | 20 | n/a | how-much-does-a-dog-grooming-business-make |
+| how to start a tree service company | 30 | n/a | how-to-start-a-tree-service-company |
+| do tree services need to be licensed | 20 | n/a | do-tree-services-need-to-be-licensed |
+| how to become a certified tree trimmer | 20 | n/a | how-to-become-a-certified-tree-trimmer |
