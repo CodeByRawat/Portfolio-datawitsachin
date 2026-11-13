@@ -982,3 +982,28 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how do i choose a deck contractor | 20 | n/a | how-to-find-a-deck-contractor |
 | how much do contractors charge to build a deck | 20 | n/a | how-much-do-contractors-charge-to-build-a-deck |
 | how much do deck builders charge per hour | 20 | n/a | how-much-do-contractors-charge-to-build-a-deck |
+
+## Batch 51 (2026-11-14) — embroidery, screen printing, window tinting (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a small embroidery business | 1,900 | 18 | how-to-start-a-small-embroidery-business |
+| how to start a embroidery | 140 | 22 | how-to-start-a-small-embroidery-business |
+| how do i start an embroidery business | 90 | 5 | how-to-start-a-small-embroidery-business |
+| how to start embroidery business | 50 | 11 | how-to-start-a-small-embroidery-business |
+| what do i need to start an embroidery business | 30 | n/a | what-do-you-need-to-start-an-embroidery-business |
+| can you make money with an embroidery machine | 20 | n/a | can-you-make-money-with-an-embroidery-machine |
+| how much can an embroidery business make | 20 | n/a | can-you-make-money-with-an-embroidery-machine |
+| how to start a screen printing business | 170 | 5 | how-to-start-a-screen-printing-business |
+| what do i need to start a screen printing business | 70 | 18 | how-to-start-a-screen-printing-business |
+| how to start silk screen printing business | 50 | 16 | how-to-start-a-screen-printing-business |
+| how much does screen printing cost | 90 | 8 | how-much-does-screen-printing-cost |
+| how to get into screen printing | 90 | 10 | how-to-get-into-screen-printing |
+| how to start silk screen printing | 50 | 19 | how-to-get-into-screen-printing |
+| how to market screen printing business | 40 | 0 | how-to-market-a-screen-printing-business |
+| how to start a window tinting business | 70 | 1 | how-to-start-a-window-tinting-business |
+| how to start a tinting business | 30 | 0 | how-to-start-a-window-tinting-business |
+| is window tinting profitable | 40 | 0 | is-window-tinting-profitable |
+| is window tinting a good business | 30 | n/a | is-window-tinting-profitable |
+| can you use car tint on house windows | 40 | n/a | can-you-use-car-tint-on-house-windows |
+| can you use car window tint on house windows | 40 | n/a | can-you-use-car-tint-on-house-windows |
