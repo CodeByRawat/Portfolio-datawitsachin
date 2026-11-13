@@ -673,3 +673,22 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start a contract cleaning business | 210 | 24 | how-to-start-a-commercial-cleaning-business |
 | how to grow a cleaning business | 170 | 17 | how-to-grow-a-cleaning-business |
 | how to register a cleaning business | 140 | 16 | how-to-register-a-cleaning-business |
+
+## Batch 34 (seeds: hvac business, plumbing business, electrician business, roofing business) — Semrush Questions, US, KD 0–29
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start an hvac business | 590 | 13 | how-to-start-an-hvac-business |
+| how to run a hvac business | 390 | 23 | how-to-run-an-hvac-business |
+| how to start hvac business | 320 | 13 | how-to-start-an-hvac-business |
+| what is hvac business | 140 | 11 | what-is-an-hvac-business |
+| how to open your own hvac company | 140 | 16 | how-to-start-an-hvac-business |
+| how long does it take to start an hvac business | 50 | 11 | should-i-start-my-own-hvac-business |
+| should i start my own hvac business | 30 | n/a | should-i-start-my-own-hvac-business |
+| how to start your own plumbing business | 140 | 26 | how-to-start-a-plumbing-business |
+| how much do plumbing business owners make a year | 20 | n/a | how-much-do-plumbing-business-owners-make |
+| how to start an electrician business | 260 | 10 | how-to-start-an-electrician-business |
+| how to run an electrical company | 50 | 5 | how-to-run-an-electrical-company |
+| how to make money as an electrical contractor | 50 | 10 | how-to-run-an-electrical-company |
+| how to estimate a roofing job | 90 | 1 | how-to-estimate-a-roofing-job |
+| how much do you need to start a roofing company | 20 | n/a | how-to-start-a-roofing-company |
