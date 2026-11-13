@@ -1032,3 +1032,28 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start a laser engraving business | 30 | n/a | how-to-start-a-laser-engraving-business |
 | can you make money with a laser engraver | 20 | n/a | can-you-make-money-with-a-laser-engraver |
 | how much can a laser engraving business make | 20 | n/a | can-you-make-money-with-a-laser-engraver |
+
+## Batch 53 (2026-11-14) — photo booths, bounce houses, balloons (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a photo booth business | 1,900 | 12 | how-to-start-a-photo-booth-business |
+| how to start a photobooth business | 70 | 13 | how-to-start-a-photo-booth-business |
+| how to start photo booth business | 50 | 8 | how-to-start-a-photo-booth-business |
+| how to start a photo booth rental business | 40 | 9 | how-to-start-a-photo-booth-business |
+| is a photo booth a good investment | 30 | n/a | is-a-photo-booth-a-good-investment |
+| how profitable is a photo booth business | 20 | n/a | is-a-photo-booth-a-good-investment |
+| how much does it cost to start a photobooth business | 30 | n/a | how-much-does-it-cost-to-start-a-photo-booth-business |
+| how to run a photobooth business | 20 | n/a | how-to-run-a-photo-booth-business |
+| how to start a bounce house business | 260 | 0 | how-to-start-a-bounce-house-business |
+| how to start a bounce house rental business | 210 | 4 | how-to-start-a-bounce-house-business |
+| how to start an inflatable rental business | 140 | 7 | how-to-start-a-bounce-house-business |
+| is a bounce house business profitable | 50 | 9 | is-a-bounce-house-business-profitable |
+| how much to start a bounce house business | 40 | n/a | is-a-bounce-house-business-profitable |
+| does homeowners cover rental of a bounce house | 90 | 6 | do-you-need-insurance-for-a-bounce-house |
+| do i need insurance to rent out bouncy castles | 20 | n/a | do-you-need-insurance-for-a-bounce-house |
+| how to start a balloon business | 140 | 13 | how-to-start-a-balloon-business |
+| how to start a balloon arch business | 20 | n/a | how-to-start-a-balloon-business |
+| how to market balloon business | 20 | n/a | how-to-market-a-balloon-business |
+| how to promote your balloon business | 20 | n/a | how-to-market-a-balloon-business |
+| how much does a balloon business make | 20 | n/a | how-much-does-a-balloon-business-make |
