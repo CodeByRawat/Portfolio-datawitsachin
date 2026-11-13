@@ -790,3 +790,19 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to purchase vending machine | 50 | 9 | how-to-buy-a-vending-machine |
 | how do i become a window cleaner | 20 | n/a | how-to-become-a-window-cleaner |
 | how to make money as a bookkeeper | 20 | n/a | how-to-make-money-as-a-bookkeeper |
+
+## Batch 41 (2026-11-13) — towing, snow removal, flooring (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a tow truck business | 720 | 28 | how-to-start-a-tow-truck-business |
+| how to start a towing business | 590 | 19 | how-to-start-a-tow-truck-business |
+| how much does it cost to start a towing company | 70 | 0 | how-much-does-it-cost-to-start-a-towing-company |
+| is a tow truck business profitable | 40 | 13 | is-a-tow-truck-business-profitable |
+| how to run a successful towing business | 50 | 17 | how-to-run-a-successful-towing-business |
+| how to start snow removal business | 50 | 2 | how-to-start-a-snow-removal-business |
+| how to run a successful snow removal business | 40 | 0 | how-to-run-a-successful-snow-removal-business |
+| how to bid snow plowing jobs | 20 | n/a | how-to-bid-snow-plowing-jobs |
+| how to start a flooring company | 70 | 5 | how-to-start-a-flooring-company |
+| how profitable is a flooring business | 40 | 17 | how-profitable-is-a-flooring-business |
+| how to get into flooring | 20 | n/a | how-to-get-into-flooring |
