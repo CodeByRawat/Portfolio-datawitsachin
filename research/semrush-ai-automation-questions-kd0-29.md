@@ -1007,3 +1007,28 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | is window tinting a good business | 30 | n/a | is-window-tinting-profitable |
 | can you use car tint on house windows | 40 | n/a | can-you-use-car-tint-on-house-windows |
 | can you use car window tint on house windows | 40 | n/a | can-you-use-car-tint-on-house-windows |
+
+## Batch 52 (2026-11-14) — party rentals, candles, laser engraving (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a party rental business | 210 | 20 | how-to-start-a-party-rental-business |
+| how to start a party supply rental business | 110 | 15 | how-to-start-a-party-rental-business |
+| how to start a party rental business from home | 90 | 15 | how-to-start-a-party-rental-business |
+| how to open a party rental business | 70 | 7 | how-to-start-a-party-rental-business |
+| how much does a party rental business make | 110 | 15 | is-a-party-rental-business-profitable |
+| is a party rental business profitable | 70 | 9 | is-a-party-rental-business-profitable |
+| how much to start a party rental business | 40 | 11 | is-a-party-rental-business-profitable |
+| how to start a table and chair rental business | 50 | 6 | how-to-start-a-table-and-chair-rental-business |
+| how to start an event rental business | 50 | 3 | how-to-start-a-wedding-and-event-rental-business |
+| how to start a wedding rental business | 40 | 5 | how-to-start-a-wedding-and-event-rental-business |
+| how do i start a candle making business | 30 | n/a | how-to-start-a-candle-making-business |
+| how to start a business making candles | 30 | n/a | how-to-start-a-candle-making-business |
+| are candles a profitable business | 20 | n/a | are-candles-a-profitable-business |
+| are candle businesses successful | 20 | n/a | are-candles-a-profitable-business |
+| how do i become a candle vendor | 40 | 12 | how-to-become-a-candle-vendor |
+| can i make and sell candles from home | 20 | n/a | can-you-make-and-sell-candles-from-home |
+| how to make candle at home to sell | 30 | n/a | can-you-make-and-sell-candles-from-home |
+| how to start a laser engraving business | 30 | n/a | how-to-start-a-laser-engraving-business |
+| can you make money with a laser engraver | 20 | n/a | can-you-make-money-with-a-laser-engraver |
+| how much can a laser engraving business make | 20 | n/a | can-you-make-money-with-a-laser-engraver |
