@@ -760,3 +760,18 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | is vending machine a good business / is a vending machine business profitable | 210 / 170 | 25 / 21 | is-a-vending-machine-business-profitable |
 | how does vending machine business work | 110 | 25 | how-does-a-vending-machine-business-work |
 | how to sell a vending machine business | 70 | 21 | how-to-sell-a-vending-machine-business |
+
+## Batch 39 (Airbnb / short-term rental, bookkeeping; Questions, US, KD 0–29)
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to get into airbnb business | 210 | 18 | how-to-get-into-the-airbnb-business |
+| is an airbnb considered a business | 50 | 6 | is-an-airbnb-considered-a-business |
+| how does an airbnb business work | 20 | n/a | how-does-an-airbnb-business-work |
+| how do i start an airbnb business with no money | 20 | n/a | how-to-start-an-airbnb-business-with-no-money |
+| how to get into short term rentals | 30 | n/a | how-to-get-into-short-term-rentals |
+| how to start online bookkeeping business | 50 | 20 | how-to-start-an-online-bookkeeping-business |
+| is bookkeeping a good business to start | 40 | 3 | is-bookkeeping-a-good-business-to-start |
+| how to run a bookkeeping business | 40 | 24 | how-to-run-a-bookkeeping-business |
+| do you need a license to start a bookkeeping business | 20 | n/a | do-you-need-a-license-to-do-bookkeeping |
+| how to get into bookkeeping with no experience | 40 | n/a | how-to-get-into-bookkeeping-with-no-experience |
