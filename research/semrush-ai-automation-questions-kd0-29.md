@@ -959,3 +959,26 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to choose a demolition company | 20 | n/a | how-to-choose-a-demolition-company |
 | how to become a demolition operator | 20 | n/a | how-to-become-a-demolition-worker |
 | how to find demolition work | 20 | n/a | how-to-find-demolition-work |
+
+## Batch 50 (2026-11-14) — solar, chimney sweeps, deck contractors (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a solar panel business | 70 | 13 | how-to-start-a-solar-panel-business |
+| how to get into solar energy business | 20 | n/a | how-to-start-a-solar-panel-business |
+| is solar energy business profitable | 20 | n/a | is-solar-energy-business-profitable |
+| how do solar companies work | 20 | n/a | how-do-solar-companies-work |
+| do energy companies pay for solar | 20 | n/a | do-energy-companies-pay-for-solar |
+| how much do energy companies pay for solar energy | 20 | n/a | do-energy-companies-pay-for-solar |
+| how to hire a chimney sweep | 40 | 6 | how-to-hire-a-chimney-sweep |
+| how to find a chimney sweep | 30 | n/a | how-to-hire-a-chimney-sweep |
+| do you tip chimney sweeps | 30 | n/a | how-to-hire-a-chimney-sweep |
+| how to be a chimney sweep | 30 | n/a | how-to-become-a-chimney-sweep |
+| do chimney sweeps work in the winter | 20 | n/a | how-to-become-a-chimney-sweep |
+| do chimney sweeps need a license | 20 | n/a | do-chimney-sweeps-need-a-license |
+| do i really need a chimney sweep | 20 | n/a | do-i-really-need-a-chimney-sweep |
+| can you have a fire before chimney sweep | 20 | n/a | do-i-really-need-a-chimney-sweep |
+| how to find a deck contractor | 50 | 15 | how-to-find-a-deck-contractor |
+| how do i choose a deck contractor | 20 | n/a | how-to-find-a-deck-contractor |
+| how much do contractors charge to build a deck | 20 | n/a | how-much-do-contractors-charge-to-build-a-deck |
+| how much do deck builders charge per hour | 20 | n/a | how-much-do-contractors-charge-to-build-a-deck |
