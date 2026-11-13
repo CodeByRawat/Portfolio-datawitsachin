@@ -712,3 +712,21 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | is mobile detailing a good business to start | 30 | n/a | how-to-start-a-mobile-detailing-business |
 | (supporting) pest control marketing | — | — | how-to-market-a-pest-control-business |
 | (supporting) coffee shop marketing | — | — | how-to-market-a-coffee-shop |
+
+## Batch 36 (seeds: painting business, handyman business, pool cleaning business) — Semrush Questions, US, KD 0–29
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to start a painting business | 1000 | 26 | how-to-start-a-painting-business |
+| how to start painting business | 390 | 12 | how-to-start-a-painting-business |
+| how to run a painting business | 140 | 14 | how-to-run-a-painting-business |
+| how much does it cost to start a painting business | 70 | 0 | how-much-does-it-cost-to-start-a-painting-business |
+| how much can a painting company make | 50 | 10 | how-much-does-a-painting-company-make |
+| how much does a painting company make a year | 50 | 11 | how-much-does-a-painting-company-make |
+| is starting a painting business a good idea | 50 | 12 | how-much-does-a-painting-company-make |
+| how to grow painting business | 30 | 4 | how-to-grow-a-painting-business |
+| how to start a handyman business | 590 | 13 | how-to-start-a-handyman-business |
+| how to start a home maintenance business | 140 | 15 | how-to-start-a-home-maintenance-business |
+| are handyman businesses profitable | 20 | n/a | are-handyman-businesses-profitable |
+| how much does a pool cleaning business make | 20 | n/a | how-much-does-a-pool-cleaning-business-make |
+| how much does it cost for pool service | 20 | n/a | how-much-does-pool-service-cost |
