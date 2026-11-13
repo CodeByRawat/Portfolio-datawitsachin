@@ -824,3 +824,21 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start a mobile mechanic business | 260 | 20 | how-to-start-a-mobile-mechanic-business |
 | how to become a mobile mechanic | 110 | 6 | how-to-become-a-mobile-mechanic |
 | do you need a license to be a mobile mechanic | 20 | n/a | do-you-need-a-license-to-be-a-mobile-mechanic |
+
+## Batch 43 (2026-11-13) — courier, carpet cleaning, junk removal, cat sitting (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how do i start a courier business | 170 | 21 | how-to-start-a-courier-business |
+| how to start courier business | 140 | 24 | how-to-start-a-courier-business |
+| what is a courier business | 40 | n/a | what-is-a-courier-business |
+| how to become an independent courier driver | 40 | 8 | how-to-become-an-independent-courier-driver |
+| how to become a courier with my own vehicle | 50 | 19 | how-to-become-an-independent-courier-driver |
+| how to become a medical courier with no experience | 70 | 13 | how-to-become-a-medical-courier |
+| is carpet cleaning profitable | 40 | 7 | is-carpet-cleaning-profitable |
+| how much do carpet cleaning businesses make | 30 | n/a | is-carpet-cleaning-profitable |
+| how much is a professional carpet cleaning | 70 | 21 | how-much-does-professional-carpet-cleaning-cost |
+| how to start a carpet installation business from scratch | 90 | 6 | how-to-start-a-carpet-installation-business |
+| is junk removal a good business | 210 | 24 | is-junk-removal-a-good-business |
+| what to look for in a junk removal company | 70 | 11 | what-to-look-for-in-a-junk-removal-company |
+| how to start a cat sitting business | 30 | n/a | how-to-start-a-cat-sitting-business |
