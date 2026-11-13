@@ -917,3 +917,23 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start epoxy floor business | 40 | 7 | how-to-start-an-epoxy-flooring-business |
 | is epoxy flooring a good business | 30 | n/a | is-epoxy-flooring-a-good-business |
 | do you need a license for epoxy flooring | 20 | n/a | do-you-need-a-license-for-epoxy-flooring |
+
+## Batch 48 (2026-11-14) — septic, insulation, siding (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a septic tank business | 110 | 2 | how-to-start-a-septic-tank-business |
+| how to start a septic pumping business | 70 | 1 | how-to-start-a-septic-tank-business |
+| how to start a septic tank pumping business | 40 | n/a | how-to-start-a-septic-tank-business |
+| how to run a septic tank business | 70 | 0 | how-to-run-a-septic-tank-business |
+| how to grow a septic business | 40 | 7 | how-to-grow-a-septic-business |
+| is septic tank pumping business profitable | 30 | n/a | is-septic-tank-pumping-a-profitable-business |
+| how much do septic tank pumpers make | 30 | n/a | is-septic-tank-pumping-a-profitable-business |
+| what do septic companies do with the waste | 40 | 12 | what-do-septic-companies-do-with-the-waste |
+| how to start a spray foam insulation business | 70 | 6 | how-to-start-a-spray-foam-insulation-business |
+| how much is a spray foam machine | 30 | n/a | how-to-start-a-spray-foam-insulation-business |
+| how to start an insulation business | 20 | n/a | how-to-start-an-insulation-business |
+| do you need a license to install insulation | 20 | n/a | do-you-need-a-license-to-install-insulation |
+| do you need a permit for insulation | 20 | n/a | do-you-need-a-license-to-install-insulation |
+| how much do siding contractors make | 20 | n/a | how-much-do-siding-contractors-make |
+| how much do contractors charge to install vinyl siding | 20 | n/a | how-much-do-contractors-charge-to-install-vinyl-siding |
