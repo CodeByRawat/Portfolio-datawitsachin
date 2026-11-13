@@ -775,3 +775,18 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to run a bookkeeping business | 40 | 24 | how-to-run-a-bookkeeping-business |
 | do you need a license to start a bookkeeping business | 20 | n/a | do-you-need-a-license-to-do-bookkeeping |
 | how to get into bookkeeping with no experience | 40 | n/a | how-to-get-into-bookkeeping-with-no-experience |
+
+## Batch 40 (med spa + unused keywords from batches 37–39; Questions, US, KD 0–29)
+
+| Keyword | Volume | KD | Article |
+|---|---|---|---|
+| how to open a med spa | 260 | 12 | how-to-open-a-med-spa |
+| what license do you need to open a medical spa | 90 | 17 | what-license-do-you-need-to-open-a-medical-spa |
+| who can open a medical spa / can a pa open a medical spa | 50 / 20 | 15 / n/a | who-can-open-a-medical-spa |
+| what does a med spa do / what is a med spa business | 40 / 20 | 0 / n/a | what-is-a-med-spa-business |
+| can i open a spa with an esthetician license | 20 | n/a | can-an-esthetician-open-a-med-spa |
+| how to sell window cleaning services | 30 | n/a | how-to-sell-window-cleaning-services |
+| do mobile dog groomers make good money | 20 | n/a | do-mobile-dog-groomers-make-good-money |
+| how to purchase vending machine | 50 | 9 | how-to-buy-a-vending-machine |
+| how do i become a window cleaner | 20 | n/a | how-to-become-a-window-cleaner |
+| how to make money as a bookkeeper | 20 | n/a | how-to-make-money-as-a-bookkeeper |
