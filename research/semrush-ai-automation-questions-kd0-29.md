@@ -859,3 +859,20 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start a fencing company | 90 | 5 | how-to-start-a-fencing-business |
 | how profitable is a fencing business | 20 | n/a | how-profitable-is-a-fencing-business |
 | how to grow a fencing business | 30 | n/a | how-to-grow-a-fencing-business |
+
+## Batch 45 (2026-11-14) — appliance repair, security companies, temp agencies (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start an appliance repair business | 70 | 1 | how-to-start-an-appliance-repair-business |
+| is appliance repair a good business | 30 | n/a | is-appliance-repair-a-good-business |
+| is appliance repair a dying business | 20 | n/a | is-appliance-repair-a-good-business |
+| how to become appliance repair technician | 90 | 20 | how-to-become-an-appliance-repair-technician |
+| how to start an appliance store | 20 | n/a | how-to-start-an-appliance-store |
+| what to look for when hiring a security company | 480 | 1 | what-to-look-for-when-hiring-a-security-company |
+| how do security companies make money | 20 | n/a | how-do-security-companies-make-money |
+| how much to charge for security services | 20 | n/a | how-much-to-charge-for-security-services |
+| what are temporary agencies | 170 | 20 | what-is-a-temp-agency |
+| how does temp agencies work | 40 | 15 | what-is-a-temp-agency |
+| how to get hired temp agency | 110 | 13 | how-to-get-hired-through-a-temp-agency |
+| do temp agencies cost money | 40 | n/a | do-temp-agencies-cost-money |
