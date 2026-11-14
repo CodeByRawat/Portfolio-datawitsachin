@@ -1080,3 +1080,29 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to start a charcuterie board business | 30 | n/a | how-to-start-a-charcuterie-business |
 | how to start a charcuterie cart business | 30 | 2 | how-to-start-a-charcuterie-cart-business |
 | how to start a charcuterie business from home | 30 | 4 | can-you-start-a-charcuterie-business-from-home |
+
+## Batch 55 (2026-11-14) — flowers, shaved ice, custom cakes (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a handmade bouquet business | 390 | 21 | how-to-start-a-handmade-bouquet-business |
+| how to start a flower business from home | 70 | 19 | how-to-start-a-handmade-bouquet-business |
+| how to start a floral business | 260 | 6 | how-to-start-a-floral-business |
+| how i started my florist business | 170 | 17 | how-to-start-a-floral-business |
+| how to start a floristry business | 30 | 7 | how-to-start-a-floral-business |
+| how to open a flower store | 110 | 0 | how-to-open-a-flower-shop |
+| how to own a flower shop | 50 | 8 | how-to-open-a-flower-shop |
+| how to open a floral shop | 30 | 4 | how-to-open-a-flower-shop |
+| how to start a wedding floral business | 30 | n/a | how-to-start-a-wedding-floral-business |
+| how to start a shaved ice business | 70 | 19 | how-to-start-a-shaved-ice-business |
+| how to start a snow cone business | 70 | 1 | how-to-start-a-shaved-ice-business |
+| how much to start a shaved ice business | 50 | 18 | how-much-does-a-shaved-ice-business-make |
+| how much does a shaved ice business make | 30 | n/a | how-much-does-a-shaved-ice-business-make |
+| how much are shaved ice machine | 40 | 20 | how-much-are-shaved-ice-machines |
+| how much is a customized cake | 50 | 8 | how-much-does-a-custom-cake-cost |
+| how much for a custom birthday cake | 40 | 11 | how-much-does-a-custom-cake-cost |
+| how much for a custom cake | 40 | 5 | how-much-does-a-custom-cake-cost |
+| how to order a custom cake | 40 | n/a | how-to-order-a-custom-cake |
+| how long does a custom cake take | 30 | n/a | how-to-order-a-custom-cake |
+| can i start a cake business from home | 20 | n/a | how-to-start-a-cake-business-from-home |
+| can you make money baking cakes | 20 | n/a | how-to-start-a-cake-business-from-home |
