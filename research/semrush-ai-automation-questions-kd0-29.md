@@ -1057,3 +1057,26 @@ Semrush Keyword Magic via ToolzBuy, Questions, US, KD 0–29 (sorted client-side
 | how to market balloon business | 20 | n/a | how-to-market-a-balloon-business |
 | how to promote your balloon business | 20 | n/a | how-to-market-a-balloon-business |
 | how much does a balloon business make | 20 | n/a | how-much-does-a-balloon-business-make |
+
+## Batch 54 (2026-11-14) — coffee trucks/carts, mobile bars, charcuterie (Semrush, US, Questions, KD 0–29)
+
+| Keyword | Volume | KD | Post |
+|---|---|---|---|
+| how to start a coffee truck | 260 | 12 | how-to-start-a-coffee-truck |
+| how to start a coffee truck business | 50 | 11 | how-to-start-a-coffee-truck |
+| how to open a coffee truck | 40 | 3 | how-to-start-a-coffee-truck |
+| how to start a coffee cart business | 110 | 12 | how-to-start-a-coffee-cart-business |
+| how to start a coffee cart | 110 | 4 | how-to-start-a-coffee-cart-business |
+| how to start a mobile coffee shop | 70 | 10 | how-to-start-a-mobile-coffee-business |
+| how to start a mobile coffee business | 70 | 12 | how-to-start-a-mobile-coffee-business |
+| how to build coffee cart | 30 | n/a | how-to-build-a-coffee-cart |
+| how to build a coffee truck | 20 | n/a | how-to-build-a-coffee-cart |
+| how to start a mobile bar business | 210 | 5 | how-to-start-a-mobile-bar-business |
+| how to start a mobile bartending business | 140 | 0 | how-to-start-a-mobile-bartending-business |
+| how to start mobile bartending business | 110 | 9 | how-to-start-a-mobile-bartending-business |
+| can you get a liquor license for a mobile bar | 20 | n/a | can-you-get-a-liquor-license-for-a-mobile-bar |
+| are mobile bars legal in texas | 20 | n/a | can-you-get-a-liquor-license-for-a-mobile-bar |
+| how to start a charcuterie business | 110 | 3 | how-to-start-a-charcuterie-business |
+| how to start a charcuterie board business | 30 | n/a | how-to-start-a-charcuterie-business |
+| how to start a charcuterie cart business | 30 | 2 | how-to-start-a-charcuterie-cart-business |
+| how to start a charcuterie business from home | 30 | 4 | can-you-start-a-charcuterie-business-from-home |
