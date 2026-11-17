@@ -11,6 +11,7 @@ import {
 import { ArrowDownRight, Laptop, MountainSnow, Wifi, X } from 'lucide-react'
 
 import { Preloader } from './components/Preloader'
+import { ContactModal } from './components/ContactModal'
 
 export const args = {
   name: 'Sachin',
@@ -352,6 +353,7 @@ function Tile({ image, color }: { image: string; color: string }) {
 /* Contact footer */
 function Footer({ name, photo, email, phone }: { name: string; photo: string; email: string; phone: string }) {
   const [time, setTime] = useState(() => formatTime())
+  const [formOpen, setFormOpen] = useState(false)
   useEffect(() => {
     const id = setInterval(() => setTime(formatTime()), 30000)
     return () => clearInterval(id)
@@ -369,13 +371,15 @@ function Footer({ name, photo, email, phone }: { name: string; photo: string; em
         </h2>
 
         <div className="relative mt-16 border-t border-paper/20 md:mt-24">
-          <a
-            href={`mailto:${email}`}
+          <button
+            type="button"
+            onClick={() => setFormOpen(true)}
             className="absolute right-0 top-0 flex h-36 w-36 -translate-y-1/2 items-center justify-center rounded-full bg-accent text-[15px] transition-colors duration-200 ease-out-strong hover:bg-accent-strong sm:right-[10%] md:h-[180px] md:w-[180px] md:text-base"
           >
             Get in touch
-          </a>
+          </button>
         </div>
+        <ContactModal open={formOpen} onClose={() => setFormOpen(false)} email={email} />
 
         <div className="flex flex-col gap-3 pt-28 sm:flex-row sm:flex-wrap sm:gap-4 md:pt-16">
           <a href={`mailto:${email}`} className="rounded-full border border-paper/25 px-8 py-5 text-center text-[15px] transition-colors duration-200 ease-out-strong hover:border-accent hover:bg-accent">
