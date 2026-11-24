@@ -12,6 +12,7 @@ import { ArrowDownRight, Laptop, MountainSnow, Wifi, X } from 'lucide-react'
 
 import { Preloader } from './components/Preloader'
 import { ContactModal } from './components/ContactModal'
+import { DentalSites } from './components/DentalSites'
 
 export const args = {
   name: 'Sachin',
@@ -110,6 +111,9 @@ export default function Home(props: Props) {
 
       {/* ── Recent work ──────────────────────────────────── */}
       <WorkList />
+
+      {/* ── Dental websites ──────────────────────────────── */}
+      <DentalSites />
 
       {/* ── Sliding images ───────────────────────────────── */}
       <SlidingRows />
