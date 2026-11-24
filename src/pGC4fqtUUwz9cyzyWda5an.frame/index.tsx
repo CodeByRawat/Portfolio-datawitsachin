@@ -263,7 +263,8 @@ function WorkList() {
         {PROJECTS.map((p, i) => (
           <a
             key={p.title}
-            href="#work"
+            href={p.url ?? '#work'}
+            {...(p.url ? { target: '_blank', rel: 'noreferrer' } : {})}
             onMouseEnter={() => setHovered(i)}
             className="group flex flex-col gap-2 border-t border-ink/15 py-10 last:border-b sm:flex-row sm:items-center sm:justify-between sm:py-14"
           >
@@ -420,7 +421,14 @@ function formatTime() {
   }).toUpperCase()
 }
 
-const PROJECTS = [
+const PROJECTS: { title: string; service: string; color: string; image: string; url?: string }[] = [
+  {
+    title: 'Dr. Divya Mishra',
+    service: 'Website Development',
+    color: '#33222a',
+    image: '/work/dr-divya-mishra.jpg',
+    url: 'https://drdivyamishra.com',
+  },
   {
     title: 'TWICE',
     service: 'Interaction & Development',

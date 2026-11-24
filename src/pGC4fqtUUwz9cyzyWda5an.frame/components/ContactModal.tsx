@@ -44,8 +44,17 @@ export function ContactModal({ open, onClose, email }: { open: boolean; onClose:
   const submit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const d = Object.fromEntries(new FormData(e.currentTarget)) as Record<string, string>
-    if (!d.name?.trim() || (!d.email?.trim() && !d.phone?.trim())) {
-      setError('Please add your name and an email or phone number.')
+    if (!d.name?.trim()) {
+      setError('Please add your name.')
+      return
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.email?.trim() || '')) {
+      setError('Please add a valid email address.')
+      return
+    }
+    const digits = (d.phone || '').replace(/\D/g, '')
+    if (!/^[+\d\s().-]+$/.test(d.phone?.trim() || '') || digits.length < 10 || digits.length > 15) {
+      setError('Please add your WhatsApp number with country code.')
       return
     }
     sendToSheet({
@@ -118,11 +127,11 @@ export function ContactModal({ open, onClose, email }: { open: boolean; onClose:
                   </label>
                   <label>
                     <span className={label}>Email</span>
-                    <input name="email" type="email" autoComplete="email" className={field} />
+                    <input name="email" type="email" required autoComplete="email" className={field} />
                   </label>
                   <label>
-                    <span className={label}>Phone / WhatsApp</span>
-                    <input name="phone" type="tel" autoComplete="tel" className={field} />
+                    <span className={label}>WhatsApp number</span>
+                    <input name="phone" type="tel" required autoComplete="tel" className={field} />
                   </label>
                   <label className="sm:col-span-2">
                     <span className={label}>What do you need?</span>
