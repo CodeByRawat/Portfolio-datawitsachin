@@ -11,7 +11,7 @@ import {
 import { ArrowDownRight, Laptop, MountainSnow, Wifi, X } from 'lucide-react'
 
 import { Preloader } from './components/Preloader'
-import { ContactModal } from './components/ContactModal'
+import { ContactModal, fromDentalAd } from './components/ContactModal'
 import { DentalSites } from './components/DentalSites'
 
 export const args = {
@@ -42,7 +42,7 @@ export default function Home(props: Props) {
 
   return (
     <div className="bg-paper font-sans text-ink">
-      <Preloader key={String(intro)} enabled={intro} />
+      <Preloader key={String(intro)} enabled={intro && !fromDentalAd()} />
 
       {/* ── Hero ─────────────────────────────────────────── */}
       <section className="relative h-[720px] overflow-x-clip bg-hero text-paper md:h-[900px]">
@@ -362,6 +362,12 @@ function Footer({ name, photo, email, phone }: { name: string; photo: string; em
   useEffect(() => {
     const id = setInterval(() => setTime(formatTime()), 30000)
     return () => clearInterval(id)
+  }, [])
+  // Ad visitors see the site first, then the form opens
+  useEffect(() => {
+    if (!fromDentalAd()) return
+    const id = setTimeout(() => setFormOpen(true), 1800)
+    return () => clearTimeout(id)
   }, [])
 
   return (

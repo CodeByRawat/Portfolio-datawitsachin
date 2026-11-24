@@ -17,13 +17,20 @@ function sendToSheet(fields: Record<string, string>) {
   fetch(SHEET_URL, { method: 'POST', mode: 'no-cors', body: data, keepalive: true }).catch(() => {})
 }
 
+const NEEDS = ['A new website', 'Improve my current website']
+
 const field =
   'mt-2 w-full border-0 border-b border-ink/25 bg-transparent px-0 py-2 text-[15px] text-ink placeholder:text-ink/40 focus:border-ink focus:outline-none focus:ring-0'
 const label = 'block text-xs uppercase tracking-[0.14em] text-ink/60'
 
+// Visitors from the dental ads land on the homepage with ?quote=dental, and the form opens for them.
+export const fromDentalAd = () => new URLSearchParams(window.location.search).get('quote') === 'dental'
+
 export function ContactModal({ open, onClose, email }: { open: boolean; onClose: () => void; email: string }) {
+  const dental = fromDentalAd()
   const [sent, setSent] = useState(false)
   const [error, setError] = useState('')
+  const [need, setNeed] = useState(NEEDS[0])
   const first = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
@@ -33,13 +40,16 @@ export function ContactModal({ open, onClose, email }: { open: boolean; onClose:
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose()
     document.addEventListener('keydown', onKey)
     document.body.style.overflow = 'hidden'
-    const t = setTimeout(() => first.current?.focus(), 60)
+    const t = setTimeout(() => {
+      // Don't pop up a phone keyboard when the form opened by itself
+      if (!dental || window.matchMedia('(min-width: 640px)').matches) first.current?.focus()
+    }, 60)
     return () => {
       clearTimeout(t)
       document.removeEventListener('keydown', onKey)
       document.body.style.overflow = ''
     }
-  }, [open, onClose])
+  }, [open, onClose, dental])
 
   const submit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -53,17 +63,19 @@ export function ContactModal({ open, onClose, email }: { open: boolean; onClose:
       return
     }
     const digits = (d.phone || '').replace(/\D/g, '')
+    // UK numbers typed as 07... become +44 7...
+    const phone = dental && /^07\d{9}$/.test(digits) ? `+44${digits.slice(1)}` : d.phone?.trim() || ''
     if (!/^[+\d\s().-]+$/.test(d.phone?.trim() || '') || digits.length < 10 || digits.length > 15) {
       setError('Please add your WhatsApp number with country code.')
       return
     }
     sendToSheet({
-      form: 'Get in touch',
+      form: dental ? 'UK dental ad (homepage)' : 'Get in touch',
       name: d.name.trim(),
       email: d.email?.trim() || '',
-      phone: d.phone?.trim() || '',
-      concern: d.service || '',
-      details: d.message?.trim() || '',
+      phone,
+      concern: dental ? `Dental website: ${need.toLowerCase()}` : d.service || '',
+      details: [d.website?.trim() && `Website: ${d.website.trim()}`, d.message?.trim()].filter(Boolean).join(' | '),
     })
     setSent(true)
   }
@@ -99,7 +111,7 @@ export function ContactModal({ open, onClose, email }: { open: boolean; onClose:
                   Thanks, I'll be in touch soon
                 </h2>
                 <p className="mt-4 max-w-[400px] text-[15px] leading-[1.6] text-ink/70">
-                  I usually reply within a day. If it's urgent, email{' '}
+                  {dental ? "I'll reply by email or WhatsApp. If you don't hear back, email" : "I usually reply within a day. If it's urgent, email"}{' '}
                   <a href={`mailto:${email}`} className="underline underline-offset-4">
                     {email}
                   </a>
@@ -115,12 +127,35 @@ export function ContactModal({ open, onClose, email }: { open: boolean; onClose:
               </div>
             ) : (
               <form onSubmit={submit} noValidate>
-                <p className={label}>Get in touch</p>
+                <p className={label}>{dental ? 'Dental websites' : 'Get in touch'}</p>
                 <h2 id="contact-title" className="mt-4 text-[32px] leading-[1.1] tracking-[-0.02em]">
-                  Tell me about your project
+                  {dental ? 'Get a quote for your practice' : 'Tell me about your project'}
                 </h2>
+                {dental && (
+                  <p className="mt-4 text-[15px] leading-[1.6] text-ink/70">
+                    Starting fresh or improving what you have? Tell me what you need and I'll reply with a clear price.
+                  </p>
+                )}
 
                 <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
+                  {dental && (
+                    <fieldset className="sm:col-span-2">
+                      <legend className={label}>What do you need?</legend>
+                      <div className="mt-3 flex flex-col gap-3 sm:flex-row">
+                        {NEEDS.map((n) => (
+                          <label
+                            key={n}
+                            className={`flex flex-1 cursor-pointer items-center justify-center rounded-full border px-4 py-3 text-center text-[15px] transition-colors has-[:focus-visible]:outline has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-accent ${
+                              need === n ? 'border-ink bg-ink text-paper' : 'border-ink/25 text-ink hover:border-ink'
+                            }`}
+                          >
+                            <input type="radio" name="need" value={n} checked={need === n} onChange={() => setNeed(n)} className="sr-only" />
+                            {n}
+                          </label>
+                        ))}
+                      </div>
+                    </fieldset>
+                  )}
                   <label className="sm:col-span-2">
                     <span className={label}>Your name</span>
                     <input ref={first} name="name" required autoComplete="name" className={field} />
@@ -131,22 +166,31 @@ export function ContactModal({ open, onClose, email }: { open: boolean; onClose:
                   </label>
                   <label>
                     <span className={label}>WhatsApp number</span>
-                    <input name="phone" type="tel" required autoComplete="tel" className={field} />
+                    <input name="phone" type="tel" required autoComplete="tel" placeholder={dental ? '+44 7700 900123' : undefined} className={field} />
                   </label>
+                  {dental ? (
+                    need === NEEDS[1] && (
+                      <label className="sm:col-span-2">
+                        <span className={label}>Your current website (optional)</span>
+                        <input name="website" autoComplete="url" inputMode="url" placeholder="yourpractice.co.uk" className={field} />
+                      </label>
+                    )
+                  ) : (
+                    <label className="sm:col-span-2">
+                      <span className={label}>What do you need?</span>
+                      <select name="service" defaultValue={SERVICES[0]} className={field}>
+                        {SERVICES.map((s) => (
+                          <option key={s}>{s}</option>
+                        ))}
+                      </select>
+                    </label>
+                  )}
                   <label className="sm:col-span-2">
-                    <span className={label}>What do you need?</span>
-                    <select name="service" defaultValue={SERVICES[0]} className={field}>
-                      {SERVICES.map((s) => (
-                        <option key={s}>{s}</option>
-                      ))}
-                    </select>
-                  </label>
-                  <label className="sm:col-span-2">
-                    <span className={label}>Project details</span>
+                    <span className={label}>{dental ? 'Anything else? (optional)' : 'Project details'}</span>
                     <textarea
                       name="message"
-                      rows={4}
-                      placeholder="What are you building, and by when?"
+                      rows={dental ? 2 : 4}
+                      placeholder={dental ? undefined : 'What are you building, and by when?'}
                       className={`${field} resize-none`}
                     />
                   </label>
@@ -162,8 +206,16 @@ export function ContactModal({ open, onClose, email }: { open: boolean; onClose:
                   type="submit"
                   className="mt-10 w-full rounded-full bg-accent px-6 py-4 text-[15px] text-paper transition-colors hover:bg-accent-strong"
                 >
-                  Send message
+                  {dental ? 'Get my quote' : 'Send message'}
                 </button>
+                {dental && (
+                  <p className="mt-4 text-[13px] text-ink/60">
+                    I'll use these details to reply to you by email or WhatsApp, and nothing else.{' '}
+                    <a href="/privacy/" className="underline underline-offset-4">
+                      Privacy notice
+                    </a>
+                  </p>
+                )}
               </form>
             )}
           </motion.div>
