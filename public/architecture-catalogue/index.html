@@ -1,0 +1,188 @@
+<title>Architecture Website Catalogue</title>
+<meta name="robots" content="noindex">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: a flip-book in a dark room. Maroon + red + paper, Poppins throughout. */
+:root{--room:#1b1c24;--maroon:#3b1418;--red:#d5202e;--paper:#f6f4f1;--ink:#231416;--mute:#6f6264;--line:#e3dcd8;--f:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--room);color:#eee;font-family:var(--f);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px;display:flex;flex-direction:column;gap:10px;overflow-x:hidden}
+.stage{flex:1;min-height:0;min-width:0;overflow:hidden;display:flex;align-items:center;justify-content:center}
+#book{width:100%;max-width:1100px;height:100%}
+.bar-ui{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
+.bar-ui button{font:500 14px var(--f);background:#2a2c38;color:#fff;border:1px solid #3a3d4c;border-radius:999px;padding:10px 18px;cursor:pointer;min-height:44px}
+.bar-ui button:hover{background:var(--red);border-color:var(--red)}
+.bar-ui button:focus-visible,.visit:focus-visible,.toc button:focus-visible{outline:3px solid #fff;outline-offset:2px}
+#count{font:500 13px var(--f);color:#b9b6c2;min-width:96px;text-align:center;font-variant-numeric:tabular-nums}
+.hint{text-align:center;font-size:12px;color:#8d8a98;margin:0}
+.page{background:var(--paper);color:var(--ink);overflow:hidden;container-type:inline-size}
+.pg{position:relative;height:100%;padding:7cqw 8cqw;display:flex;flex-direction:column}
+.eyebrow{margin:0;font:600 3cqw var(--f);letter-spacing:.18em;text-transform:uppercase;color:var(--red)}
+.h{margin:2cqw 0 4cqw;font:700 7cqw/1.1 var(--f);text-wrap:balance}
+.big{margin:4cqw 0 3cqw;font:700 11cqw/1.02 var(--f);color:var(--maroon);text-wrap:balance}
+.lead{font:400 4cqw/1.5 var(--f);margin:0 0 4cqw}
+.tips{margin:0;padding-left:5cqw;font:400 3.4cqw/1.55 var(--f);color:var(--mute);display:grid;gap:2cqw}
+.toc{list-style:none;margin:0;padding:0;columns:2;column-gap:5cqw;flex:1}
+.toc li{break-inside:avoid;border-bottom:1px solid var(--line)}
+.toc button{all:unset;box-sizing:border-box;width:100%;display:flex;align-items:center;gap:2cqw;padding:1.7cqw 0;cursor:pointer;font:500 3.1cqw var(--f)}
+.toc button:hover .t{color:var(--red)}
+.toc .n{color:var(--red);font-weight:600;font-variant-numeric:tabular-nums}
+.toc .t{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tag{font:600 2.3cqw var(--f);letter-spacing:.08em;text-transform:uppercase;padding:.6cqw 2cqw;border-radius:99px;background:var(--maroon);color:#fff;flex:none}
+.tag.india{background:var(--red)}.tag.free{background:#1f7a4d}
+.foot{margin:3cqw 0 0;font:400 2.8cqw var(--f);color:var(--mute)}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:3.5cqw}
+.no{font:600 3cqw var(--f);letter-spacing:.14em;text-transform:uppercase;color:var(--maroon)}
+.frame{border-radius:1.2cqw;overflow:hidden;background:#fff;box-shadow:0 1.2cqw 4cqw rgba(40,10,14,.28),0 0 0 1px var(--line)}
+.frame .bar{display:flex;align-items:center;gap:1.1cqw;padding:1.6cqw 2cqw;background:#ece7e3}
+.frame .bar i{width:1.8cqw;height:1.8cqw;border-radius:50%;background:#cfc6c1;display:block}
+.frame .bar em{margin-left:2cqw;font:400 2.4cqw var(--f);font-style:normal;color:var(--mute);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.frame img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top}
+.site h3,.tcard h3{margin:3.2cqw 0 0;font:700 5.8cqw/1.1 var(--f);color:var(--maroon);text-wrap:balance}
+.place{margin:1.2cqw 0 0;font:500 3.2cqw var(--f);color:var(--red)}
+.note{margin:1.8cqw 0 0;font:400 3.2cqw/1.45 var(--f);color:var(--ink)}
+.visit{display:inline-flex;align-self:flex-start;align-items:center;margin-top:auto;font:600 3.2cqw var(--f);color:#fff;background:var(--red);text-decoration:none;padding:2.2cqw 4.5cqw;border-radius:99px;min-height:44px}
+.visit:hover{background:var(--maroon)}
+.pn{position:absolute;right:8cqw;bottom:3.2cqw;font:500 2.6cqw var(--f);color:var(--mute);font-variant-numeric:tabular-nums}
+.thumbs{display:grid;grid-template-columns:1fr 1fr;gap:2cqw;margin-top:2.6cqw}.thumbs img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:top;border-radius:.9cqw;box-shadow:0 0 0 1px var(--line)}
+.site .frame img{aspect-ratio:16/9}.thumbs:has(img:only-child){grid-template-columns:1fr}.thumbs img:only-child{aspect-ratio:16/6}.site .pg,.pg.site{padding-top:5.5cqw;padding-bottom:5cqw}.site .visit{margin-top:auto}
+.themes{gap:0}.themes .top{margin-bottom:2.5cqw}
+.tcard{display:flex;flex-direction:column;flex:1;min-height:0;padding-bottom:2.5cqw}
+.tcard+.tcard{border-top:1px solid var(--line);padding-top:2.5cqw}
+.tcard .frame{max-width:62%}
+.tcard .frame img{aspect-ratio:4/3;max-height:30cqw}
+.tcard h3{margin-top:2cqw;font-size:5cqw}
+.tcard .note{margin-top:.8cqw;font-size:3.1cqw}
+.tcard .visit{margin-top:1.8cqw;font-size:2.9cqw;padding:1.4cqw 3.6cqw;min-height:0}
+.themes .pn{bottom:2cqw}
+/* covers */
+.cover{background:var(--paper);color:#fff;position:relative}
+.cv-img{position:absolute;left:0;top:0;width:100%;height:58%;background-size:cover;background-position:center}
+.cv-box{position:absolute;left:9%;top:42%;width:28%;aspect-ratio:1/1.1;background:var(--maroon);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8%}
+.cv-mark{width:34%;aspect-ratio:1;border-radius:50%;background:#fff;color:var(--maroon);font:700 3.2cqw var(--f);display:grid;place-items:center}
+.cv-url{font:600 2.2cqw var(--f);letter-spacing:.04em;text-align:center;color:#fff}
+.cv-red{position:absolute;left:9%;top:calc(42% + 30.8cqw);bottom:9%;width:28%;background:var(--red);padding:3.5cqw 3cqw;display:flex;flex-direction:column;gap:3cqw;font:400 2.4cqw/1.35 var(--f);overflow:hidden}
+.cv-red p{margin:0}.cv-red b{font-weight:600}
+.cv-title{position:absolute;left:43%;right:6%;top:62%;bottom:9%;color:var(--ink);display:flex;flex-direction:column;justify-content:center;gap:3cqw}
+.cv-title h1{margin:0;font:600 7.4cqw/1.04 var(--f);color:var(--ink)}
+.cv-title h1 span{color:var(--red);font-weight:700}
+.cv-by{margin:0;font:500 3cqw var(--f);color:var(--mute)}
+.cover::after{content:"";position:absolute;left:0;right:0;bottom:0;height:9%;background:var(--maroon)}
+.back{background:var(--maroon);color:#fff}
+.bk{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3cqw;text-align:center;padding:8cqw}
+.bk .cv-mark{width:18cqw;font-size:6cqw}.bk h2{margin:0;font:600 6cqw var(--f)}.bk p{margin:0;font:400 3.4cqw var(--f);opacity:.8}
+/* fallback if the flip library cannot load */
+.stack #book{height:auto;max-width:520px;display:grid;gap:16px}
+.stack .page{aspect-ratio:460/640;border-radius:6px}
+.stack .stage{align-items:flex-start;overflow:auto}
+.stack .bar-ui,.stack .hint{display:none}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+<div class="stage"><div id="book"><div class="page hard cover" data-density="hard"><div class="cv-img" style="background-image:url(img/cover.jpg)"></div>
+<div class="cv-box"><div class="cv-mark">DWS</div><div class="cv-url">Datawithsachin.com</div></div>
+<div class="cv-red"><p>Edition<br><b>Nov 2026</b></p><p>Inside<br><b>18 websites<br>8 free themes</b></p></div>
+<div class="cv-title"><h1>Architecture <span>website</span> catalogue</h1><p class="cv-by">Datawithsachin.com</p></div></div>
+<div class="page"><div class="pg"><p class="eyebrow">Contents</p><h2 class="h">18 websites to look at</h2><ol class="toc"><li><button data-go="2"><span class="n">01</span><span class="t">K2India</span></button></li><li><button data-go="3"><span class="n">02</span><span class="t">Morphogenesis</span></button></li><li><button data-go="4"><span class="n">03</span><span class="t">Architecture BRIO</span></button></li><li><button data-go="5"><span class="n">04</span><span class="t">Studio Lotus</span></button></li><li><button data-go="6"><span class="n">05</span><span class="t">Studio IAAD</span></button></li><li><button data-go="7"><span class="n">06</span><span class="t">Studio McGee</span></button></li><li><button data-go="8"><span class="n">07</span><span class="t">Snøhetta</span></button></li><li><button data-go="9"><span class="n">08</span><span class="t">Olson Kundig</span></button></li><li><button data-go="10"><span class="n">09</span><span class="t">Herzog &amp; de Meuron</span></button></li><li><button data-go="11"><span class="n">10</span><span class="t">Khosla Associates</span></button></li><li><button data-go="12"><span class="n">11</span><span class="t">OMA</span></button></li><li><button data-go="13"><span class="n">12</span><span class="t">David Chipperfield Architects</span></button></li><li><button data-go="14"><span class="n">13</span><span class="t">Kerstin Thompson Architects</span></button></li><li><button data-go="15"><span class="n">14</span><span class="t">Anagram Architects</span></button></li><li><button data-go="16"><span class="n">15</span><span class="t">RMA Architects</span></button></li><li><button data-go="17"><span class="n">16</span><span class="t">ArchOhm</span></button></li><li><button data-go="18"><span class="n">17</span><span class="t">Studio Gang</span></button></li><li><button data-go="19"><span class="n">18</span><span class="t">DADA &amp; Partners</span></button></li></ol><p class="foot">Tap a name to jump to it. Free WordPress themes start on page 21.</p></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 01</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>k2india.com</em></div><img src="img/k2.jpg" alt="K2India homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/k2_2.jpg" alt="K2India more screenshots" loading="eager"><img src="img/k2_3.jpg" alt="K2India more screenshots" loading="eager"></div>
+<h3>K2India</h3><p class="place">New Delhi</p><p class="note">Warm interior hero, a short story section and a tidy collage of projects.</p>
+<a class="visit" href="https://k2india.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">3</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 02</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>morphogenesis.org</em></div><img src="img/morphogenesis.jpg" alt="Morphogenesis homepage screenshot" loading="eager"></div>
+<h3>Morphogenesis</h3><p class="place">Delhi · Mumbai · Bengaluru</p><p class="note">Full-bleed hero photo, one bold headline and only three navigation items.</p>
+<a class="visit" href="https://www.morphogenesis.org" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">4</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 03</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>architecturebrio.com</em></div><img src="img/brio.jpg" alt="Architecture BRIO homepage screenshot" loading="eager"></div>
+<h3>Architecture BRIO</h3><p class="place">Mumbai · Rotterdam</p><p class="note">A framed full-width project image with thin lowercase type. Calm and airy.</p>
+<a class="visit" href="https://www.architecturebrio.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">5</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 04</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>studiolotus.in</em></div><img src="img/lotus.jpg" alt="Studio Lotus homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/lotus_2.jpg" alt="Studio Lotus more screenshots" loading="eager"><img src="img/lotus_3.jpg" alt="Studio Lotus more screenshots" loading="eager"></div>
+<h3>Studio Lotus</h3><p class="place">New Delhi</p><p class="note">Ruled navigation bar over a full-screen hero with a one-line tagline.</p>
+<a class="visit" href="https://studiolotus.in" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">6</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 05</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>iaad.in</em></div><img src="img/iaad.jpg" alt="Studio IAAD homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/iaad_2.jpg" alt="Studio IAAD more screenshots" loading="eager"><img src="img/iaad_3.jpg" alt="Studio IAAD more screenshots" loading="eager"></div>
+<h3>Studio IAAD</h3><p class="place">Gurugram</p><p class="note">Clean top navigation, large photo hero and a grid of project categories.</p>
+<a class="visit" href="https://iaad.in" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">7</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 06</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>studio-mcgee.com</em></div><img src="img/mcgee.jpg" alt="Studio McGee homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/mcgee_2.jpg" alt="Studio McGee more screenshots" loading="eager"><img src="img/mcgee_3.jpg" alt="Studio McGee more screenshots" loading="eager"></div>
+<h3>Studio McGee</h3><p class="place">Utah, USA</p><p class="note">Warm editorial layout where large room photos and a blog sit side by side.</p>
+<a class="visit" href="https://www.studio-mcgee.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">8</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 07</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>snohetta.com</em></div><img src="img/snohetta.jpg" alt="Snøhetta homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/snohetta_2.jpg" alt="Snøhetta more screenshots" loading="eager"><img src="img/snohetta_3.jpg" alt="Snøhetta more screenshots" loading="eager"></div>
+<h3>Snøhetta</h3><p class="place">Oslo · New York</p><p class="note">A single statement headline above a collage of project photos.</p>
+<a class="visit" href="https://www.snohetta.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">9</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 08</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>olsonkundig.com</em></div><img src="img/olson.jpg" alt="Olson Kundig homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/olson_2.jpg" alt="Olson Kundig more screenshots" loading="eager"><img src="img/olson_3.jpg" alt="Olson Kundig more screenshots" loading="eager"></div>
+<h3>Olson Kundig</h3><p class="place">Seattle</p><p class="note">Moody dark pages with full-width landscape and material photography.</p>
+<a class="visit" href="https://olsonkundig.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">10</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 09</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>herzogdemeuron.com</em></div><img src="img/hdm.jpg" alt="Herzog &amp; de Meuron homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/hdm_2.jpg" alt="Herzog &amp; de Meuron more screenshots" loading="eager"></div>
+<h3>Herzog &amp; de Meuron</h3><p class="place">Basel</p><p class="note">Filter chips for news, projects and writings above one large project image.</p>
+<a class="visit" href="https://www.herzogdemeuron.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">11</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 10</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>khoslaassociates.com</em></div><img src="img/khosla.jpg" alt="Khosla Associates homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/khosla_2.jpg" alt="Khosla Associates more screenshots" loading="eager"></div>
+<h3>Khosla Associates</h3><p class="place">Bengaluru</p><p class="note">Poolside hero photograph with award headlines in a strip along the bottom.</p>
+<a class="visit" href="https://www.khoslaassociates.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">12</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 11</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>oma.com</em></div><img src="img/oma.jpg" alt="OMA homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/oma_2.jpg" alt="OMA more screenshots" loading="eager"><img src="img/oma_3.jpg" alt="OMA more screenshots" loading="eager"></div>
+<h3>OMA</h3><p class="place">Rotterdam</p><p class="note">Oversized type and bold colour blocks, in a magazine style.</p>
+<a class="visit" href="https://www.oma.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">13</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 12</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>davidchipperfield.com</em></div><img src="img/chipperfield.jpg" alt="David Chipperfield Architects homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/chipperfield_2.jpg" alt="David Chipperfield Architects more screenshots" loading="eager"><img src="img/chipperfield_3.jpg" alt="David Chipperfield Architects more screenshots" loading="eager"></div>
+<h3>David Chipperfield Architects</h3><p class="place">London · Berlin</p><p class="note">One framed building photo with quiet, small navigation.</p>
+<a class="visit" href="https://davidchipperfield.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">14</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 13</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>kerstinthompson.com</em></div><img src="img/kerstin.jpg" alt="Kerstin Thompson Architects homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/kerstin_2.jpg" alt="Kerstin Thompson Architects more screenshots" loading="eager"><img src="img/kerstin_3.jpg" alt="Kerstin Thompson Architects more screenshots" loading="eager"></div>
+<h3>Kerstin Thompson Architects</h3><p class="place">Melbourne</p><p class="note">Project grid with a plain caption under every photograph.</p>
+<a class="visit" href="https://kerstinthompson.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">15</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 14</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>anagramarchitects.com</em></div><img src="img/anagram.jpg" alt="Anagram Architects homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/anagram_2.jpg" alt="Anagram Architects more screenshots" loading="eager"><img src="img/anagram_3.jpg" alt="Anagram Architects more screenshots" loading="eager"></div>
+<h3>Anagram Architects</h3><p class="place">New Delhi</p><p class="note">Hero photo with slideshow dots and a short written introduction below.</p>
+<a class="visit" href="https://www.anagramarchitects.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">16</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 15</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>rmaarchitects.com</em></div><img src="img/rma.jpg" alt="RMA Architects homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/rma_2.jpg" alt="RMA Architects more screenshots" loading="eager"><img src="img/rma_3.jpg" alt="RMA Architects more screenshots" loading="eager"></div>
+<h3>RMA Architects</h3><p class="place">Mumbai</p><p class="note">Side menu, a framed project image and a strip of thumbnails.</p>
+<a class="visit" href="https://www.rmaarchitects.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">17</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 16</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>archohm.com</em></div><img src="img/archohm.jpg" alt="ArchOhm homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/archohm_2.jpg" alt="ArchOhm more screenshots" loading="eager"></div>
+<h3>ArchOhm</h3><p class="place">India</p><p class="note">Large aerial hero with the line &#x27;to impact and inspire&#x27;.</p>
+<a class="visit" href="https://archohm.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">18</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 17</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>studiogang.com</em></div><img src="img/studiogang.jpg" alt="Studio Gang homepage screenshot" loading="eager"></div><div class="thumbs"><img src="img/studiogang_2.jpg" alt="Studio Gang more screenshots" loading="eager"><img src="img/studiogang_3.jpg" alt="Studio Gang more screenshots" loading="eager"></div>
+<h3>Studio Gang</h3><p class="place">Chicago</p><p class="note">Text-led homepage that features one project at a time.</p>
+<a class="visit" href="https://studiogang.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">19</span></div></div>
+<div class="page"><div class="pg site"><div class="top"><span class="no">No. 18</span></div>
+<div class="frame"><div class="bar"><i></i><i></i><i></i><em>dadapartners.com</em></div><img src="img/dada.jpg" alt="DADA &amp; Partners homepage screenshot" loading="eager"></div>
+<h3>DADA &amp; Partners</h3><p class="place">India</p><p class="note">An aerial photograph of a project fills the screen.</p>
+<a class="visit" href="https://www.dadapartners.com" target="_blank" rel="noopener">Visit website &#8599;</a><span class="pn">20</span></div></div>
+<div class="page"><div class="pg opener"><p class="eyebrow">Part two</p><h2 class="big">Free WordPress themes</h2>
+<p class="lead">Eight themes you can install today at no cost. Start with the first two: they are made for architecture and landscape firms.</p>
+<ul class="tips"><li>Install from Appearance &rarr; Themes &rarr; Add New in your WordPress dashboard.</li><li>Previews show each theme's official screenshot. Your own photos will change the look.</li><li>Some free themes keep their best demo layouts in a paid version. Check before you commit.</li></ul><span class="pn">21</span></div></div>
+<div class="page"><div class="pg themes"><div class="top"><span class="no">Free theme 01 &ndash; 02</span><span class="tag free">Free</span></div><div class="tcard"><div class="frame"><img src="img/t-structify.jpg" alt="Structify theme screenshot"></div><h3>Structify</h3><p class="note">Built for architecture and construction projects. Orange accent, bold hero.</p><a class="visit" href="https://wordpress.org/themes/structify/" target="_blank" rel="noopener">View on WordPress.org &#8599;</a></div><div class="tcard"><div class="frame"><img src="img/t-landscape-architecture.jpg" alt="Landscape Architecture theme screenshot"></div><h3>Landscape Architecture</h3><p class="note">Made for architecture and landscape firms. Clean, minimal, project-first.</p><a class="visit" href="https://wordpress.org/themes/landscape-architecture/" target="_blank" rel="noopener">View on WordPress.org &#8599;</a></div><span class="pn">22</span></div></div>
+<div class="page"><div class="pg themes"><div class="top"><span class="no">Free theme 03 &ndash; 04</span><span class="tag free">Free</span></div><div class="tcard"><div class="frame"><img src="img/t-kenta.jpg" alt="Kenta theme screenshot"></div><h3>Kenta</h3><p class="note">Lightweight and fast. Has an architecture starter site.</p><a class="visit" href="https://wordpress.org/themes/kenta/" target="_blank" rel="noopener">View on WordPress.org &#8599;</a></div><div class="tcard"><div class="frame"><img src="img/t-sydney.jpg" alt="Sydney theme screenshot"></div><h3>Sydney</h3><p class="note">Popular base that works well with page builders like Elementor.</p><a class="visit" href="https://wordpress.org/themes/sydney/" target="_blank" rel="noopener">View on WordPress.org &#8599;</a></div><span class="pn">23</span></div></div>
+<div class="page"><div class="pg themes"><div class="top"><span class="no">Free theme 05 &ndash; 06</span><span class="tag free">Free</span></div><div class="tcard"><div class="frame"><img src="img/t-oceanwp.jpg" alt="OceanWP theme screenshot"></div><h3>OceanWP</h3><p class="note">Flexible all-rounder with one-click demo import.</p><a class="visit" href="https://wordpress.org/themes/oceanwp/" target="_blank" rel="noopener">View on WordPress.org &#8599;</a></div><div class="tcard"><div class="frame"><img src="img/t-astra.jpg" alt="Astra theme screenshot"></div><h3>Astra</h3><p class="note">Very fast general theme with many starter templates.</p><a class="visit" href="https://wordpress.org/themes/astra/" target="_blank" rel="noopener">View on WordPress.org &#8599;</a></div><span class="pn">24</span></div></div>
+<div class="page"><div class="pg themes"><div class="top"><span class="no">Free theme 07 &ndash; 08</span><span class="tag free">Free</span></div><div class="tcard"><div class="frame"><img src="img/t-neve.jpg" alt="Neve theme screenshot"></div><h3>Neve</h3><p class="note">Light, responsive theme that suits portfolio sites.</p><a class="visit" href="https://wordpress.org/themes/neve/" target="_blank" rel="noopener">View on WordPress.org &#8599;</a></div><div class="tcard"><div class="frame"><img src="img/t-kadence.jpg" alt="Kadence theme screenshot"></div><h3>Kadence</h3><p class="note">Clean theme with a good free header and footer builder.</p><a class="visit" href="https://wordpress.org/themes/kadence/" target="_blank" rel="noopener">View on WordPress.org &#8599;</a></div><span class="pn">25</span></div></div>
+<div class="page hard back" data-density="hard"><div class="bk"><div class="cv-mark">DWS</div><h2>Datawithsachin.com</h2><p>Architecture website catalogue</p></div></div></div></div>
+<div class="bar-ui"><button id="prev" type="button">&larr; Previous</button><span id="count" aria-live="polite"></span><button id="next" type="button">Next &rarr;</button><button id="toc" type="button">Contents</button><button id="themes" type="button">Free themes</button></div>
+<p class="hint">Swipe, tap the arrows, or use the left and right keys to turn pages.</p>
+<script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
+<script>
+(function(){
+var book=document.getElementById('book');
+var count=document.getElementById('count');
+if(!window.St||!St.PageFlip){document.body.classList.add('stack');count.textContent='';return;}
+var pages=book.querySelectorAll('.page');
+var pf=new St.PageFlip(book,{width:460,height:640,size:'stretch',minWidth:200,maxWidth:560,minHeight:380,maxHeight:780,showCover:true,usePortrait:true,startPage:0,drawShadow:true,maxShadowOpacity:.35,flippingTime:700,mobileScrollSupport:false,clickEventForward:true,useMouseEvents:true,swipeDistance:25,autoSize:true});
+pf.loadFromHTML(pages);
+function upd(){var i=pf.getCurrentPageIndex(),n=pf.getPageCount();count.textContent='Page '+(i+1)+' of '+n;}
+pf.on('flip',upd);pf.on('init',upd);upd();
+document.getElementById('prev').onclick=function(){pf.flipPrev();};
+document.getElementById('next').onclick=function(){pf.flipNext();};
+document.getElementById('toc').onclick=function(){pf.flip(1);};
+document.getElementById('themes').onclick=function(){pf.flip(20);};
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight')pf.flipNext();if(e.key==='ArrowLeft')pf.flipPrev();});
+book.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('[data-go]');if(b){pf.flip(parseInt(b.getAttribute('data-go'),10));}});
+})();
+</script>
