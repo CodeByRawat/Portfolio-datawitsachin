@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Architecture Website Catalogue</title>
 <meta name="robots" content="noindex">
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -80,6 +85,9 @@ body{margin:0;background:var(--room);color:#eee;font-family:var(--f);padding-lef
 .stack .bar-ui,.stack .hint{display:none}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
 </style>
+<style>html{-webkit-text-size-adjust:100%}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
 <div class="stage"><div id="book"><div class="page hard cover" data-density="hard"><div class="cv-img" style="background-image:url(img/cover.jpg)"></div>
 <div class="cv-box"><div class="cv-mark">DWS</div><div class="cv-url">Datawithsachin.com</div></div>
 <div class="cv-red"><p>Edition<br><b>Nov 2026</b></p><p>Inside<br><b>18 websites<br>8 free themes</b></p></div>
@@ -186,3 +194,6 @@ document.addEventListener('keydown',function(e){if(e.key==='ArrowRight')pf.flipN
 book.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('[data-go]');if(b){pf.flip(parseInt(b.getAttribute('data-go'),10));}});
 })();
 </script>
+
+</body>
+</html>
